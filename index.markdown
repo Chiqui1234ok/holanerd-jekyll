@@ -4,4 +4,5 @@
 
 layout: home
 ---
+¡Hola y bienvenido al sitio web de Holanerd!
 <div id="like_button_container"></div>

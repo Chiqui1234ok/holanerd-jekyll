@@ -1,32 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>Your awesome title</title>
+        <title>¡Bienvenido a la comunidad! | Your awesome title</title>
         <link rel="stylesheet" href="http://localhost:4000/css/main.css" />
+        <link rel="stylesheet" href="http://localhost:4000/css/animations.css" />
+        <link rel="stylesheet" href="http://localhost:4000/css/widget.css" />
         <link rel="stylesheet" href="http://localhost:4000css/input.css" />
+        <link rel="stylesheet" href="http://localhost:4000/css/responsive.css" />
     </head>
 <body class="defaultBg">
 <header class="fullWidth grid2 padding fixed">
     Holanerd&copy 2019
 </header>
-<div id="root" class="grid2 gap">
+<div id="root" class="grid2 gap readWidth">
     <!-- widget -->
     <div id="widget" class="rainbowBorder">
-
+        <div id="content" class="padding">
+            test
+        </div>
     </div>
     <!-- content -->
     <div id="content">
-        <div id="like_button_container"></div>
+        <p>¡Hola y bienvenido al sitio web de Holanerd!</p>
+<div id="like_button_container"></div>
 
     </div>
 </div>
     
-<script src="https://unpkg.com/react@16/umd/react.development.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.development.js" crossorigin></script>
+<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
+<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
 
 <!-- Cargamos nuestro componente de React. -->
 <script src="http://localhost:4000/js/like_button.js"></script>
-<footer class="padding">
+<footer class="padding textCenter">
     Holanerd&copy 2019
 </footer>
 </body>
