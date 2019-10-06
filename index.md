@@ -6,7 +6,7 @@ layout: home
 ---
 ¡Hola y bienvenido al sitio web de Holanerd!
 <div id="like_button_container"></div>
-<ul>
+<ul class="minimalList">
     {% for post in site.posts limit: 5 %}
     <li>
         <p><a href="{{ post.url }}">{{ post.title }}</a></p>
