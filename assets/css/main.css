@@ -19,10 +19,6 @@ h1, h2, h3, h4, h5, h6
     color: var(--headerColor);
     font-family: 'Open Sans', sans-serif;
 }
-p
-{
-    line-height: 36px;
-}
 p, ul, ol
 {
     font-family: 18px;
