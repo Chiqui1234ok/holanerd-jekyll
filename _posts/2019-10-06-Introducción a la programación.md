@@ -7,3 +7,4 @@ author: Santiago Gimenez
 tags: [introduccion, programacion, variables, c]
 summary: 
 ---
+Post de prueba beibiii
