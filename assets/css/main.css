@@ -54,7 +54,6 @@ span
 .removeMobile {display: block;} /* Para eliminar un objeto en dispositivos móviles */
 .padding {padding: 10px;}
 .minimalList {list-style-type: none;padding: 0;margin: 0;}
-.gap {gap: 10px;}
 .fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
 .textCenter {text-align: center;}
 /* Auxiliares > tamaño */

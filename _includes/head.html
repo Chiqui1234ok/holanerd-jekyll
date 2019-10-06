@@ -3,6 +3,7 @@
     <head>
         <title>{{ layout.title }} | {{ site.title }}</title>
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/main.css" />
+        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/nav.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/animations.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/widget.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/input.css" />
@@ -10,5 +11,11 @@
     </head>
 <body class="defaultBg">
 <header class="fullWidth grid2 padding fixed">
-    Holanerd&copy 2019
+    <div id="logo">Holanerd&copy 2019</div>
+    <nav>
+        <ul class="minimalList">
+            <li><a href="{{ site.url }}{{ site.baseurl }}">Inicio</a></li>
+            <li><a href="{{ site.url }}{{ site.baseurl }}">Sobre nosotros</a></li>
+        </ul>
+    </nav>
 </header>
