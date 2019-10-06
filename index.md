@@ -7,16 +7,14 @@ layout: home
 ¡Hola y bienvenido al sitio web de Holanerd!
 <div id="like_button_container"></div>
 <ul>
-
+    {% for post in site.posts limit: 5 %}
+    <li>
+        <p><a href="{{ post.url }}">{{ post.title }}</a></p>
+        <div class="grid2">
+            <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></p>
+            <p>{{ post.author }}</p>
+        </div>
+        <!--{{ post.content }}-->
+    </li>
+    {% endfor %}
 </ul>
-{% for post in site.posts %}
-  <li>
-    <h2>
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h2>
-    <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time>
-    {{ post.content }}
-  </li>
-{% endfor %}

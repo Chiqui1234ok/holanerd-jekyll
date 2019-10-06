@@ -9,6 +9,8 @@
     --footerColor: #77888f;
     --sentenceColor: #212121;
     --highLight: #14aae6;
+    --linkColor: #14aae6;
+    --linkHover: #145ee6;
     --background0: #fafafa;
     --shadow: #393939;
 }
@@ -17,10 +19,27 @@ h1, h2, h3, h4, h5, h6
     color: var(--headerColor);
     font-family: 'Open Sans', sans-serif;
 }
-p, a, ul, ol
+p
 {
+    line-height: 36px;
+}
+p, ul, ol
+{
+    font-family: 18px;
     color: var(--sentenceColor);
     font-family: 'Roboto', 'Segoe UI', sans-serif;
+}
+a
+{
+    color: var(--linkColor);
+    text-decoration: none;
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--linkColor);
+}
+a:hover
+{
+    color: var(--linkHover);
+    border-bottom: 2px solid var(--linkHover);
 }
 span
 {
