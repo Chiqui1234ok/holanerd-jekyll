@@ -29,13 +29,24 @@ Ojo, ojito, ojete, porque cada casillero es **variable**, es decir, sus datos pu
 
 Hay palabras reservadas del lenguaje y que no podemos usar nosotros para crear variables/constantes ni funciones. Y yendo más allá, no podemos declarar (crear) una variable con mismo nombre que una función, y viceversa.
 
-> Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos.
+> Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos. Rompés todo (?)
+
+Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es así para la mayoría de los lenguajes de programación.
 
 
 ## Guardemos más datos
+### Variables y constantes
 
-lelelele
+Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres productos en nuestro local. Podríamos declarar un dato constante para el dólar, porque no se debería mover a lo largo del programa. 
 
+También vendemos una PC de oficina por $200 dólares, una tablet por $55 dólares y un celular por $400 dólares. Manos a la obra :)
+
+{% highlight javascript %}
+const dolar = 50;
+const pc = 200, tablet = 55, celular = 400; // Si, podemos crear variables en una misma línea, así
+{% endhighlight %}
+
+También podríamos crear una **variable** para el monto a pagar, un dato que cambia conforme vayamos comprando productos, e incluso podría verse afectado por algún descuento. Nosotros hacemos un descuento del 5% cuándo se compran tres productos o más. ¿Te animás a completar los casilleros con la información que te di recién?
 
 ## El selector
 ### ¿Cómo nos movemos por esos datos al programar?
