@@ -42,7 +42,7 @@ Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres produ
 También vendemos una PC de oficina por $200 dólares, una tablet por $55 dólares y un celular por $400 dólares. Manos a la obra :)
 
 {% highlight javascript %}
-const dolar = 50;
+const dolar = 50; // Precio del dolaruco
 const pc = 200, tablet = 55, celular = 400; // Si, podemos crear variables en una misma línea, así
 {% endhighlight %}
 

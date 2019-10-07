@@ -5,7 +5,7 @@
             <ul class="minimalList">
                 {% for post in site.posts limit: 5 %}
                 <li>
-                    <p>> <a href="{{ site.url }}{{ site.baseurl }}/{{ post.url }}">{{ post.title }}</a></p>
+                    <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                     <!--<div class="grid2">
                         <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></p>
                         <p>{{ post.author }}</p>
