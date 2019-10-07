@@ -29,6 +29,10 @@ Ojo, ojito, ojete, porque cada casillero es **variable**, es decir, sus datos pu
 
 Hay palabras reservadas del lenguaje y que no podemos usar nosotros para crear variables/constantes ni funciones. Y yendo más allá, no podemos declarar (crear) una variable con mismo nombre que una función, y viceversa.
 
+> Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos. Rompés todo (?)
+
+Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es así para la mayoría de los lenguajes de programación. **Es otro factor a tener en cuenta** cuándo declares una variable o compares dos textos.
+
 Por ejemplo, en **javascript** podemos crear una variable con la siguiente sintáxis:
 
 {% highlight javascript %}
@@ -37,9 +41,14 @@ Por ejemplo, en **javascript** podemos crear una variable con la siguiente sint�
 
 Sin embargo, no podemos crear una variable con el nombre "var", porque javascript pensará que estas creando una variable dos veces, pero sin nombre.
 
-> Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos. Rompés todo (?)
+Y cuándo creamos una función, lo hacemos con:
 
-Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es así para la mayoría de los lenguajes de programación. Es otro factor a tener en cuenta cuándo crees una variable o compares dos textos.
+{% highlight javascript %}
+    function miNombreDeFuncion()
+    {
+
+    }
+{% endhighlight %}
 
 
 ## Guardemos más datos
@@ -79,5 +88,12 @@ Para ver una variable es tan fácil cómo llamar a la función **console**, acce
 ### Maneras de manejar cadenas: "," y "+"
 
 ..
+
+
+## ¡Procesemos datos!
+### Funciones :)
+
+..
+
 
 ## Conclusión
