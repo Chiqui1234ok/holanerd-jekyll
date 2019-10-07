@@ -29,9 +29,17 @@ Ojo, ojito, ojete, porque cada casillero es **variable**, es decir, sus datos pu
 
 Hay palabras reservadas del lenguaje y que no podemos usar nosotros para crear variables/constantes ni funciones. Y yendo más allá, no podemos declarar (crear) una variable con mismo nombre que una función, y viceversa.
 
+Por ejemplo, en **javascript** podemos crear una variable con la siguiente sintáxis:
+
+{% highlight javascript %}
+    var miVariable; // "var" se usa para crear una variable global
+{% endhighlight %}
+
+Sin embargo, no podemos crear una variable con el nombre "var", porque javascript pensará que estas creando una variable dos veces, pero sin nombre.
+
 > Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos. Rompés todo (?)
 
-Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es así para la mayoría de los lenguajes de programación.
+Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es así para la mayoría de los lenguajes de programación. Es otro factor a tener en cuenta cuándo crees una variable o compares dos textos.
 
 
 ## Guardemos más datos
@@ -42,8 +50,8 @@ Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres produ
 También vendemos una PC de oficina por $200 dólares, una tablet por $55 dólares y un celular por $400 dólares. Manos a la obra :)
 
 {% highlight javascript %}
-const dolar = 50; // Precio del dolaruco
-const pc = 200, tablet = 55, celular = 400; // Si, podemos crear variables en una misma línea, así
+    const dolar = 50; // Precio del dolaruco
+    const pc = 200, tablet = 55, celular = 400; // Podemos crear variables en una misma línea
 {% endhighlight %}
 
 También podríamos crear una **variable** para el monto a pagar, un dato que cambia conforme vayamos comprando productos, e incluso podría verse afectado por algún descuento. Nosotros hacemos un descuento del 5% cuándo se compran tres productos o más. ¿Te animás a completar los casilleros con la información que te di recién?
@@ -55,3 +63,21 @@ También podríamos crear una **variable** para el monto a pagar, un dato que ca
 ### ¿Cómo nos movemos por esos datos al programar?
 
 La compu está recibiendo instrucciones y guarda la mayoría de datos en la memoria RAM que tenga disponible. ¿Cómo vemos esos datos?
+
+Para ver una variable es tan fácil cómo llamar a la función **console**, acceder a su "hijo" **log** y pasarle parámetros. ¿Qué es una función y un objeto? Lo veremos más adelante, pero de momento hay que estar contento con esta sintáxis:
+
+{% highlight javascript %}
+    console.log('Descuento: ', montoAPagar);
+{% endhighlight %}
+
+
+### ¿Comillas simples o dobles?
+
+..
+
+
+### Maneras de manejar cadenas: "," y "+"
+
+..
+
+## Conclusión
