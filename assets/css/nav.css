@@ -10,6 +10,7 @@ nav ul li
 nav a
 {
     color: var(--linkColor2);
+    border-bottom: 2px solid var(--headerColor);
 }
 nav a:hover
 {
