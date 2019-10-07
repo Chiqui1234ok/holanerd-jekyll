@@ -18,11 +18,12 @@
 }
 h1, h2, h3, h4, h5, h6
 {
-    color: var(--headerColor);
+    color: var(--highLight);
     font-family: 'Open Sans', sans-serif;
 }
 p, ul, ol
 {
+    line-height: 30px;
     color: var(--sentenceColor);
     font-family: 'Roboto', 'Segoe UI', sans-serif;
 }
@@ -37,6 +38,10 @@ a:hover
 {
     color: var(--linkHover);
     border-bottom: 2px solid var(--linkHover);
+}
+img
+{
+    border-radius: 5px;
 }
 span
 {
