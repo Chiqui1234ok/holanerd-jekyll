@@ -23,9 +23,14 @@ Nuestra computadora (y no nos olvidemos de tablets, smartphones y hasta los elec
 
 En cada casillero se guarda información. Suponete que estamos viendo las entrañas de tu navegador web, que ahora mismo te muestra esta linda página. Para hacerlo, tiene muchísimas celdas ocupando memoria con datos cómo el fondo de este sitio web, el texto, los menúes y pestañas, plug-ins y miles de cosas más :O
 
+## Palabras clave al programar
+### ¿Podemos hablar cómo queramos con la PC? ¿O hay un estándar a seguir, cómo cuándo hablamos Español?
+
+lalalala
+
 ## Guardemos más datos
 
-lala
+lelelele
 
 ## El cabezal, puntero ó selector
 ### ¿Cómo borramos y vemos esa información al programar?
