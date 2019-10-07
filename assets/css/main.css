@@ -14,6 +14,7 @@
     --linkColor2: #3e4041;
     --linkHover2: var(--sentenceColor);
     --background0: #fafafa;
+    --background1: #f7f4f4;
     --shadow: rgba(0,0,0,0.25);
 }
 h1, h2, h3, h4, h5, h6
@@ -37,6 +38,10 @@ a:hover
 {
     color: var(--linkHover);
     border-bottom: 2px solid var(--linkHover);
+}
+code
+{
+    background: var(--background1);
 }
 img
 {
