@@ -48,6 +48,9 @@ const pc = 200, tablet = 55, celular = 400; // Si, podemos crear variables en un
 
 También podríamos crear una **variable** para el monto a pagar, un dato que cambia conforme vayamos comprando productos, e incluso podría verse afectado por algún descuento. Nosotros hacemos un descuento del 5% cuándo se compran tres productos o más. ¿Te animás a completar los casilleros con la información que te di recién?
 
+<p><input type="text" id="type0" /> montoAPagar;</p>
+<p><input type="text" id="type1" /> descuento = 0,05;</p>
+
 ## El selector
 ### ¿Cómo nos movemos por esos datos al programar?
 
