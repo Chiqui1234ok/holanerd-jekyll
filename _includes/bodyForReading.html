@@ -1,6 +1,7 @@
-<div id="root" class="grid2 gap readWidth">
+<div id="root" class="readWidth">
         <!-- content -->
         <img src="{{ page.image }}" width="100%" />
+        <p>Por {{ page.author }}, <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
         <div id="content">
             {{ content }}
         </div>
