@@ -39,12 +39,6 @@ a:hover
     color: var(--linkHover);
     border-bottom: 2px solid var(--linkHover);
 }
-code
-{
-    background: var(--background1);
-    box-shadow: 0 0 5px var(--shadow);
-    margin: 5px 0 5px 0;
-}
 img
 {
     border-radius: 5px;
