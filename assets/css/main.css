@@ -54,6 +54,7 @@ span
 
 #root
 {
+    width: 95%;
     margin: 50px auto;
 }
 /* Multimedia */
@@ -97,7 +98,7 @@ header
 
 #content
 {
-    line-height: 32px;
+    
 }
 
 footer
