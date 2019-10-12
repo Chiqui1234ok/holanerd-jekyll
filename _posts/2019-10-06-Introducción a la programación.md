@@ -2,7 +2,7 @@
 layout: post
 title: Introducción a la programación (Capítulo 1)
 image: https://cdn.suwalls.com/wallpapers/vector/personal-computer-34562-1920x1200.jpg
-date: 2019-10-06 15:51
+date: 2019-10-12 14:50
 category: tutoriales
 author: Santiago Gimenez
 tags: [introduccion, programacion, variables, c]
@@ -12,8 +12,8 @@ summary: Aprendé sobre los elementos básicos de la programación
 Hoy nos juntamos para aprender lo básico de la programación. Ingresamos a [Mumuki](https://mumuki.io/central) para comenzar a darle instrucciones a una computadora y tener una respuesta. ¡Buenísimo! ¿Qué vimos en este primer capítulo de **Mumuki** y qué es lo que pasa detrás?
 
 
-## Los tableros
-### Una forma de ver "la memoria"
+# Los tableros
+## Una forma de ver "la memoria"
 
 Nuestra computadora (y no nos olvidemos de tablets, smartphones y hasta los electrodomésticos "smart") crea tableros por cada programa, [cómo lo muestra Mumuki](https://mumuki.io/central/exercises/259-fundamentos-primeros-programas-el-tablero). La mejor forma de visualizar "un tablero" es recordando las tablas del Excel, que son algo cómo ésto:
 
@@ -84,20 +84,51 @@ Para ver una variable es tan fácil cómo llamar a la función **console**, acce
 {% endhighlight %}
 
 
-### ¿Comillas simples o dobles?
+# ¡Procesemos y clasifiquemos datos!
+## Funciones :)
 
 ..
 
 
-### Maneras de manejar cadenas: "," y "+"
+# Manejo del texto
+## ¿Comillas simples o dobles?
+En lenguajes cómo C y C++ **es crítico el tipo de las comillas a usar**. Mientras que las comillas simples se utilizan para variables de un sólo carácter, las dobles se usan para cadenas de texto, que usualmente almacenan una palabra o más.
+
+Osea que si querés hacer esto:
+
+{% highlight c %}
+    char estoEstaMal = 'una';
+{% endhighlight %}
+
+¡No podés! Eso es más de un carácter y en estos lenguajes se manejan un poco diferente con respecto a lenguajes cómo Javascript. La manera correcta es:
+
+{% highlight c %}
+    char estoEstaBien = "Una";
+{% endhighlight %}
+
+En Javascript utilizar comillas simples o dobles **no es crítico**, pero es útil usar un tipo u otro según el contexto, me explico:
+
+{% highlight html %}
+    <a href="#" onclick="resolverElHambreMundial('con mucha inversión')">Clic aquí para resolver el hambre mundial</a>
+{% endhighlight %}
+
+¿Viste cómo usé comillas simples cuándo envié el texto "**con mucha inversión**" a la función **resolverElHambreMundial**? Esto es clave para no confundirse nunca al mezclar HTML con Javascript. Mirá que tengo que hacer si usara comillas dobles por todos lados.
+
+{% highlight html %}
+    <a href="#" onclick="resolverElHambreMundial(\"con mucha inversión\")">Clic aquí para resolver el hambre mundial</a>
+{% endhighlight %}
+
+¡Si! Coloqué barras invertidas antes de las comillas dobles (\). Esto es porque si ponemos una comilla doble luego de **resolverElHambreMundial(**, HTML piensa que ahí se termina nuestro parámetro **onclick** y nuestro navegador web interpreta el código mal:
+
+![Mal escape de comillas dobles]({{ site.url }}{{ site.baseurl }}'/assets/img/introduccion-a-la-programacion/escapeDeComillas.png')
+
+¿Resultado? Nunca se va a ejecutar la función que resuelve el hambre mundial con un poco de inversión :(
+
+
+## Maneras de manejar cadenas: "," y "+"
 
 ..
 
-
-## ¡Procesemos datos!
-### Funciones :)
-
-..
 
 
 ## Conclusión
