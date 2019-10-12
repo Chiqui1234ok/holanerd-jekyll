@@ -84,14 +84,41 @@ Para ver una variable es tan fácil cómo llamar a la función **console**, acce
 {% endhighlight %}
 
 
-# ¡Procesemos y clasifiquemos datos!
-## Funciones :)
+# Funciones y procedimientos :)
 
-..
+¿En tu celular tenés WhatsApp, Telegram, Facebook, Instagram, Slack, Chrome; o una app **que hace todo**?
+Armar un programa que fuera un "todo en uno" tendría una interfaz visual poco sencilla y probablemente sería un poco pesado para ejecutar de un tirón en varios celulares.
 
+Programar de manera "modular" es algo así cómo tener una herramienta para cada cosa que querés hacer en tu programa.
 
+Por ejemplo, si desarrollás un programa que convierte los precios de monedas y criptodivisas, sería imposible tener todo el código en un único archivo. Lo natural sería dividir esas infinitas líneas de código en dos o más archivos. Además, cada parte del código la tenés que encapsular dentro de una función o procedimiento.
+
+De esta forma, si desde "el tronco de tu app" querés convertir bitcoin a pesos Argentinos, harías algo así:
+
+{% highlight javascript %}
+    var precioBitcoin = obtenerPrecio("bitcoin"); // Esta función se comunica con una API, que me da el precio del Bitcoin en dólares. Hoy cuesta $8250 dólares. El resultado de obtenerPrecio() me lo guardo en la variable precioBitcoin
+    var precioDolar = obtenerPrecio("dolar"); // Me traigo el precio de U$D 1 = AR$ 57,94. El resultado de obtenerPrecio() me lo guardo en la variable precioBitcoin
+    console.info("El precio de un Bitcoin es de", precioBitcoin*precioDolar); // Esto mostraría que un Bitcoin equivale a $478.005 Argentinos
+{% endhighlight %}
+
+Esto es mucho más práctico que:
+
+{% highlight javascript %}
+    var precioBitcoin, precioDolar;
+    var eleccion = ""; // Acá almaceno la moneda que quiero averiguar su precio
+    if( eleccion == "bitcoin" )
+    {
+        precioBitcoin = json_decode(aPegarleAlServidorDeLaNasa1SeHaDicho(eleccion);
+    }
+    else if( eleccion == "dolar )
+    {
+        precioDolar = json_decode(vamosAlServidorDeBancoNacion(eleccion));
+    }
+    // Uf! Esto sigue, pero ya me cansé :P
+{% endhighlight %}
 # Manejo del texto
 ## ¿Comillas simples o dobles?
+
 En lenguajes cómo C y C++ **es crítico el tipo de las comillas a usar**. Mientras que las comillas simples se utilizan para variables de un sólo carácter, las dobles se usan para cadenas de texto, que usualmente almacenan una palabra o más.
 
 Osea que si querés hacer esto:
@@ -120,15 +147,13 @@ En Javascript utilizar comillas simples o dobles **no es crítico**, pero es út
 
 ¡Si! Coloqué barras invertidas antes de las comillas dobles (\). Esto es porque si ponemos una comilla doble luego de **resolverElHambreMundial(**, HTML piensa que ahí se termina nuestro parámetro **onclick** y nuestro navegador web interpreta el código mal:
 
-![Mal escape de comillas dobles]('{{ site.url }}{{ site.baseurl }}/assets/img/introduccion-a-la-programacion/escapeDeComillas.png')
+![Mal escape de comillas dobles]({{ site.url }}{{ site.baseurl }}/assets/img/introduccion-a-la-programacion/escapeDeComillas.png)
 
 ¿Resultado? Nunca se va a ejecutar la función que resuelve el hambre mundial con un poco de inversión :(
 
 
-## Maneras de manejar cadenas: "," y "+"
+# Conclusión
+Programar no es fácil, pero antes de querer tirar la casa por la ventana porque el curso o carrera universitaria se complicó, conocé gente y foros que te ayuden. Una vez que enganchás y entendés que los lenguajes son sólo una herramienta más para desarrollar software (y son todos prácticamente iguales, cambian la sintáxis únicamente), no te para nadie.
 
-..
-
-
-
-## Conclusión
+¡Te tienen que gustar los desafíos!
+Seguiremos la semana que viene con las juntadas :D
