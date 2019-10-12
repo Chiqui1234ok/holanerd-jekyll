@@ -11,10 +11,8 @@ summary: Aprendé sobre los elementos básicos de la programación
 
 Hoy nos juntamos para aprender lo básico de la programación. Ingresamos a [Mumuki](https://mumuki.io/central) para comenzar a darle instrucciones a una computadora y tener una respuesta. ¡Buenísimo! ¿Qué vimos en este primer capítulo de **Mumuki** y qué es lo que pasa detrás?
 
-
 # Los tableros
 ## Una forma de ver "la memoria"
-
 Nuestra computadora (y no nos olvidemos de tablets, smartphones y hasta los electrodomésticos "smart") crea tableros por cada programa, [cómo lo muestra Mumuki](https://mumuki.io/central/exercises/259-fundamentos-primeros-programas-el-tablero). La mejor forma de visualizar "un tablero" es recordando las tablas del Excel, que son algo cómo ésto:
 
 ![Tablero-de-memoria](https://raw.githubusercontent.com/sagrado-corazon-alcal/mumuki-fundamentos-gobstones-guia-1-primeros-programas/master/3x2.png)
@@ -23,10 +21,8 @@ En cada casillero se guarda información. Suponete que estamos viendo las entra�
 
 Ojo, ojito, ojete, porque cada casillero es **variable**. Sus datos pueden cambiar mientras el programa está siendo ejecutado. Un programa también tiene datos **constantes** y puede "llamar" a **funciones** que resuelven cositas, tomando y modificando datos. Vamos a ver esto en un rato :)
 
-
 # Palabras clave al programar
 ## ¿Podemos hablar cómo queramos con la PC? ¿O hay un estándar a seguir, cómo cuándo hablamos Español?
-
 Hay palabras reservadas del lenguaje y que no podemos usar nosotros para crear variables/constantes ni funciones. Y yendo más allá, no podemos declarar (crear) una variable con mismo nombre que una función, y viceversa.
 
 > Sería algo así cómo cuándo hay dos "Santiagos" en la clase, llamás a uno pero te miran los dos. Rompés todo (?)
@@ -52,11 +48,9 @@ Y si bien en español "quiosco" y "Quiosco" pueden significar lo mismo, no es as
 
 Así mismo, si cantidadDePasos contiene "cuatro" y cantidaddepasos contiene "Cuatro", si quisieramos chequear la igualdad la máquina probablemente diría que son palabras distintas.
 
-
 # Guardemos más datos
 ## Variables y constantes
-
-Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres productos en nuestro local. Podríamos declarar un dato constante para el dólar, porque no se debería mover a lo largo de la ejecución del programa ni tendríamos que importarnos el dato constantemente de (por ejemplo) [Banco Nación](bna.com.ar). 
+Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres productos en nuestro local. Podríamos declarar un dato constante para el dólar, porque no se debería mover a lo largo de la ejecución del programa ni tendríamos que importarnos el dato constantemente de (por ejemplo) [Banco Nación](https://bna.com.ar). 
 
 -Suponete- tenemos publicada en la tienda de nuestro local una PC de oficina por $200 dólares, una tablet por $55 dólares y un celular por $400 dólares. Manos a la obra :)
 
@@ -73,8 +67,7 @@ También podríamos crear una **variable** para el monto a pagar, un dato que ca
 
 
 # El selector
-## ¿Cómo nos movemos por esos datos al programar?
-
+## ¿Cómo accedemos por esos datos al programar?
 La compu está recibiendo instrucciones y guarda la mayoría de datos en la memoria RAM que tenga disponible. ¿Cómo vemos esos datos?
 
 Para ver una variable es tan fácil cómo llamar a la función **console**, acceder a su "hijo" **log** y pasarle parámetros. ¿Qué es una función y un objeto? Lo veremos más adelante, pero de momento hay que estar contento con esta sintáxis:
@@ -83,9 +76,30 @@ Para ver una variable es tan fácil cómo llamar a la función **console**, acce
     console.log('Descuento: ', montoAPagar);
 {% endhighlight %}
 
+## Arrays / Vectores
+Los vectores sirven para juntar datos similares bajo un mismo nombre. Suponete que quiero vender un celular que tiene dos colores. Definitivamente hacer una variable por color, no está bueno.
+¡Hagamos así!
+
+{% highlight javascript %}
+    var galaxyS10 = [2]; // Creo un array de dos espacios
+    galaxyS10[0] = "blanco"; // Al espacio cero (la primer celda) le asigno un valor
+    galaxyS10[1] = "negro"; // Al espacio uno le asigno un valor
+{% endhighlight %}
+
+## Objetos
+Muy lindo los vectores, pero podemos crear **un objeto**. Un Galaxy S10 es un objeto, ¿no? Puede tener distintas versiones de sistema operativo, colores y compañías. Eso lo podemos gestionar así:
+
+{% highlight javascript %}
+    var galaxyS10 = {
+        color: 'negro',
+        android: '10.1',
+        compania: 'tuenti' // no se aceptan enies ni tildes en programación (ñ)
+    };
+    console.log(galaxyS10); // Me va a mostrar todo el objeto
+    console.log(galaxyS10.color); // Me va a mostrar el color del S10 :)
+{% endhighlight %}
 
 # Funciones y procedimientos :)
-
 ¿En tu celular tenés WhatsApp, Telegram, Facebook, Instagram, Slack, Chrome; o una app **que hace todo**?
 Armar un programa que fuera un "todo en uno" tendría una interfaz visual poco sencilla y probablemente sería un poco pesado para ejecutar de un tirón en varios celulares.
 
