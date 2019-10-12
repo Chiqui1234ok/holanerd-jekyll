@@ -30,6 +30,12 @@ p, ul, ol
     color: var(--sentenceColor);
     font-family: 'Roboto', 'Segoe UI', sans-serif;
 }
+figure, code
+{
+    width: 100%;
+    background: var(--background1);
+    display: block;
+}
 a
 {
     color: var(--linkColor);
