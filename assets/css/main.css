@@ -71,6 +71,7 @@ span
 .readWidth {width: 70%;}
 .fullWidth {width: 100%;}
 .fullHeight {height: 100vh;}
+.fullColumn {grid-column: 1 / span 4;}
 /* Auxiliares > grid */
 .grid4  {display:grid;grid-template-columns: repeat(4, 1fr);}
 .grid2  {display:grid;grid-template-columns: repeat(2, 1fr);}
