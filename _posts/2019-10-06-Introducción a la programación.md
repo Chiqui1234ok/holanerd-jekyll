@@ -120,7 +120,7 @@ En Javascript utilizar comillas simples o dobles **no es crítico**, pero es út
 
 ¡Si! Coloqué barras invertidas antes de las comillas dobles (\). Esto es porque si ponemos una comilla doble luego de **resolverElHambreMundial(**, HTML piensa que ahí se termina nuestro parámetro **onclick** y nuestro navegador web interpreta el código mal:
 
-![Mal escape de comillas dobles]({{ site.url }}{{ site.baseurl }}'/assets/img/introduccion-a-la-programacion/escapeDeComillas.png')
+![Mal escape de comillas dobles]('{{ site.url }}{{ site.baseurl }}/assets/img/introduccion-a-la-programacion/escapeDeComillas.png')
 
 ¿Resultado? Nunca se va a ejecutar la función que resuelve el hambre mundial con un poco de inversión :(
 
