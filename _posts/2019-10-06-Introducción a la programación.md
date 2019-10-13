@@ -88,7 +88,9 @@ Los vectores sirven para juntar datos similares bajo un mismo nombre. Suponete q
 {% endhighlight %}
 
 ## Objetos
-Muy lindo los vectores, pero podemos crear **un objeto**. Un Galaxy S10 es un objeto, ¿no? Puede tener distintas versiones de sistema operativo, colores y compañías. Eso lo podemos gestionar así:
+Muy lindo los vectores, pero podemos crear **un objeto** y detallar sus cualidades y métodos. Por ahora te muestro cómo crear las propiedades del objeto.
+![Galaxy S10](https://img.us.news.samsung.com/us/wp-content/uploads/2019/02/14103448/GalaxyS10_Display1.gif)
+Un Galaxy S10 es un objeto, ¿no? Puede tener distintas versiones de sistema operativo, colores y compañías. Eso lo podemos gestionar así:
 
 {% highlight javascript %}
     var galaxyS10 = {
@@ -103,6 +105,8 @@ Muy lindo los vectores, pero podemos crear **un objeto**. Un Galaxy S10 es un ob
 # Funciones y procedimientos :)
 > Mientras que una función suele devolver un dato único, el procedimiento (que se declara con la misma sintáxis que una función) devuelve dos o más datos al software en el que reside.
 
+![Procedimiento](https://cdn.dribbble.com/users/1371502/screenshots/4973924/___.gif)
+
 ¿En tu celular tenés WhatsApp, Telegram, Facebook, Instagram, Slack, Chrome; por separado? ¿o una app **que hace todo**?
 Armar un programa que fuera un "todo en uno" tendría una interfaz visual poco sencilla y probablemente sería un poco pesado para ejecutar de un tirón en varios celulares.
 
@@ -114,7 +118,9 @@ De esta forma, si desde "el tronco de tu app" querés convertir bitcoin a pesos 
 
 {% highlight javascript %}
     var precioBitcoin = obtenerPrecio("bitcoin"); // Esta función se comunica con una API, que me da el precio del Bitcoin en dólares. Hoy cuesta $8250 dólares. El resultado de obtenerPrecio() me lo guardo en la variable precioBitcoin
+
     var precioDolar = obtenerPrecio("dolar"); // Me traigo el precio de U$D 1 = AR$ 57,94. El resultado de obtenerPrecio() me lo guardo en la variable precioDolar
+    
     console.info('El precio de un Bitcoin es de', precioBitcoin*precioDolar, ' pesos.'); // Esto mostraría que un Bitcoin equivale a $478.005 Argentinos
 {% endhighlight %}
 
@@ -136,7 +142,6 @@ El código de arriba se explica casi sólo, pero el spaguetti de abajo te va a d
 
 # Manejo del texto
 ## ¿Comillas simples o dobles?
-
 En lenguajes cómo C y C++ **es crítico el tipo de las comillas a usar**. Mientras que las comillas simples se utilizan para variables de un sólo carácter, las dobles se usan para cadenas de texto, que usualmente almacenan una palabra o más.
 
 Osea que si querés hacer esto:
@@ -163,7 +168,7 @@ En Javascript utilizar comillas simples o dobles **no es crítico**, pero es út
     <a href="#" onclick="resolverElHambreMundial(\"con mucha inversión\")">Clic aquí para resolver el hambre mundial</a>
 {% endhighlight %}
 
-¡Si! Coloqué barras invertidas antes de las comillas dobles (\). Esto es porque si ponemos una comilla doble luego de **resolverElHambreMundial(**, HTML piensa que ahí se termina nuestro parámetro **onclick** y nuestro navegador web interpreta el código mal:
+¡Si! Coloqué barras invertidas antes de las comillas dobles para que HTML no las tuviera en cuenta y siguiera "todo normal". Esto es porque si ponemos una comilla doble luego de **resolverElHambreMundial(**, HTML piensa que ahí se termina nuestro parámetro **onclick** y nuestro navegador web interpreta el código mal:
 
 ![Mal escape de comillas dobles]({{ site.url }}{{ site.baseurl }}/assets/img/introduccion-a-la-programacion/escapeDeComillas.png)
 
@@ -171,6 +176,7 @@ En Javascript utilizar comillas simples o dobles **no es crítico**, pero es út
 
 
 # Conclusión
+![Tipos de datos](https://s3.amazonaws.com/codecademy-content/courses/learn-cpp/variables/data-types.gif)
 Programar no es fácil, pero antes de querer tirar la casa por la ventana porque el curso o carrera universitaria se complicó, conocé gente y foros que te ayuden. Una vez que enganchás y entendés que los lenguajes son sólo una herramienta más para desarrollar software (y son todos prácticamente iguales, cambian la sintáxis únicamente), no te para nadie.
 
 ¡Te tienen que gustar los desafíos!
