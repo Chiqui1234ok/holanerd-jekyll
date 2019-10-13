@@ -34,7 +34,11 @@ figure, code
 {
     width: 100%;
     background: var(--background1);
-    display: block;
+}
+figure *, code *
+{
+    width: 100%;
+    overflow-wrap: break-word;
 }
 a
 {

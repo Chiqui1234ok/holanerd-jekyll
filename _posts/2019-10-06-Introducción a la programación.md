@@ -61,6 +61,7 @@ Supongamos que tenemos un país con un dólar fijo en $50, y vendemos tres produ
 
 También podríamos crear una **variable** para el monto a pagar, un dato que cambia conforme vayamos comprando productos, e incluso podría verse afectado por algún descuento. Nosotros hacemos un descuento del 5% cuándo se compran tres productos o más. ¿Te animás a completar los casilleros con la información que te di recién?
 
+<p>Este mini formulario está sin terminar, en breve lo termino!</p>
 <p><input type="text" id="type0" /> montoAPagar;</p>
 <p><input type="text" id="type1" /> descuento = 0,05;</p>
 <p><button type="button" id="checkDataExercise">Comprobar</button></p>
@@ -100,29 +101,31 @@ Muy lindo los vectores, pero podemos crear **un objeto**. Un Galaxy S10 es un ob
 {% endhighlight %}
 
 # Funciones y procedimientos :)
-¿En tu celular tenés WhatsApp, Telegram, Facebook, Instagram, Slack, Chrome; o una app **que hace todo**?
+> Mientras que una función suele devolver un dato único, el procedimiento (que se declara con la misma sintáxis que una función) devuelve dos o más datos al software en el que reside.
+
+¿En tu celular tenés WhatsApp, Telegram, Facebook, Instagram, Slack, Chrome; por separado? ¿o una app **que hace todo**?
 Armar un programa que fuera un "todo en uno" tendría una interfaz visual poco sencilla y probablemente sería un poco pesado para ejecutar de un tirón en varios celulares.
 
 Programar de manera "modular" es algo así cómo tener una herramienta para cada cosa que querés hacer en tu programa.
 
-Por ejemplo, si desarrollás un programa que convierte los precios de monedas y criptodivisas, sería imposible tener todo el código en un único archivo. Lo natural sería dividir esas infinitas líneas de código en dos o más archivos. Además, cada parte del código la tenés que encapsular dentro de una función o procedimiento.
+Por ejemplo, si desarrollás un programa que convierte los precios de monedas y criptodivisas, sería humanamente imposible tener todo el código en un único archivo. Lo natural sería dividir esas infinitas líneas de código en dos o más archivos. Además, cada parte del código la tenés que encapsular dentro de una función o procedimiento, para "llamarla" (utilizarla) sólo cuándo es necesario.
 
 De esta forma, si desde "el tronco de tu app" querés convertir bitcoin a pesos Argentinos, harías algo así:
 
 {% highlight javascript %}
     var precioBitcoin = obtenerPrecio("bitcoin"); // Esta función se comunica con una API, que me da el precio del Bitcoin en dólares. Hoy cuesta $8250 dólares. El resultado de obtenerPrecio() me lo guardo en la variable precioBitcoin
-    var precioDolar = obtenerPrecio("dolar"); // Me traigo el precio de U$D 1 = AR$ 57,94. El resultado de obtenerPrecio() me lo guardo en la variable precioBitcoin
-    console.info("El precio de un Bitcoin es de", precioBitcoin*precioDolar); // Esto mostraría que un Bitcoin equivale a $478.005 Argentinos
+    var precioDolar = obtenerPrecio("dolar"); // Me traigo el precio de U$D 1 = AR$ 57,94. El resultado de obtenerPrecio() me lo guardo en la variable precioDolar
+    console.info('El precio de un Bitcoin es de', precioBitcoin*precioDolar, ' pesos.'); // Esto mostraría que un Bitcoin equivale a $478.005 Argentinos
 {% endhighlight %}
 
-Esto es mucho más práctico que:
+El código de arriba se explica casi sólo, pero el spaguetti de abajo te va a desconcentrar y si encima trabajás en una notebook chiquita, vos y el scroll están al horno:
 
 {% highlight javascript %}
     var precioBitcoin, precioDolar;
     var eleccion = ""; // Acá almaceno la moneda que quiero averiguar su precio
     if( eleccion == "bitcoin" )
     {
-        precioBitcoin = json_decode(aPegarleAlServidorDeLaNasa1SeHaDicho(eleccion);
+        precioBitcoin = json_decode(aPegarleAlServidorDeLaNasa1SeHaDicho(eleccion));
     }
     else if( eleccion == "dolar )
     {
@@ -130,6 +133,7 @@ Esto es mucho más práctico que:
     }
     // Uf! Esto sigue, pero ya me cansé :P
 {% endhighlight %}
+
 # Manejo del texto
 ## ¿Comillas simples o dobles?
 
