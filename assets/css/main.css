@@ -40,6 +40,9 @@ figure p, figure span, figure pre, code p, code span, code pre
     width: 100%;
     white-space: pre-line;
     overflow-wrap: break-word;
+    font-size: 15px;
+    line-height: 28px;
+    padding: 10px;
 }
 a
 {
