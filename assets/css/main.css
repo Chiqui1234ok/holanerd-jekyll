@@ -35,9 +35,10 @@ figure, code
     width: 100%;
     background: var(--background1);
 }
-figure *, code *
+figure p, figure span, figure pre, code p, code span, code pre
 {
     width: 100%;
+    white-space: pre-line;
     overflow-wrap: break-word;
 }
 a
