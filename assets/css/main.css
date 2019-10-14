@@ -13,8 +13,10 @@
     --linkHover: #145ee6;
     --linkColor2: #3e4041;
     --linkHover2: var(--sentenceColor);
-    --background0: #fafafa;
-    --background1: #f7f4f4;
+    --background0: #fafafa; /* renombrar a background1 */
+    --background1: #f7f4f4; /* renombrar a background2 */
+    --warningColor1: rgb(233, 53, 53);
+    --warningColor2: rgb(248, 58, 25);
     --shadow: rgba(0,0,0,0.25);
 }
 h1, h2, h3, h4, h5, h6
@@ -96,7 +98,7 @@ span
 .grid-4  {display:grid;grid-template-columns: repeat(4, 1fr);}
 .grid-2  {display:grid;grid-template-columns: repeat(2, 1fr);}
 .gap    {gap: 10px;}
-/* Shadow */
+/* Auxiliares > Shadow */
 .shadow-superhero { /* Sombra para texto */
 	color: var(--linkHover);
 	text-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
@@ -109,6 +111,12 @@ span
 .separator-top
 {
     border-top: 1px solid var(--footerColor);    
+}
+/* Auxiliares > avisos */
+.warning
+{
+    background: var(--warningColor1);
+    border: 1px solid var(--warningColor2);
 }
 /* Base */
 body
