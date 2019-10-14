@@ -2,8 +2,13 @@
         <div id="content">
             <!-- content -->
             <img src="{{ page.image }}" width="100%" />
-            <p>Por {{ page.author }}, <time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+            <p>Por {{ page.author }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
             <h1>{{ page.title }}</h1>
             {{ content }}
+        <div> <!-- Info del autor -->
+            <h3 class="shadow-superhero">{{ page.author }}</h3>
+            <p><strong>Autor</strong> de Holanerd.</p>
+            <p><a href="#root">Volver arriba</a>.</p>
+        </div> <!-- Info del autor-->
         </div>
 </div> <!-- Cierre #root -->

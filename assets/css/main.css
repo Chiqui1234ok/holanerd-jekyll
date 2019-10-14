@@ -96,7 +96,14 @@ span
 .grid4  {display:grid;grid-template-columns: repeat(4, 1fr);}
 .grid2  {display:grid;grid-template-columns: repeat(2, 1fr);}
 .gap    {gap: 10px;}
-
+/* Shadow */
+.shadow-superhero
+{
+    color: var(--linkHover);
+    text-shadow: -10px 10px 0px #00e6e6,
+                 -20px 20px 0px #01cccc,
+                 -30px 30px 0px #00bdbd;
+}
 /* Base */
 body
 {
