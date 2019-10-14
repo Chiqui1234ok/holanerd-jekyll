@@ -118,9 +118,13 @@ span
 /* Auxiliares > avisos */
 .warning
 {
-    font-size: 15px;
     background: var(--warningColor1);
     border: 1px solid var(--warningColor2);
+}
+.warning p
+{
+    font-size: 15px;
+    line-height: 30px;
 }
 /* Base */
 body
