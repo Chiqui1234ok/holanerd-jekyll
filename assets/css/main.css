@@ -93,8 +93,8 @@ span
 .fullHeight {height: 100vh;}
 .fullColumn {grid-column: 1 / span 4;}
 /* Auxiliares > grid */
-.grid4  {display:grid;grid-template-columns: repeat(4, 1fr);}
-.grid2  {display:grid;grid-template-columns: repeat(2, 1fr);}
+.grid-4  {display:grid;grid-template-columns: repeat(4, 1fr);}
+.grid-2  {display:grid;grid-template-columns: repeat(2, 1fr);}
 .gap    {gap: 10px;}
 /* Shadow */
 .shadow-superhero { /* Sombra para texto */
