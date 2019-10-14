@@ -15,7 +15,7 @@
     --linkHover2: var(--sentenceColor);
     --background0: #fafafa; /* renombrar a background1 */
     --background1: #f7f4f4; /* renombrar a background2 */
-    --warningColor1: rgb(226, 148, 148);
+    --warningColor1: rgb(228, 181, 137);
     --warningColor2: rgb(248, 58, 25);
     --shadow: rgba(0,0,0,0.25);
 }
