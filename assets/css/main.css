@@ -6,7 +6,7 @@
 :root
 {
     --headerColor: #9ac6f0;
-    --footerColor: #77888f;
+    --footerColor: #39c7c0;
     --sentenceColor: #212121;
     --highLight: #14aae6;
     --linkColor: #14aae6;
@@ -97,12 +97,13 @@ span
 .grid2  {display:grid;grid-template-columns: repeat(2, 1fr);}
 .gap    {gap: 10px;}
 /* Shadow */
-.shadow-superhero
-{
-    color: var(--linkHover);
-    text-shadow: -10px 10px 0px #00e6e6,
-                 -20px 20px 0px #01cccc,
-                 -30px 30px 0px #00bdbd;
+.shadow-superhero { /* Sombra para texto */
+	color: var(--linkHover);
+	text-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
+}
+.shadow-superhero-box { /* Sombra para cajas */
+	color: var(--linkHover);
+	box-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
 }
 /* Base */
 body
@@ -130,4 +131,5 @@ header
 footer
 {
     background: var(--footerColor);
+    color: var(--background0);
 }
