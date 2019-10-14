@@ -14,22 +14,7 @@
     -o-animation: rainbowEffect 18s ease infinite;
     animation: rainbowEffect 18s ease infinite;
 }
-  
-  @-webkit-keyframes rainbowEffect {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-moz-keyframes rainbowEffect {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-  @-o-keyframes rainbowEffect {
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
+
   @keyframes rainbowEffect { 
       0%{background-position:0% 82%}
       50%{background-position:100% 19%}
