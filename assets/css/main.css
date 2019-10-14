@@ -15,7 +15,7 @@
     --linkHover2: var(--sentenceColor);
     --background0: #fafafa; /* renombrar a background1 */
     --background1: #f7f4f4; /* renombrar a background2 */
-    --warningColor1: rgb(233, 53, 53);
+    --warningColor1: rgb(226, 148, 148);
     --warningColor2: rgb(248, 58, 25);
     --shadow: rgba(0,0,0,0.25);
 }
@@ -87,6 +87,7 @@ span
 .padding {padding: 10px;}
 .margin {margin: 10px;}
 .margin-mini {margin: 2px;}
+.border-light {border: 1px solid var(--background1);}
 .minimalList {list-style-type: none;padding: 0;margin: 0;}
 .fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
 .textCenter {text-align: center;}
@@ -117,6 +118,7 @@ span
 /* Auxiliares > avisos */
 .warning
 {
+    font-size: 15px;
     background: var(--warningColor1);
     border: 1px solid var(--warningColor2);
 }
