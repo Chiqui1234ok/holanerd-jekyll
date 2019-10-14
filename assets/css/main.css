@@ -105,6 +105,11 @@ span
 	color: var(--linkHover);
 	box-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
 }
+/* Auxiliares > separadores */
+.separator-top
+{
+    border-top: 1px solid var(--footerColor);    
+}
 /* Base */
 body
 {
