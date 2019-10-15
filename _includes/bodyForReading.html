@@ -2,17 +2,17 @@
         <div id="content">
             <!-- content -->
             <img src="{{ page.image }}" width="100%" />
-            <p>Por {{ page.author }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+            <p>Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
             <h1>{{ page.title }}</h1>
             {{ content }}
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
             <div>
                 <h2 class="shadow-superhero">{{ page.author }}</h2>
                 <p><strong>Autor</strong> de Holanerd.</p>
-                <p><a href="#root">Volver arriba</a>.</p>
             </div>
             <div>
-                <p>¡Descripción del autor!</p>
+                <p>{{ author.desc }}</p>
+                <p><a href="#root">Volver arriba</a>.</p>
             </div>
         </div> <!-- Info del autor-->
         </div>               

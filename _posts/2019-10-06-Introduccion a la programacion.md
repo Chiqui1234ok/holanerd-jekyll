@@ -4,7 +4,7 @@ title: Introducción a la programación (Capítulo 1)
 image: https://cdn.suwalls.com/wallpapers/vector/personal-computer-34562-1920x1200.jpg
 date: 2019-10-12 14:50
 category: tutoriales
-author: Santiago Gimenez
+author: chiqui
 tags: [introduccion, programacion, variables, c]
 summary: Aprendé sobre los elementos básicos de la programación
 ---
