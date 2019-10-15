@@ -7,7 +7,6 @@ category: tutoriales
 author: Santiago Gimenez
 tags: [tutorial, ftp, explorador de archivos]
 summary: ¿Sabías que podés conectarte a un servidor por el protocolo FTP sin instalar ningún programa extra?
-comments: true
 ---
 
 Bienvenidos a una pequeña guía, que si bien la haré sobre Ubuntu 19.04 con el explorador de archivos **Nautilus**, los pasos a seguir son muy parecidos en Windows 8/8.1/10 y es muy probable que Windows 7 y los exploradores de archivos Thunar, Nemo y PCManFM para sistemas Linux sean compatibles con el protocolo FTP.

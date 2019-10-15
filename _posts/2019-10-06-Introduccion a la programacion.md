@@ -7,7 +7,6 @@ category: tutoriales
 author: Santiago Gimenez
 tags: [introduccion, programacion, variables, c]
 summary: Aprendé sobre los elementos básicos de la programación
-comments: true
 ---
 
 Hoy nos juntamos para aprender lo básico de la programación. Ingresamos a [Mumuki](https://mumuki.io/central) para comenzar a darle instrucciones a una computadora y tener una respuesta. ¡Buenísimo! ¿Qué vimos en este primer capítulo de **Mumuki** y qué es lo que pasa detrás?
