@@ -108,7 +108,8 @@ span
 /* Auxiliares > Shadow */
 .shadow-superhero { /* Sombra para texto */
 	color: var(--linkHover);
-	text-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
+    text-shadow: -2px 2px 1px #00e6e6, -4px 4px 1px var(--highLight), -6px 6px 1px var(--footerColor);
+    border: none;
 }
 .shadow-superhero-box { /* Sombra para cajas */
 	color: var(--linkHover);
