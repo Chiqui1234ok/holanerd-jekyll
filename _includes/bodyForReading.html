@@ -7,11 +7,12 @@
             {{ content }}
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
             <div>
-                <h2 class="shadow-superhero">{{ page.author.name }}</h2>
+                <h2 class="shadow-superhero">{{ author.name }}</h2>
                 <p><strong>Autor</strong> de Holanerd.</p>
+                <p><a href="{{ author.twitter }}">Twitter</a>.</p>
             </div>
             <div>
-                <p>{{ page.author.desc }}</p>
+                <p>{{ author.desc }}</p>
                 <p><a href="#root">Volver arriba</a>.</p>
             </div>
         </div> <!-- Info del autor-->
