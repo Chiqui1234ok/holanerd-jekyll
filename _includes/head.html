@@ -2,7 +2,9 @@
 <html lang="es">
     <head>
         <title>{{ site.title }}</title>
-        
+        <meta name="og:title" content="{{ page.title }}" />
+        <meta name="og:description" content="Comunidad de programadores. {{ page.summary }}" />
+        <meta name="og:image" content="{{ page.image }}" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/main.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/nav.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/animations.css" />
