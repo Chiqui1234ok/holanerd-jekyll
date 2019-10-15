@@ -89,7 +89,7 @@ Los vectores sirven para juntar datos similares bajo un mismo nombre. Suponete q
 
 ## Objetos
 Muy lindo los vectores, pero podemos crear **un objeto** y detallar sus cualidades y métodos. Por ahora te muestro cómo crear las propiedades del objeto.
-![Galaxy S10](https://img.us.news.samsung.com/us/wp-content/uploads/2019/02/14103448/GalaxyS10_Display1.gif)
+![Galaxy S10](https://i.blogs.es/dd5651/diseno/450_1000.jpg)
 Un Galaxy S10 es un objeto, ¿no? Puede tener distintas versiones de sistema operativo, colores y compañías. Eso lo podemos gestionar así:
 
 {% highlight javascript %}
