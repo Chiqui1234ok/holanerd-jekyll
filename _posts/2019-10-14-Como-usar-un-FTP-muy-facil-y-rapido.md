@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Cómo usar un FTP muy fácil y rápido
+title: Cómo usar un FTP muy fácil y rápido | 
 image: https://www.latinoamericahosting.com.co/wp-content/uploads/2018/12/FTP-SFTP-FTPS.jpg
 date: 2019-10-16 21:00
 category: tutoriales

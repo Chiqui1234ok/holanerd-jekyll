@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Introducción a la programación (Capítulo 1)
+title: Introducción a la programación (Capítulo 1) | 
 image: https://cdn.suwalls.com/wallpapers/vector/personal-computer-34562-1920x1200.jpg
 date: 2019-10-12 14:50
 category: tutoriales
