@@ -2,14 +2,14 @@
         <div id="content">
             <!-- content -->
             <img src="{{ page.image }}" width="100%" />
-            <p>Por {{ site.data.author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+            <p>Por {{ data.author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
             <h1>{{ page.title }}</h1>
             {{ content }}
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
             <div>
-                <h2 class="shadow-superhero">{{ site.data.chiqui.name }}</h2>
+                <h2 class="shadow-superhero">{{ data.chiqui.name }}</h2>
                 <p><strong>Autor</strong> de Holanerd.</p>
-                <p><a href="{{ site.data.author.twitter }}">Twitter</a>.</p>
+                <p><a href="{{ data.author.twitter }}">Twitter</a>.</p>
             </div>
             <div>
                 <p>{{ author.desc }}</p>
