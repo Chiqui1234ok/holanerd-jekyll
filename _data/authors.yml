@@ -1,7 +1,10 @@
 chiqui:
+ avatar: https://scontent.faep4-1.fna.fbcdn.net/v/t1.0-9/67403954_2374869386089049_7589736231743782912_n.jpg?_nc_cat=108&_nc_oc=AQk6RIwKXLTOjXfxgVY1GiUf0U3PPseCgDrrDP3c2C_trGpSRJW97rIon1MC-RcyoZ3l6lNJWKzozIBsA608n8aH&_nc_ht=scontent.faep4-1.fna&oh=55cc9aa146f3ea8a1acc1b7bedfdac5c&oe=5E25822B
  name: Santiago Gimenez
  desc: Un apasionado por las computadoras y la tecnología.
  twitter: https://twitter.com/_chiqui1234
+ instagram: https://www.instagram.com/chiqui.1234/
+ youtube: https://www.youtube.com/channel/UC2paIZlJE4xLAdy9olKG-DQ
 default:
  name: default
  desc: Default author for jekyll's blog

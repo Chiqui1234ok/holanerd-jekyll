@@ -3,14 +3,17 @@
             <!-- content -->
             <img src="{{ page.image }}" width="100%" />
             <p>Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+            <p>Un post sobre {{ page.category }}, que habla de {{ page.tags }} :)</p>
             <h1>{{ page.title }}</h1>
             {{ content }}
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
-            <div>
+            <div class="grid-2">
+                <img src="{{ author.avatar }}" width="100%" />
                 <h2 class="shadow-superhero">{{ author.name }}</h2>
                 <p><strong>Autor</strong> de Holanerd.</p>
-                <p><a href="{{ author.twitter }}">Twitter</a>.</p>
+                <p>¡Seguime en <a href="{{ author.twitter }}">Twitter</a>, <a href="{{ author.instagram }}">Instagram</a> y <a href="{{ author.youtube }}">YouTube</a>!</p>
             </div>
+                
             <div>
                 <p>{{ author.desc }}</p>
                 <p><a href="#root">Volver arriba</a>.</p>
