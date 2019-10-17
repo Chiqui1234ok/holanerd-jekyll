@@ -27,6 +27,8 @@ url: "https://chiqui1234.github.io" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
 
+permalink: /:category/:title/
+
 # Build settings
 theme: jekyll-theme-minimal
 plugins:
