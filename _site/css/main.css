@@ -36,7 +36,7 @@ span
 /**/
 /* Auxiliares */
 .defaultBg {background: var(--background0);}
-.removeMobile {display: block;} /* Para eliminar un objeto en dispositivos móviles */
+.remove-mobile {display: block;} /* Para eliminar un objeto en dispositivos móviles */
 .padding {padding: 10px;}
 .gap {gap: 10px;}
 .fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
