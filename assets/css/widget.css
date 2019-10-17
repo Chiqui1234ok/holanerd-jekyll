@@ -4,9 +4,3 @@
     height: 100%;
     border-radius: 2px;
 }
-#widget #content
-{
-    width: calc(100% - 4px);
-    height: calc(100% - 4px);
-    background: var(--background0);
-}
