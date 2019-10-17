@@ -21,13 +21,11 @@
 title: Holanerd
 email: santiagogimenez@outlook.com.ar
 description: >- # this means to ignore newlines until "baseurl:"
-  Estamos pensando en una descripción...
+  Comunidad de tecnología
 baseurl: "/holanerd-jekyll" # the subpath of your site, e.g. /blog
 url: "https://chiqui1234.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: jekyllrb
 github_username:  jekyll
-
-permalink: /:category/:title/
 
 # Build settings
 theme: jekyll-theme-minimal
