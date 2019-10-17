@@ -5,7 +5,7 @@ image: https://cdn.suwalls.com/wallpapers/vector/personal-computer-34562-1920x12
 date: 2019-10-12 14:50
 category: programacion
 author: chiqui
-tags: [introduccion, programacion, variables, c]
+tags: introduccion, programacion, variables, c, c++, javascript
 summary: Aprendé sobre los elementos básicos de la programación
 ---
 

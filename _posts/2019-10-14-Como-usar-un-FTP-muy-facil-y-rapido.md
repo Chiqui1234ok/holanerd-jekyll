@@ -5,7 +5,7 @@ image: https://www.latinoamericahosting.com.co/wp-content/uploads/2018/12/FTP-SF
 date: 2019-10-16 21:00
 category: web
 author: chiqui
-tags: [tutorial, ftp, explorador de archivos]
+tags: ftp, explorador de archivos
 summary: ¿Sabías que podés conectarte a un servidor por el protocolo FTP sin instalar ningún programa extra?
 ---
 
