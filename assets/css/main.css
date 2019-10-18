@@ -148,12 +148,6 @@ header
     --webkit-backdrop-filter: blur(2px); /* Safari 9.1 en adelante */
 }
 
-
-#content
-{
-    
-}
-
 footer
 {
     background: var(--footerColor);

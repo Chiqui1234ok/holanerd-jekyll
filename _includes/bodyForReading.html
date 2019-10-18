@@ -1,19 +1,21 @@
 <div id="root" class="readWidth">
-        <div id="content">
-            <!-- content -->
-            <img src="{{ page.image }}" width="100%" />
-            <p>Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
-            <p>Un post sobre {{ page.category }}.</p>
-            <h1>{{ page.title }}</h1>
-            {{ content }}
+        <main>
+            <article> <!-- content -->
+                <img src="{{ page.image }}" width="100%" />
+                <p>Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+                <p>Un post sobre {{ page.category }}.</p>
+                <h1>{{ page.title }}</h1>
+                {{ content }}
+            </article>
+
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
                 <div>
                     <h2 class="shadow-superhero">{{ author.name }}</h2>
                     <h4>¡Seguime!</h4>
                     <ul>
-                        <li><a href="{{ author.twitter }}"><i class="fa fa-twitter"> Twitter</i></a></li>
-                        <li><a href="{{ author.instagram }}"><i class="fa fa-instagram"> Instagram</i></a></li>
-                        <li><a href="{{ author.youtube }}"><i class="fa fa-youtube"> YouTube</i></a></li>
+                        <li><a href="{{ author.twitter }}"><i class="icon-twitter"> Twitter</i></a></li>
+                        <li><a href="{{ author.instagram }}"><i class="icon-instagram"> Instagram</i></a></li>
+                        <li><a href="{{ author.youtube }}"><i class="icon-youtube"> YouTube</i></a></li>
                     </ul>
                 </div>
                 
@@ -28,5 +30,5 @@
                     </div>
                 </div>
         </div> <!-- Info del autor-->
-        </div>               
+        </main>               
 </div> <!-- Cierre #root -->
