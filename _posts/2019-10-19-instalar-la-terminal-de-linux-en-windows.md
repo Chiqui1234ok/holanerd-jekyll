@@ -8,7 +8,6 @@ author: chiqui
 tags: linux, terminal, consola, ubuntu en windows, subsistema de windows, windows subsystem
 summary: Tené las herramientas Linuxeras bien a mano en Windows. Sentite cómo en casa :)
 ---
-
 Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa:
 La compu grande para jugar pero la notebook con Ubuntu es ideal para trabajar y programar, listo. :D
 
