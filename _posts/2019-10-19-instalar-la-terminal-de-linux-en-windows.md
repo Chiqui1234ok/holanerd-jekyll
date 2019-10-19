@@ -35,6 +35,8 @@ Y seleccioná "Activar o desactivar las características de Windows" :)
 
 ![paso-3](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/3-activar-subsistema-de-linux.jpg)
 
+Tildá "Subsistema de Windows para Windows"...
+
 ### 4. Reiniciar 
 
 Si si, reiniciá y si tenés un navegador con dos dedos de frente, te vuelve a abrir esta página web :D
@@ -45,7 +47,11 @@ Si vamos al menú inicio y tipeamos "bash" en el Menú inicio, tendremos un nuev
 
 ![error-que-tuve](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/4-error.jpg)
 
-Si te sucede ésto, deberás abrir la tienda de Windows. Busqué "Ubuntu", ¡y tarán! Instalé, tipeé "Ubuntu" en mi menú inicio y ahí estaba <3
+Si te sucede ésto, deberás abrir la tienda de Windows. Busqué "Ubuntu", ¡y tarán! Podemos decir sin temor a equivocarnos que Ubuntu está para Windows ;)
+
+![ubuntu-para-windows](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/5-ubuntu-in-microsoft.jpg)
+
+Instalé, tipeé "Ubuntu" en mi menú inicio y ahí estaba <3
 Nos pide nombre de usuario y contraseña para crear el nuevo usuario UNIX. Luego de eso, se instala en alrededor de un minuto.
 
 ![instalacion-gcc](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/8-instalamos-lo-que-sea-en-el.jpg)
