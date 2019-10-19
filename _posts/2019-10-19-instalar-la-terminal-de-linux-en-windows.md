@@ -1,11 +1,11 @@
 ---
 layout: post
 title: Instalar la terminal de Linux en Windows (2019)
-image: {{ site.url }}{{ site.baseurl }}/assets/img/instalar-la-terminal-de-linux-en-windows/poster.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.jpg
 date: 2019-10-19 20:50
 category: programacion
 author: chiqui
-tags: linux, terminal, consola, ubuntu en windows, subsistema de windows, windows subsystem
+tags: linux, terminal, ubuntu en windows, subsistema de windows, windows subsystem
 summary: Tené las herramientas Linuxeras bien a mano en Windows. Sentite cómo en casa :)
 ---
 Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa:
