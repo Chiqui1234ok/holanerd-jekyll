@@ -6,6 +6,7 @@
     .remove-mobile {display: none;}
     .textRight {text-align: center;}
     .readWidth {width: 80%;}
+    img {width: 100%;}
 }
 @media (max-width: 1023px) { /* 1023px o menor */
     .grid-2, .grid-4 {grid-template-columns: calc(100% - 20px);}
@@ -13,4 +14,5 @@
     .remove-mobile {display: none;}
     .textRight {text-align: center;}
     .readWidth {width: 80%;}
+    img {width: 100%;}
 }
