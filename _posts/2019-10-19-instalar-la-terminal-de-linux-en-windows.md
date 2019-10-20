@@ -52,7 +52,7 @@ Si te sucede ésto, deberás abrir la tienda de Windows. Busqué "Ubuntu", ¡y t
 ![ubuntu-para-windows](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/5-ubuntu-in-microsoft.jpg)
 
 Instalé, tipeé "Ubuntu" en mi menú inicio y ahí estaba <3
-Nos pide nombre de usuario y contraseña para crear el nuevo usuario UNIX. Luego de eso, se instala en alrededor de un minuto.
+Nos pide nombre de usuario y contraseña para crear el nuevo usuario UNIX. Luego de eso, se instala en alrededor de un minuto y podés arrancar a instalar apps.
 
 ![instalacion-gcc](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/8-instalamos-lo-que-sea-en-el.jpg)
 
@@ -60,5 +60,15 @@ Recordá que antes de hacer algo con **apt** deberás ejecutar la acción **apt 
 
 
 Ahora podrías tener Visual Studio Code, que tiene un plugin para trabajar con este subsistema :) [Más info acá](https://code.visualstudio.com/docs/remote/wsl#_getting-started).
+
+**EDIT**: No leí mucho ese link, pero si van a la carpeta en la que están programando y:
+* Shift + Clic derecho del mouse
+* "Abrir una terminal de Linux aquí"
+* Escriben "code ."
+Se abre Visual Studio Code, detecta que está en un entorno Windows Subsystem for Linux (WSL) y te sugiere un plug-in. Lo instalás y la verdad, ya podés instalar plugins en tu Linux (cosa que hace por defecto) y **que práctico** es instalar Git con un comando y trabajar de forma idéntica que en Linux <3
+
+Te vas a enterar que funciona todo cuándo veas este logo en la parte inferior izquierda ;)
+
+![notificacion](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/notificacion.JPG)
 
 ¡Un gusto leer con ustedes! 
