@@ -70,9 +70,7 @@ a:hover
 }
 img
 {
-    margin: 0 auto;
     clear: both;
-    float: left;
     width: 70%;
     border-radius: 5px;
 }
