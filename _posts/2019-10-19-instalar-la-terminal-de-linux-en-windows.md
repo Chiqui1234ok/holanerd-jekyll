@@ -61,10 +61,11 @@ Recordá que antes de hacer algo con **apt** deberás ejecutar la acción **apt 
 
 Ahora podrías tener Visual Studio Code, que tiene un plugin para trabajar con este subsistema :) [Más info acá](https://code.visualstudio.com/docs/remote/wsl#_getting-started).
 
-**EDIT**: No leí mucho ese link, pero si van a la carpeta en la que están programando y:
+**EDIT**: No leí mucho ese link, sin embargo los pasos a seguir son similares a ejecutar **code** desde la terminal de Linux. Si van a la carpeta en la que están programando )desde el Explorador de archivos de Windows 10) y:
 * Shift + Clic derecho del mouse
 * "Abrir una terminal de Linux aquí"
 * Escriben "code ."
+
 Se abre Visual Studio Code, detecta que está en un entorno Windows Subsystem for Linux (WSL) y te sugiere un plug-in. Lo instalás y la verdad, ya podés instalar plugins en tu Linux (cosa que hace por defecto) y **que práctico** es instalar Git con un comando y trabajar de forma idéntica que en Linux <3
 
 Te vas a enterar que funciona todo cuándo veas este logo en la parte inferior izquierda ;)
