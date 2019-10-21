@@ -3,7 +3,7 @@ layout: post
 title: Activar GitHub Pages
 image: https://i.ytimg.com/vi/2MsN8gpT6jY/maxresdefault.jpg
 date: 2019-10-20 21:50
-category: git
+category: programacion
 author: chiqui
 tags: github, pages, publicar web, hosting gratis
 summary: ¿Cómo publicar una web gratis desde tu repositorio y con GitHub Pages?
@@ -19,7 +19,7 @@ En mi caso, GitHub Pages **compila automáticamente los cambios que hay en Jekyl
 
 En poquísimos pasos tendrás tu web online 24/7 y sin publicidad, en servidores que son muy, muy rápidos (al menos para servir HTML, ¡ja!).
 
-## 1. Ir a "Settings"
+## 1. Ir a "Settings", dentro de tu repo
 
 ![paso-1](https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/1-ir-a-settings.jpg)
 
