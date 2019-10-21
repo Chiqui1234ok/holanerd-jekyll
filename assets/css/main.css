@@ -70,7 +70,8 @@ a:hover
 }
 img
 {
-    width: 100%;
+    clear: both;
+    width: 70%;
     border-radius: 5px;
 }
 span
