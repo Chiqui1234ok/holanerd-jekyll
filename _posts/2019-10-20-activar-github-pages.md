@@ -20,14 +20,19 @@ En mi caso, GitHub Pages **compila automáticamente los cambios que hay en Jekyl
 En poquísimos pasos tendrás tu web online 24/7 y sin publicidad, en servidores que son muy, muy rápidos (al menos para servir HTML, ¡ja!).
 
 ## 1. Ir a "Settings"
+
 ![paso-1](https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/1-ir-a-settings.jpg)
 
 ## 2. Scrollear para abajo...
+
 Hasta que encuentres el apartado **GitHub Pages** en tu panel de control. Deberás seleccionar que rama (branch) será la que pondrás online.
 ![paso-2](https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/2-activar-github-pages-para-tu-rama.jpg)
+
 Guardas los cambios y se refrescará la página :)
 
 ## 3. Clic en tu nuevo link
+
 ![paso-3](https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/3-clic-en-el-nuevo-link.jpg)
+
 ¡Tu web está online! O algo así... es probable que haya que esperar unos minutos para que Git deje tu sitio online. Si tenías un README.md, esa será la cara "por defecto" que verás al entrar al link.  Sin embargo, si creás un index.html, podrás verlo sin problemas.
 ¡Mira! Puse online un repositorio de C (no garantizo que ese link esté por siempre, [pero podrías intentar si existe](https://chiqui1234.github.io/Pilas-Colas-y-Listas/)).
