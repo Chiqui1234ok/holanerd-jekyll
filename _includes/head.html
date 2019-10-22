@@ -31,9 +31,9 @@
 <body class="defaultBg">
 
     {% for post in site.posts limit:1 %}
-        <div id="fullWidth">
-            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="background: url('{{ post.image }}');" class="super">
-                <h1 class="textCenter">{{ post.title }}</h1>
+        <div id="fullWidth" class="super">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="background: url('{{ post.image }}');">
+                <h1 class="textCenter text-shadow">{{ post.title }}</h1>
             </a>
         </div>
     {% endfor %}
