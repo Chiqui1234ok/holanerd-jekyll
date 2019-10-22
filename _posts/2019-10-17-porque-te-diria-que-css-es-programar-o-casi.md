@@ -8,7 +8,6 @@ author: chiqui
 tags: css, programar, maquetar, web
 summary: CSS avanzó mucho desde el comienzo del estándar hasta hoy. Veamos porqué hoy lo considero un lenguaje de programación más.
 ---
-(en proceso)
 
 ![Estructura-del-css](https://www.w3schools.com/whatis/img_selector.gif)
 
