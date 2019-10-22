@@ -87,10 +87,6 @@ span
 /* Multimedia */
 /**/
 /* Auxiliares */
-.sticky {position: fixed;top: 0;}
-.sticky + .content {
-    padding-top: 33vh;
-  }
 .defaultBg {background: var(--background0);}
 .remove-mobile {display: block;} /* Para eliminar un objeto en dispositivos móviles */
 .padding {padding: 10px;}
