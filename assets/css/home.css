@@ -4,11 +4,13 @@
     width: 100%;
     height: 300px;
     display: block;
-    background: var(--linkColor2);
     opacity: 0.8;
 }
 #fullWidth .super a 
 {
+    background: var(--linkColor2);
+    background-size: cover;
+    background-attachment: fixed;
     color: var(--highLight);
     text-decoration: none;
 }
