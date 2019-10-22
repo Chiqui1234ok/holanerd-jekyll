@@ -27,6 +27,15 @@
         </script>
     </head>
 <body class="defaultBg">
+
+    {% for post in site.posts limit:1 %}
+        <div id="fullWidth">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="background: url('{{ post.image }}');" class="super textCenter">
+                <h1>{{ post.title }}</h1>
+            </a>
+        </div>
+    {% endfor %}
+
 <header class="fullWidth grid-2 padding fixed">
     <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
     <nav>

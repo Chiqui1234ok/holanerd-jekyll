@@ -7,7 +7,7 @@
     </div>
     <div id="widget" class="border-light padding shadow-superhero-box">
             <ul class="minimalList">
-                {% for post in site.posts limit: 5 %}
+                {% for post in site.posts offset:1 limit:5 %}
                 <li>
                     <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                     <!--<div class="grid2">
