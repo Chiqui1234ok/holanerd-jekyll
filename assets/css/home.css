@@ -1,9 +1,9 @@
 /* Home */
-#fullWidth .super 
+.super 
 {
     height: 300px;
 }
-#fullWidth .super a 
+.super a 
 {
     background: var(--linkColor2);
     background-size: cover;
