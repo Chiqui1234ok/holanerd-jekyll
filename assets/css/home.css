@@ -5,6 +5,8 @@
 }
 .super a 
 {
+    width: 100%;
+    height: 100%;
     background: var(--linkColor2);
     background-size: cover;
     background-repeat: no-repeat;
