@@ -32,7 +32,7 @@
 
     {% for post in site.posts limit:1 %}
         <div id="fullWidth" class="super">
-            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="background: url('{{ post.image }}');">
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}" style="background: url('{{ post.image }}');background-size: cover;background-attachment: fixed;">
                 <h1 class="textCenter text-shadow">{{ post.title }}</h1>
             </a>
         </div>
