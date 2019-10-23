@@ -19,13 +19,13 @@
     --warningColor2: rgb(248, 58, 25);
     --shadow: rgba(0,0,0,0.25);
 }
-h1, h2
+h1
 {
     border-bottom: 1px solid var(--highLight);
 }
 h1, h2, h3, h4, h5, h6
 {
-    margin: 20px 0 5px 0;
+    margin: 30px 0 5px 0;
     color: var(--highLight);
     font-family: 'Open Sans', sans-serif;
 }
