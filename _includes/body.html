@@ -5,6 +5,18 @@
             <p>Nos obligan a notificarte sobre la obviedad de que usamos cookies para recopilar información acerca de nuestras visitas, gracias a Google Analytics. Si no estás de acuerdo con que analicemos tu comportamiento dentro de Holanerd, abandoná el sitio.</p>
         </div>
     </div>
+    {% for post in site.posts offset:0 limit:1 %}
+    <div class="fullColumn"> <!-- fullColumn -->
+        <h2>Último post</h2>
+        <div class="grid-2"> <!-- grid-2 -->
+            <div style="background: url('{{ post.image }}') fixed center;"></div>
+            <div>
+                <h1>{{ post.title }}</h1>
+                <p>{{ post.summary }}</p>
+            </div>
+        </div> <!-- !grid-2 -->
+    </div> <!-- !fullColumn -->
+    {% endfor %}
     <div id="widget" class="border-light padding shadow-superhero-box">
             <ul class="minimalList">
                 {% for post in site.posts offset:1 limit:5 %}
