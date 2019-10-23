@@ -18,9 +18,10 @@
 {
     width: 80%;
     margin: 10px auto;
-    border: none;
     outline: none;
     border: 1px solid var(--footerColor);
+    display: block;
+    clear: both;
     background: var(--linkColor);
     border-radius: 10px;
 }
