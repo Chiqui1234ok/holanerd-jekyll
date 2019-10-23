@@ -6,7 +6,7 @@ image: https://teckspecs.com/wp-content/uploads/2019/07/IMG_20190710_163613.jpg
 category: programacion
 author: chiqui
 tags: c, ejercicio integrador, listas, colas, memoria dinámica
-summary: CSS avanzó mucho desde el comienzo del estándar hasta hoy. Veamos porqué hoy lo considero un lenguaje de programación más.
+summary: 
 ---
 (en proceso)
 # Enunciado del ejercicio

@@ -6,16 +6,14 @@
         </div>
     </div>
     {% for post in site.posts offset:0 limit:1 %}
-    <div class="fullColumn"> <!-- fullColumn -->
-        <h2>Último post</h2>
-        <div class="grid-2"> <!-- grid-2 -->
-            <div style="background: url('{{ post.image }}') fixed center;"></div>
+    <div class="grid-2 gap"> <!-- grid-2 -->
+            <div style="background: url('{{ post.image }}') fixed center;background-size: cover;"></div>
             <div>
+                <p>Mirá nuestro <span>último post</span> :)</p>
                 <h1>{{ post.title }}</h1>
                 <p>{{ post.summary }}</p>
             </div>
-        </div> <!-- !grid-2 -->
-    </div> <!-- !fullColumn -->
+    </div> <!-- !grid-2 -->
     {% endfor %}
     <div id="widget" class="border-light padding shadow-superhero-box">
             <ul class="minimalList">
