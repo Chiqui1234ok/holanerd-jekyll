@@ -2,6 +2,7 @@
 {
     box-sizing: border-box; /* El padding está incluído en el tamaño especificado en el CSS */
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    transition: border 0.5s, box-shadow 0.5s, color 0.5s;
 }
 :root
 {
