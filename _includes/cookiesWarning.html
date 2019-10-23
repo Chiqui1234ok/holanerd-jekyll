@@ -1,0 +1,17 @@
+<div id="widget-float" class="padding shadow-superhero-box">
+    ¿Te gustan las cookies? Gracias a Google Analytics, tomamos información sobre tu visita para mejorar tu navegación en el futuro. Si no estás de acuerdo con esto, simplemente abandoná el sitio.
+    <button type="button" class="padding textCenter" style="display: none;" onclick="closeCookies();">¡Ok! Entendido</button>
+</div>
+<script>
+    let cookies = document.cookie; // Obtengo cookies
+    let doc = document.getElementById("widget-float"); // Obtengo el widget-float
+    if(cookies['cookies'] == TRUE) // Si las cookies se aceptaron
+    {
+        doc.style.display == 'none';
+    }
+    function closeCookies() // Si las cookies no se aceptaron aún pero se clickea en <button>, seteamos cookies
+    {
+        doc.style.display = 'none';
+        document.cookie = "cookies=TRUE;path=/";
+    }
+</script>
