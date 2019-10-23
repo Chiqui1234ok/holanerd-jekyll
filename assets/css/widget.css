@@ -7,17 +7,20 @@
 #widget-float
 {
     width: 25vw;
-    height: 25vh;
     border-radius: 3px;
     position: sticky;
     bottom: 20px;
     left: 20px;
     background: var(--highLight);
-    color: var(--sentenceColor);
+    color: var(--background0);
 }
 #widget-float button
 {
     width: 80%;
+    margin: 10px auto;
+    border: none;
+    outline: none;
+    border: 1px solid var(--footerColor);
     background: var(--linkColor);
     border-radius: 10px;
 }
