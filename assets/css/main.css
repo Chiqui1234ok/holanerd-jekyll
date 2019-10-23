@@ -98,6 +98,8 @@ span
 .fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
 .textCenter {text-align: center;}
 .textRight {text-align: right;}
+.semi-transparent {opacity: 0.9;}
+.semi-transparent:hover {opacity: 1;}
 /* Auxiliares > tamaño */
 .readWidth {width: 70%;}
 .fullWidth {width: 100%;}
