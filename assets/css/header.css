@@ -5,4 +5,5 @@ header
     opacity: .9;
     backdrop-filter: blur(2px); /* Chrome 50 en adelante, y en lista de prioridades de Firefox 2019, ojalá lo implementen pronto :P */
     --webkit-backdrop-filter: blur(2px); /* Safari 9.1 en adelante */
+    z-index: 99;
 }

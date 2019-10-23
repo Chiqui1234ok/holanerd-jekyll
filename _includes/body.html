@@ -6,32 +6,26 @@
         </div>
     </div>
     {% for post in site.posts offset:0 limit:1 %}
-    <div id="widget" class="fullColumn grid-2 gap"> <!-- widget -->
+    <div id="widget" class="fullColumn grid-2 gap widget-border"> <!-- widget -->
             <div style="background: url('{{ post.image }}') fixed center;background-size: cover;"></div>
             <div>
-                <p>Mirá nuestro <span>último post</span> :)</p>
+                <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
                 <h1>{{ post.title }}</h1>
                 <p>{{ post.summary }}</p>
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Leer más</a>.</p>
             </div>
     </div> <!-- !widget -->
     {% endfor %}
-    <div id="widget"> <!-- widget -->
-        <div class="padding">
+    <div id="widget" class="padding"> <!-- widget -->
             <p>¡Hola y bienvenido al sitio web de Holanerd!
                 Acá vas a encontrar tutoriales y notas de calidad sobre la programación y el mundo informático en general ;)</p>
-            <p>¿Querés sumarte? [Aprendé a trabajar con GitHub y subí tu post](#), ¡es fácil!</p>
-        </div>
+            <p>¿Querés sumarte? <a href="#">Aprendé a trabajar con GitHub y subí tu post</a>, ¡es fácil!</p>
     </div> <!-- !widget -->
-    <div id="widget" class="border-light padding shadow-superhero-box"> <!-- widget -->
+    <div id="widget" class="padding shadow-superhero-box widget-border"> <!-- widget -->
             <ul class="minimalList">
                 {% for post in site.posts offset:1 limit:5 %}
                 <li>
                     <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-                    <!--<div class="grid2">
-                        <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></p>
-                        <p>{{ post.author }}</p>
-                    </div>-->
-                    <!--{{ post.content }}-->
                 </li>
                 {% endfor %}
                 <li class="textCenter"><a href="{{ site.url }}{{ site.baseurl }}/blog.html">--> Ver todos los posts <--</a></li>
