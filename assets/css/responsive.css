@@ -17,4 +17,5 @@
     .readWidth {width: 80%;}
     img {width: 100%;}
     #widget-float {width: calc(75vw - 20px);} /* -20px porque es el 'left' de la caja */
+    .fixed-conditional {position: static;}
 }

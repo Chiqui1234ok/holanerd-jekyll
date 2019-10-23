@@ -96,9 +96,9 @@ span
 .margin-mini {margin: 2px;}
 .border-light {border: 1px solid var(--background1);}
 .minimalList {list-style-type: none;padding: 0;margin: 0;}
-.fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
-.textCenter {text-align: center;}
-.textRight {text-align: right;}
+.fixed, .fixed-conditional {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda | .fixed-conditional se vuelve 'static' en viewport muy pequeños */
+.text-center {text-align: center;}
+.text-right {text-align: right;}
 .semi-transparent {opacity: 0.9;}
 .semi-transparent:hover {opacity: 1;}
 /* Auxiliares > tamaño */
