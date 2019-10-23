@@ -5,15 +5,8 @@
             <p>Nos obligan a notificarte sobre la obviedad de que usamos cookies para recopilar información acerca de nuestras visitas, gracias a Google Analytics. Si no estás de acuerdo con que analicemos tu comportamiento dentro de Holanerd, abandoná el sitio.</p>
         </div>
     </div>
-    <div id="widget"> <!-- widget -->
-        <div class="padding">
-            <p>¡Hola y bienvenido al sitio web de Holanerd!
-                Acá vas a encontrar tutoriales y notas de calidad sobre la programación y el mundo informático en general ;)</p>
-            <p>¿Querés sumarte? [Aprendé a trabajar con GitHub y subí tu post](#), ¡es fácil!</p>
-        </div>
-    </div>
     {% for post in site.posts offset:0 limit:1 %}
-    <div id="widget" class="grid-2 gap"> <!-- widget -->
+    <div id="widget" class="fullColumn grid-2 gap"> <!-- widget -->
             <div style="background: url('{{ post.image }}') fixed center;background-size: cover;"></div>
             <div>
                 <p>Mirá nuestro <span>último post</span> :)</p>
@@ -22,6 +15,13 @@
             </div>
     </div> <!-- !widget -->
     {% endfor %}
+    <div id="widget"> <!-- widget -->
+        <div class="padding">
+            <p>¡Hola y bienvenido al sitio web de Holanerd!
+                Acá vas a encontrar tutoriales y notas de calidad sobre la programación y el mundo informático en general ;)</p>
+            <p>¿Querés sumarte? [Aprendé a trabajar con GitHub y subí tu post](#), ¡es fácil!</p>
+        </div>
+    </div> <!-- !widget -->
     <div id="widget" class="border-light padding shadow-superhero-box"> <!-- widget -->
             <ul class="minimalList">
                 {% for post in site.posts offset:1 limit:5 %}
