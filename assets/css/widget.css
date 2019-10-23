@@ -16,14 +16,20 @@
 }
 #widget-float button
 {
-    width: 80%;
+    width: 100%;
     margin: 10px auto;
     outline: none;
     border: 1px solid var(--footerColor);
     display: block;
     clear: both;
     background: var(--linkColor);
+    color: var(--background0);
     border-radius: 10px;
+}
+#widget-float button:hover 
+{
+    color: var(--sentenceColor);
+    box-shadow: 0 0 2px var(--shadow);
 }
 .widget-border
 {
