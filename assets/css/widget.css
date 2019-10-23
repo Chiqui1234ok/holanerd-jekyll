@@ -4,6 +4,23 @@
     height: 100%;
     border-radius: 3px;
 }
+#widget-float
+{
+    width: 25vw;
+    height: 25vh;
+    border-radius: 3px;
+    position: sticky;
+    bottom: 20px;
+    left: 20px;
+    background: var(--highLight);
+    color: var(--sentenceColor);
+}
+#widget-float button
+{
+    width: 80%;
+    background: var(--linkColor);
+    border-radius: 10px;
+}
 .widget-border
 {
     border: 1px solid var(--highLight);

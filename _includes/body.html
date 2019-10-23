@@ -1,16 +1,10 @@
 <div id="root" class="grid-2 gap readWidth">
-    <!-- widget -->
-    <div id="widget" class="warning fullColumn semi-transparent">
-        <div class="padding">
-            <p>Nos obligan a notificarte sobre la obviedad de que usamos cookies para recopilar información acerca de nuestras visitas, gracias a Google Analytics. Si no estás de acuerdo con que analicemos tu comportamiento dentro de Holanerd, abandoná el sitio.</p>
-        </div>
-    </div>
     {% for post in site.posts offset:0 limit:1 %}
     <div id="widget" class="fullColumn grid-2 gap padding widget-border"> <!-- widget -->
             <div style="background: url('{{ post.image }}') center;background-size: cover;"></div>
             <div>
                 <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
-                <h1>{{ post.title }}</h1>
+                <h1><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
                 <p>{{ post.summary }}</p>
                 <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Leer más</a>.</p>
             </div>
@@ -33,3 +27,14 @@
     </div> <!-- !widget -->
 </div>
     
+<div id="widget-float">
+    ¿Te gustan las cookies? Gracias a Google Analytics, tomamos información sobre tu visita para mejorar tu navegación en el futuro. Si no estás de acuerdo con esto, simplemente abandoná el sitio.
+    <button type="button" class="padding textCenter" onclick="closeCookies()">¡Ok! Entendido</button>
+</div>
+<script>
+    function closeCookies()
+    {
+        let doc = document.getElementById("widget-float");
+        doc.style.display = 'none';
+    }
+</script>
