@@ -18,7 +18,7 @@
 #widget-float button
 {
     width: 100%;
-    margin: 10px auto;
+    margin: 20px auto 20px auto;
     outline: none;
     border: 1px solid var(--footerColor);
     display: block;
@@ -26,6 +26,7 @@
     background: var(--linkColor);
     color: var(--background0);
     border-radius: 10px;
+    box-shadow: 0 0 2px var(--sentenceColor);
 }
 #widget-float button:hover 
 {
