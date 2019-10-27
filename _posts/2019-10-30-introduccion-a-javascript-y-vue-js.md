@@ -35,7 +35,7 @@ Una vez que terminaste la primer versión de tu desarrollo y querés ponerlo onl
 
 # Vue devtools
 
-![Captura-Vue-Devtools](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools.JPG)
+![Captura-Vue-Devtools]({{ site.url }}{{ site.baseurl }}/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools.JPG)
 
 Si querés, podés buscar el plugin **Vue Devtools**. ¡Está en los navegadores más usados!
 Este plugin te dará información acerca del rendimiento y tiene varias cosas más específicas para Vue que las propias "Herramientas para desarrollador" que poseen Chrome y Firefox, por ejemplo.
