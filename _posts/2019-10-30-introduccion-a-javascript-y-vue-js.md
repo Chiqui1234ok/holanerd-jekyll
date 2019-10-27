@@ -7,6 +7,7 @@ category: programacion
 author: chiqui
 tags: introduccion, programacion, javascript, vuejs
 summary: Cómo usar Javascript junto a Vue.js, uno de los frameworks más fáciles de implementar
+render_with_liquid: false
 ---
 
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
@@ -90,3 +91,18 @@ Y podemos tener un javascript (Vue.js) así:
     }
     })
 {% endhighlight %}
+
+ <div id="app"> <!-- ID afectado por Vue.js -->
+    <h3>{{ titulo }}</h3>
+    <p>{{ mensaje }}</p>
+</div>
+
+<script>
+var app = new Vue({
+    el: '#app', // el ID que queremos afectar en nuestro HTML
+    data: {
+        titulo: 'Prueba con Vue',
+        mensaje: '¡Hola Vue!'
+    }
+    })
+</script>
