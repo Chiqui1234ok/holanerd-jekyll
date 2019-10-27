@@ -7,7 +7,6 @@ category: programacion
 author: chiqui
 tags: introduccion, programacion, javascript, vuejs
 summary: Cómo usar Javascript junto a Vue.js, uno de los frameworks más fáciles de implementar
-render_with_liquid: false
 ---
 
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
@@ -67,13 +66,13 @@ Este plugin te dará información acerca del rendimiento y tiene varias cosas m�
 
 En realidad, Liquid reemplaza cosas cómo:
 
-{% highlight liquid %}
+{% highlight liquid render_with_liquid: false %}
     {{ site.baseurl }}
 {% endhighlight %}
 
 En **holanerd.net**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
-{% highlight html %}
+{% highlight html render_with_liquid: false %}
     <div id="app"> <!-- ID afectado por Vue.js -->
         <h3>{{ titulo }}</h3>
         <p>{{ mensaje }}</p>
