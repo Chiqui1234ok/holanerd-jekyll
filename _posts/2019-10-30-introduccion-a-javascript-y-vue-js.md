@@ -96,6 +96,7 @@ Y podemos tener un javascript (Vue.js) así:
     <p>{{ mensaje }}</p>
 </div>
 
+<script src="https://cdn.jsdelivr.net/npm/vue"></script>
 <script>
 var app = new Vue({
     el: '#app', // el ID que queremos afectar en nuestro HTML
