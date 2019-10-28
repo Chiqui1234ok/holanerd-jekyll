@@ -76,11 +76,11 @@ Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de n
 {% highlight html linenos %}
 <div id="app" title="ID afectado por Vue.js"> 
     <h1><% cualidades.nombre %></h1>
-    <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
+    <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %>.</p>
 </div>
 {% endhighlight %}
 
-Y podemos tener un javascript (Vue.js) así:
+Y podemos tener un archivo Javascript (framework: Vue) así:
 
 {% highlight javascript linenos %}
 var app = new Vue({ // Crea una instancia (un objeto) nuevo
@@ -98,24 +98,25 @@ data: { // toda la información que querramos poner en el HTML va acá
             nombre: 'El sapo Pepe',
             ciudad: 'Olivos',
             provincia: 'Buenos Aires',
-            edad: 60
         } // pero acá no uso la coma, porque sólo se pone entre claves (cualidades y dueno son claves)
 }
 })
 {% endhighlight %}
 
-<div id="app" title="ID afectado por Vue.js" style="background: #eee;"> 
+<div id="app" title="ID afectado por Vue.js" style="background: #eee;padding: 5px;">
+    <p>El siguiente ejemplo es gracias al framework Vue.<br />
+    Esta caja tiene #app cómo identificador.</p>
     <h1><% cualidades.nombre %></h1>
     <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
 </div>
 
-## ¿Qué sucedió acá?
+## ¿Qué magia pasó acá?
 
-Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo dos claves en mi código. Se llaman **titulo** y **mensaje** y están dentro de la variable/objeto "data". Fijate cómo es la sintáxis del objeto "data" que, dicho sea de paso, podría haber más de un objeto dentro de mi instancia Vue, conviviendo con "data". La instancia Vue se crea dentro de una variable y también puede haber una o más por archivo Javascript. La instancia se nace por esta línea:
+Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo muchas claves en mi código. La instancia Vue se crea dentro de una variable y también puede haber una o más por archivo Javascript. 
 
-{% highlight javascript %}
-var app = new Vue({ })
-{% endhighlight %}
+![Captura-Vue-Devtools-testing](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools-components.webp)
+
+Dentro del objeto "data" tengo dos más: **cualidades** y **dueno**. Estos dos objetos tienen cuatro claves cada uno y desde el div#app llamamos a las variables que necesitamos.
 
 ¡Pasemos a explicar línea a línea!
 
