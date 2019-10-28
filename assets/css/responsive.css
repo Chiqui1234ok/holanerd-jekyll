@@ -20,6 +20,6 @@
     .fixed-conditional {position: static;}
     #poster
     {
-        margin-top: 0; /* Sólo cuándo el header cambia a "static"
+        margin-top: 0; /* Sólo cuándo el header cambia a "static" */
     }
 }
