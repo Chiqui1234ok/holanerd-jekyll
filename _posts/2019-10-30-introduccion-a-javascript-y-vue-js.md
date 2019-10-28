@@ -74,20 +74,19 @@ En **{{ site.url }}**, a la hora de compilar. Es algo así cómo los #define de 
 Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
 {% highlight html linenos %}
-    <div id="app" title="ID afectado por Vue.js"> 
-        <% cualidades.nombre %>
-        Es la mascota de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D
-    </div>
+<div id="app" title="ID afectado por Vue.js"> 
+    <h1><% cualidades.nombre %></h1>
+    <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
+</div>
 {% endhighlight %}
 
 Y podemos tener un javascript (Vue.js) así:
 
 {% highlight javascript linenos %}
-    var app = new Vue({ // Crea una instancia (un objeto) nuevo
-    el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
-    delimiters: ["<%",
-    "%>"], // delimitadores, lo veremos más adelante
-    data: { // toda la información que querramos poner en el HTML va acá
+var app = new Vue({ // Crea una instancia (un objeto) nuevo
+el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
+delimiters: ["<%", "%>"], // delimitadores, lo veremos más adelante
+data: { // toda la información que querramos poner en el HTML va acá
         cualidades: {
             nombre: 'Draco',
             pelo: 'negro',
@@ -101,13 +100,13 @@ Y podemos tener un javascript (Vue.js) así:
             provincia: 'Buenos Aires',
             edad: 60
         }
-    }
-    })
+}
+})
 {% endhighlight %}
 
-<div id="app" style="width: 90%;margin: 0 auto;background: #eee;padding: 10px;" title="ID afectado por Vue.js"> 
-    <% cualidades.nombre %>
-    Es la mascota de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D
+<div id="app" style="background: #eee;" title="ID afectado por Vue.js"> 
+    <h1><% cualidades.nombre %></h1>
+    <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
 </div>
 
 ## ¿Qué sucedió acá?
