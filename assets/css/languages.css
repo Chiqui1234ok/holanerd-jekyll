@@ -19,7 +19,5 @@
 .lineno /* clase de los números de línea */
 {
     color: var(--sentenceColor2);
-    border-right: 1px solid var(--sentenceColor2);
-    padding-right: 5px;
     margin-right: 10px;
 }
