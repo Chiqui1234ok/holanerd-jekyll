@@ -78,7 +78,7 @@ En realidad, Liquid reemplaza cosas cómo:
 En **{{ site.url }}**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
 {% highlight html linenos %}
-    <div id="app"> <!-- ID afectado por Vue.js -->
+    <div id="app" title="ID afectado por Vue.js"> 
         <% titulo %>
         <% mensaje %>
     </div>
@@ -98,7 +98,7 @@ Y podemos tener un javascript (Vue.js) así:
     })
 {% endhighlight %}
 
-<div id="app" style="background: #eee;padding: 10px;"> <!-- ID afectado por Vue.js -->
+<div id="app" style="background: #eee;padding: 10px;" title="ID afectado por Vue.js">
     <p>¡Esto corre con Vue.js!</p>
     <h3><% titulo %></h3>
     <p><% mensaje %></p>
