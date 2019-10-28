@@ -41,11 +41,7 @@ Una vez que terminaste la primer versión de tu desarrollo y querés ponerlo onl
 Si querés, podés buscar el plugin **Vue Devtools**. ¡Está en los navegadores más usados!
 Este plugin te dará información acerca del rendimiento y tiene varias cosas más específicas para Vue que las propias "Herramientas para desarrollador" que poseen Chrome y Firefox, por ejemplo.
 
-# Introducción
-
-.
-
-## ¿Qué es un objeto?
+# ¿Qué es un objeto?
 
 Un objeto tiene variables y formas de comportarse. 
 Supongamos que un perro es un objeto. Para muchos el canino es algo mucho mejor, pero en programación la movida es así :P
@@ -53,21 +49,15 @@ Si quisieramos simular un perro en programación, claramente tendríamos que des
 
 Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orientado a objetos) puede contener datos (sus propiedades) y métodos (sus comportamientos). En esta introducción no vamos a indagar tanto en crear métodos dentro de los objetos. Pasito a pasito :)
 
-## ¿Qué es un div en HTML?
+# ¿Cómo interacciona javascript con un objeto?
 
 .
 
-## ¿Qué hacemos con ese div en CSS?
+# Comencemos con el código
 
-.
+![codigo-wallpaper](https://codecondo.com/wp-content/uploads/2017/01/Learn-to-Code.jpg)
 
-## ¿Cómo interacciona javascript con un objeto?
-
-.
-
-# Comencemos
-
-**Vue.js** tiene una sintáxis en el HTML muy similar a **Liquid**, otro lenguaje que usa Jekyll por defecto y es una manera de tener "variables", o algo así.
+**Vue.js** tiene una sintáxis en el HTML muy similar a **Liquid**, otro lenguaje que usa mi blog Jekyll por defecto y es una manera de tener "variables", o algo así.
 
 En realidad, Liquid reemplaza cosas cómo:
 
@@ -75,12 +65,18 @@ En realidad, Liquid reemplaza cosas cómo:
 [[ site.url ]]
 {% endhighlight %}
 
-En **{{ site.url }}**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
+En **{{ site.url }}**, a la hora de compilar. Es algo así cómo los #define de C y C++, dónde vos escribias un identificador y la palabra a reemplazar:
+
+{% highlight c %}
+#define MAX_CANT_CARACTERES 50
+{% endhighlight %}
+
+Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
 {% highlight html linenos %}
     <div id="app" title="ID afectado por Vue.js"> 
-        <% titulo %>
-        <% mensaje %>
+        <% cualidades.nombre %>
+        Es la mascota de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D
     </div>
 {% endhighlight %}
 
@@ -92,21 +88,31 @@ Y podemos tener un javascript (Vue.js) así:
     delimiters: ["<%",
     "%>"], // delimitadores, lo veremos más adelante
     data: { // toda la información que querramos poner en el HTML va acá
-        titulo: 'Prueba con Vue', // variable 'titulo' que pertenece al objeto 'app'
-        mensaje: '¡Hola Vue!' // variable 'mensaje' que pertenece al objeto 'app'
+        cualidades: {
+            nombre: 'Draco',
+            pelo: 'negro',
+            edad: 5,
+            tipo: 'perro'
+        },
+        dueno: {
+            alias: 'Pepe',
+            nombre: 'El sapo Pepe',
+            ciudad: 'Olivos',
+            provincia: 'Buenos Aires',
+            edad: 60
+        }
     }
     })
 {% endhighlight %}
 
-<div id="app" style="background: #eee;padding: 10px;" title="ID afectado por Vue.js">
-    <p>¡Esto corre con Vue.js!</p>
-    <h3><% titulo %></h3>
-    <p><% mensaje %></p>
+<div id="app" style="width: 90%;margin: 0 auto;background: #eee;padding: 10px;" title="ID afectado por Vue.js"> 
+    <% cualidades.nombre %>
+    Es la mascota de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D
 </div>
 
 ## ¿Qué sucedió acá?
 
-Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo dos claves en mi código. Se llaman **titulo** y **mensaje** y están dentro de la variable/objeto "data". Fijate cómo es la sintáxis del objeto data que, dicho sea de paso, podría haber más de un objeto dentro de mi instancia Vue. La instancia Vue se crea dentro de una variable, en esta línea:
+Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo dos claves en mi código. Se llaman **titulo** y **mensaje** y están dentro de la variable/objeto "data". Fijate cómo es la sintáxis del objeto "data" que, dicho sea de paso, podría haber más de un objeto dentro de mi instancia Vue, conviviendo con "data". La instancia Vue se crea dentro de una variable y también puede haber una o más por archivo Javascript. La instancia se nace por esta línea:
 
 {% highlight javascript %}
 var app = new Vue({ })
@@ -160,6 +166,44 @@ Yo no puedo hacer eso en mi caso particular :) Esto es porque tengo otro lenguaj
 
 Fijate que **delimiters** es un array de dos posiciones. El primer elemento es **<%** y el segundo elemento es **%>** ;) Vue.js entiende que el primer valor corresponde para la apertura y el segundo, para el cierre.
 
+### Línea 4
+
+{% highlight javascript %}
+data: { // toda la información que querramos poner en el HTML va acá
+{% endhighlight %}
+
+En esta línea tendríamos la creación del objeto "data". Tiene facha de variable convencional, pero fijate que se declara distinto. Una variable se define con las palabras claves **var** o **let**, así:
+
+{% highlight javascript %}
+var miNombre = "Santiago";
+{% endhighlight %}
+
+Si tuviera que leer y mostrar mi variable, tendría que hacer:
+
+{% highlight javascript %}
+console.log(miNombre); // imprimo "Santiago" por la consola del navegador
+{% endhighlight %}
+
+Sin embargo, si yo creara un objeto de javascript convencional, tendría que hacer lo siguiente para crearlo y leerlo:
+
+{% highlight javascript %}
+var mascota = {
+    cualidades: {
+        nombre: 'Draco',
+        pelo: 'negro',
+        edad: 5,
+        tipo: 'perro'
+    },
+    dueno: {
+        alias: 'Pepe',
+        nombre: 'El sapo Pepe',
+        ciudad: 'Olivos',
+        provincia: 'Buenos Aires',
+        edad: 60
+    }
+};
+console.log(mascota.cualidades.nombre + ' es el ' + mascota.cualidades.tipo + ' de ' + mascota.dueno.nombre + '. ' + mascota.dueno.alias +', y por consecuente ' + mascota.cualidades.nombre + ', viven en ' + mascota.dueno.ciudad + '.'); // Imprime "Draco es el perro de El sapo Pepe. Pepe, y por consecuente Draco, viven en Olivos."
+{% endhighlight %}
 # Parámetros específicos de Vue.js, en el HTML
 
 Vue tiene varios parámetros que pueden adicionarse a los clásicos tags de HTML. Miremos a continuación :)

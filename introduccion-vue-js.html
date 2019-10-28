@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8" />
+        <title>Pruebas Javascript + Vue</title>
+    </head>
+<body>
+<script>
+var mascota = {
+    cualidades: {
+        nombre: 'Draco',
+        pelo: 'negro',
+        edad: 5,
+        tipo: 'perro'
+    },
+    dueno: {
+        alias: 'Pepe',
+        nombre: 'El sapo Pepe',
+        ciudad: 'Olivos',
+        provincia: 'Buenos Aires',
+        edad: 60
+    }
+};
+console.log(mascota.cualidades.nombre + ' es el ' + mascota.cualidades.tipo + ' de ' + mascota.dueno.nombre + '. ' + mascota.dueno.alias +', y por consecuente ' + mascota.cualidades.nombre + ', viven en ' + mascota.dueno.ciudad + '.');
+</script>
+</body>
+</html>

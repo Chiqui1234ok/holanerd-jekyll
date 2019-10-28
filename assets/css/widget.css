@@ -14,7 +14,10 @@
     background: var(--highLight);
     color: var(--background0);
 }
-#widget h1, #widget h2 {border: none;}
+#widget h1{line-height: 50px;}
+#widget h1, #widget h2 {
+    border: none;
+}
 #widget-float button
 {
     width: 100%;
