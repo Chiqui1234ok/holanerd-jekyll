@@ -1,0 +1,36 @@
+blockquote
+{
+    font-style: italic;
+    font-family: fantasy, cursive;
+    font-size: 15px;
+}
+figure
+{
+    width: 100%;
+    padding: 10px;
+    background: var(--background1);
+}
+figure p, figure span, figure pre, code p, code span, code pre
+{
+    width: 100%;
+    white-space: pre-line;
+    overflow-wrap: break-word;
+    font-size: 15px;
+    line-height: 28px;
+}
+#poster
+{
+    width: 100vw;
+}
+#poster .line-1
+{
+    position: relative;
+    top: 10px;
+    left: 10px;
+}
+#poster .line-2
+{
+    position: relative;
+    top: 50px;
+    left: 10px;
+}

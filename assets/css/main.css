@@ -40,26 +40,6 @@ p, ul, ol, header #logo
     color: var(--sentenceColor);
     font-family: 'Roboto', 'Segoe UI', sans-serif;
 }
-blockquote
-{
-    font-style: italic;
-    font-family: fantasy, cursive;
-    font-size: 15px;
-}
-figure
-{
-    width: 100%;
-    padding: 10px;
-    background: var(--background1);
-}
-figure p, figure span, figure pre, code p, code span, code pre
-{
-    width: 100%;
-    white-space: pre-line;
-    overflow-wrap: break-word;
-    font-size: 15px;
-    line-height: 28px;
-}
 a
 {
     color: var(--linkColor);
@@ -84,7 +64,7 @@ span
 }
 /*  */
 
-#root
+main
 {
     margin: 70px auto;
 }

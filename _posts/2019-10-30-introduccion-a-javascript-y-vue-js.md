@@ -13,6 +13,9 @@ vue: development
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
 
 Vamos a aprovechar las bondades de Jekyll y el Markdown para implementar el proyecto Vue.js directo en este post.
+
+**Tené en cuenta** que para aprender Javascript y Vue te va a servir muchísimo [esta introducción a la programación](http://holanerd.net/programacion/2019/10/12/Introduccion-a-la-programacion.html) dónde explico qué son las variables, constantes y objetos. Esa es **tu base**, ¡y te va a servir para este tutorial y muchos otros!
+
 Veremos cómo implementarlo de manera rápida y porqué es tan importante aprender este framework "reactivo".
 Antes que nada, creá un archivo HTML básico para comenzar :)
 
@@ -104,7 +107,7 @@ data: { // toda la información que querramos poner en el HTML va acá
 {% endhighlight %}
 
 <div id="app" title="ID afectado por Vue.js" style="background: #eee;padding: 5px;">
-    <p>El siguiente ejemplo es gracias al framework Vue.<br />
+    <p>El siguiente ejemplo es gracias al framework Vue, y podés <a href="https://codepen.io/Chiqui1234/pen/rNNzdYJ">editarlo y verlo en Codepen</a>.<br />
     Esta caja tiene #app cómo identificador.</p>
     <h1><% cualidades.nombre %></h1>
     <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
@@ -118,7 +121,7 @@ Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo mu
 
 Dentro del objeto "data" tengo dos más: **cualidades** y **dueno**. Estos dos objetos tienen cuatro claves cada uno y desde el div#app llamamos a las variables que necesitamos.
 
-¡Pasemos a explicar línea a línea!
+Si bien vamos a repasar línea a línea, te recomiendo que accedas a [este link de Codepen](https://codepen.io/Chiqui1234/pen/rNNzdYJ) y empieces a jugar con los valores, comas, comillas, etc. Rompiendo todo también se aprende :)
 
 ### Línea 1
 
@@ -204,6 +207,20 @@ var mascota = {
 };
 console.log(mascota.cualidades.nombre + ' es el ' + mascota.cualidades.tipo + ' de ' + mascota.dueno.nombre + '. ' + mascota.dueno.alias +', y por consecuente ' + mascota.cualidades.nombre + ', viven en ' + mascota.dueno.ciudad + '.'); // Imprime "Draco es el perro de El sapo Pepe. Pepe, y por consecuente Draco, viven en Olivos."
 {% endhighlight %}
+
+¿Vale la pena seguir explicando las demás líneas? Tené en cuenta que lo que resta son **claves**. Tienen un nombre (cómo una variable y se le asigna un valor poniendo el símbolo **:** de por medio).
+
+{% highlight javascript linenos %}
+}
+})
+{% endhighlight %}
+
+La primer llave de cierre es para cerrar "data". Luego aparece una llave y paréntesis de cierre. Eso está para cerrar a la instancia de Vue, es decir:
+
+{% highlight javascript %}
+var app = new Vue({ // Cerrar esta primer línea con lo que les acabo de mencionar
+{% endhighlight %}
+
 # Parámetros específicos de Vue.js, en el HTML
 
 Vue tiene varios parámetros que pueden adicionarse a los clásicos tags de HTML. Miremos a continuación :)

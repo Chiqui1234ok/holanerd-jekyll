@@ -1,12 +1,13 @@
-<div id="root" class="readWidth">
-        <main>
-            <article> <!-- content -->
+<main class="readWidth">
+        <article> <!-- content -->
+            <div id="poster" class="fixed">
                 <img src="{{ page.image }}" class="fullWidth" />
-                <p>Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
-                <p>Un post sobre {{ page.category }}.</p>
-                <h1>{{ page.title }}</h1>
-                {{ content }}
-            </article>
+                <p class="line-1 padding">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+                <p class="line-2 padding">Un post sobre {{ page.category }}.</p>
+            </div>
+            <h1>{{ page.title }}</h1>
+            {{ content }}
+        </article>
 
         <div class="grid-2 gap separator-top padding"> <!-- Info del autor -->
                 <div>
@@ -30,5 +31,4 @@
                     </div>
                 </div>
         </div> <!-- Info del autor-->
-        </main>               
-</div> <!-- Cierre #root -->
+</main> <!-- Cierre main -->
