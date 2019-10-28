@@ -18,4 +18,8 @@
     img {width: 100%;}
     #widget-float {width: calc(75vw - 20px);} /* -20px porque es el 'left' de la caja */
     .fixed-conditional {position: static;}
+    #poster
+    {
+        margin-top: 0; /* Sólo cuándo el header cambia a "static"
+    }
 }

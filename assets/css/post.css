@@ -21,6 +21,7 @@ figure p, figure span, figure pre, code p, code span, code pre
 #poster
 {
     width: 100vw;
+    margin-top: 70px;
 }
 #poster .line-1, #poster .line-2
 {
@@ -37,5 +38,5 @@ figure p, figure span, figure pre, code p, code span, code pre
 }
 #poster .line-2
 {
-    top: 90px;
+    top: 98px;
 }
