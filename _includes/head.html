@@ -19,8 +19,9 @@
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/footer.min.css" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/favicon.png" />
-        {% if page.vue %}<link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/languages.min.css" />{% endif %}
-        <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.min.js"></script> <!-- Vue.js development -->
+        {% if page.summary %}<link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/languages.min.css" />{% endif %}
+        {% if page.vue == 'yes' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.min.js"></script> <!-- Vue.js production --> {% endif %}
+        {% if page.vue == 'development' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> {% endif %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
         <script>
