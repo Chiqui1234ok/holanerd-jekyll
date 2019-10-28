@@ -108,7 +108,7 @@ var app = new Vue({ })
 
 ¡Pasemos a explicar línea a línea!
 
-### 1
+### Línea 1
 
 {% highlight javascript %}
 var app = new Vue({ // Crea una instancia (un objeto) nuevo
@@ -120,14 +120,14 @@ Si quisieramos simular un perro en programación, claramente tendríamos que des
 
 Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orientado a objetos) puede contener datos (sus propiedades) y métodos (sus comportamientos). En esta introducción no vamos a indagar tanto en crear métodos dentro de los objetos. Pasito a pasito :)
 
-### 2
+### Línea 2
 
 {% highlight javascript %}
     el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
 {% endhighlight %}
 
-El valor que contiene **el** es nada más ni nada menos el div que queremos afectar. Es decir que las **claves** (titulo y mensaje) dentro de la variable "data" tienen sentido dentro del div con id **app**.
-Si tuvieramos
+El valor que contiene **el** es nada más ni nada menos el div que queremos afectar. Es decir que las claves (titulo y mensaje) dentro de la variable "data" tienen sentido dentro del div con id **app**.
+Si tuvieramos:
 
 {% highlight javascript %}
     el: '#testeo', // configuramos el ID que queremos afectar en nuestro HTML
@@ -135,11 +135,38 @@ Si tuvieramos
 
 El id del div (en el HTML) tendría que ser **testeo**. Caso contrario, no podrías acceder a tus claves título y mensaje. Es decir que este objeto que nace a partir de **new Vue({})** tiene sentido y puede ser accedido únicamente desde el elemento que tiene designado: #app.
 
+### Línea 3
+
+{% highlight javascript linenos %}
+    delimiters: ['<%',
+    '%>'],
+{% endhighlight %}
+
+La línea 3 especifica de qué forma vamos a "llamar" a las claves de la variable **data**. Por defecto, es decir, si no existiese la clave **delimiters**, en vez de tener que abrir la línea con:
+
+> <%
+
+Y cerrar con:
+
+> %>
+
+Se haría con:
+
+> {{
+
+para abrir, y para cerrar:
+
+> }}
+
+Yo no puedo hacer eso en mi caso particular :) Esto es porque tengo otro lenguaje en el blog (llamado Liquid) que usa la misma sintáxis, osea que abre y cierra con dobles llaves. Para no armar conflicto, investigué un poco y creando esa clave dentro de "data" ya puedo definir una manera propia de "llamar" a mis datos :D Genial, ¿no? Podés configurarlo cómo más te guste.
+
+Fijate que **delimiters** es un array de dos posiciones. El primer elemento es **<%** y el segundo elemento es **%>** ;) Vue.js entiende que el primer valor corresponde para la apertura y el segundo, para el cierre.
+
 <script>
 var app = new Vue({
     el: '#app',
-    delimiters: ["<%",
-    "%>"],
+    delimiters: ['<%',
+    '%>'],
     data: {
         titulo: 'Prueba con Vue',
         mensaje: '¡Hola Vue!'
