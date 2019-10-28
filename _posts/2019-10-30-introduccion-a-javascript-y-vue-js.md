@@ -93,7 +93,8 @@ Y podemos tener un javascript (Vue.js) así:
     })
 {% endhighlight %}
 
-<div id="app"> <!-- ID afectado por Vue.js -->
+<div id="app" style="background: #eee;padding: 10px;"> <!-- ID afectado por Vue.js -->
+    <p>¡Esto corre con Vue.js!</p>
     <h3><% titulo %></h3>
     <p><% mensaje %></p>
 </div>
@@ -150,17 +151,15 @@ Y cerrar con:
 
 > %>
 
-Se haría con:
+Se haría con doble llave para abrir, y doble llave para cerrar.
 
-> {{
+![sintaxis-por-defecto](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/default-sintax.JPG)
 
-para abrir, y para cerrar:
-
-> }}
-
-Yo no puedo hacer eso en mi caso particular :) Esto es porque tengo otro lenguaje en el blog (llamado Liquid) que usa la misma sintáxis, osea que abre y cierra con dobles llaves. Para no armar conflicto, investigué un poco y creando esa clave dentro de "data" ya puedo definir una manera propia de "llamar" a mis datos :D Genial, ¿no? Podés configurarlo cómo más te guste.
+Yo no puedo hacer eso en mi caso particular :) Esto es porque tengo otro lenguaje en el blog (llamado Liquid) que usa la misma sintáxis (osea, abre y cierra con dobles llaves). Para no armar conflicto, investigué un poco y creando esa clave dentro de "data" ya puedo definir una manera propia de "llamar" a mis datos :D Genial, ¿no? Podés configurarlo cómo más te guste.
 
 Fijate que **delimiters** es un array de dos posiciones. El primer elemento es **<%** y el segundo elemento es **%>** ;) Vue.js entiende que el primer valor corresponde para la apertura y el segundo, para el cierre.
+
+Continuará...
 
 <script>
 var app = new Vue({
