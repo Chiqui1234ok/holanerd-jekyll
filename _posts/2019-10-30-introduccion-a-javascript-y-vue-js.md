@@ -7,7 +7,7 @@ category: programacion
 author: chiqui
 tags: introduccion, programacion, javascript, vuejs
 summary: Cómo usar Javascript junto a Vue.js, uno de los frameworks más fáciles de implementar
-vue: yes
+vue: development
 ---
 
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
