@@ -66,16 +66,18 @@ Este plugin te dará información acerca del rendimiento y tiene varias cosas m�
 
 En realidad, Liquid reemplaza cosas cómo:
 
-<textarea>{{ site.url }}</textarea>
+{% highlight liquid %}
+{{ site.url }}
+{% endhighlight %}
 
 En **holanerd.net**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
-<textarea>
+{% highlight javascript %}
     <div id="app"> <!-- ID afectado por Vue.js -->
-        <h3>{{ titulo }}</h3>
-        <p>{{ mensaje }}</p>
+        [[ titulo ]]
+        [[ mensaje ]]
     </div>
-</textarea>
+{% endhighlight %}
 
 Y podemos tener un javascript (Vue.js) así:
 
@@ -90,13 +92,14 @@ Y podemos tener un javascript (Vue.js) así:
 {% endhighlight %}
 
 <div id="app"> <!-- ID afectado por Vue.js -->
-    <h3>{{ titulo }}</h3>
-    <p>{{ mensaje }}</p>
+    <h3>[[ titulo ]]</h3>
+    <p>[[ mensaje ]]</p>
 </div>
 
 <script>
 var app = new Vue({
     el: '#app', // el ID que queremos afectar en nuestro HTML
+    delimiters: ["<%","%>"],
     data: {
         titulo: 'Prueba con Vue',
         mensaje: '¡Hola Vue!'
