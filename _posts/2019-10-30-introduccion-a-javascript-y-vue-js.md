@@ -92,14 +92,16 @@ Y podemos tener un javascript (Vue.js) así:
 {% endhighlight %}
 
 <div id="app"> <!-- ID afectado por Vue.js -->
-    <h3>[[ titulo ]]</h3>
-    <p>[[ mensaje ]]</p>
+    <h3><% titulo %></h3>
+    <p><% mensaje %></p>
+    <% mensaje %>
 </div>
 
 <script>
 var app = new Vue({
     el: '#app', // el ID que queremos afectar en nuestro HTML
-    delimiters: ["<%","%>"],
+    delimiters: ["<%",
+    "%>"],
     data: {
         titulo: 'Prueba con Vue',
         mensaje: '¡Hola Vue!'
