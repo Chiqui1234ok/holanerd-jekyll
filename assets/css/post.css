@@ -18,25 +18,3 @@ figure p, figure span, figure pre, code p, code span, code pre
     font-size: 15px;
     line-height: 28px;
 }
-#poster
-{
-    width: 100vw;
-    margin-top: 70px;
-}
-#poster .line-1, #poster .line-2
-{
-    position: absolute;
-    left: 20px;
-    font-size: 25px;
-    color: var(--sentenceColor1);
-    background: var(--sentenceColor2);
-    opacity: 0.8;
-}
-#poster .line-1 
-{
-    top: 40px;
-}
-#poster .line-2
-{
-    top: 98px;
-}

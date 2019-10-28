@@ -1,10 +1,11 @@
 <div id="poster">
-    <img src="{{ page.image }}" class="fullWidth" />
-    <p class="line-1 padding">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
-    <p class="line-2 padding">Un post sobre {{ page.category }}.</p>
+    
 </div>
 
 <main class="readWidth">
+        <img src="{{ page.image }}" class="fullWidth" />
+        <p class="line-1">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
+        <p class="line-2">Un post sobre {{ page.category }}.</p>
         <article> <!-- content -->
             <h1>{{ page.title }}</h1>
             {{ content }}
