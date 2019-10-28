@@ -72,7 +72,7 @@ En realidad, Liquid reemplaza cosas cómo:
 
 En **holanerd.net**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
-{% highlight html %}
+{% highlight html linenos %}
     <div id="app"> <!-- ID afectado por Vue.js -->
         <% titulo %>
         <% mensaje %>
