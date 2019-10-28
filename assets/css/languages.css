@@ -1,0 +1,17 @@
+/* Language highlighting */
+.language-javascript, .language-html
+{
+    color: var(--sentenceColor);
+}
+    .language-javascript .nx, .language-html .nx /* var names, class names */
+    {
+        color: var(--jsHighLight);
+    }
+    .language-javascript .kd, .language-javascript .k /* 'var', 'new', etc */
+    {
+        color: var(--highLight)
+    }
+    .language-javascript .s1, .language-html .s2 /* lo que va entre comillas, cómo cadenas de texto, nombres de elementos, etc */
+    {
+        color: var(--sentenceColor);
+    }
