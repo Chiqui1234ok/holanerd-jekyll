@@ -46,7 +46,11 @@ Este plugin te dará información acerca del rendimiento y tiene varias cosas m�
 
 ## ¿Qué es un objeto?
 
-.
+Un objeto tiene variables y formas de comportarse. 
+Supongamos que un perro es un objeto. Para muchos el canino es algo mucho mejor, pero en programación la movida es así :P
+Si quisieramos simular un perro en programación, claramente tendríamos que describir el nombre, la suavidad y color de su pelo, el tamaño, la raza, su comida favorita y más. Pero el perro no sólo tiene cualidades (en programación le decimos "propiedades"), sino también comportamientos ("métodos" o "funciones"). Los perros ladran, saltan, corren, comen y miman.
+
+Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orientado a objetos) puede contener datos (sus propiedades) y métodos (sus comportamientos). En esta introducción no vamos a indagar tanto en crear métodos dentro de los objetos. Pasito a pasito :)
 
 ## ¿Qué es un div en HTML?
 
@@ -115,11 +119,7 @@ var app = new Vue({ })
 var app = new Vue({ // Crea una instancia (un objeto) nuevo
 {% endhighlight %}
 
-Creamos una variable llamada **app** y la igualamos a **new Vue({})**, es decir, creamos una instancia de un objeto. Un objeto tiene variables y formas de comportarse. 
-Supongamos que un perro es un objeto. Para muchos el canino es algo mucho mejor, pero en programación la movida es así :P
-Si quisieramos simular un perro en programación, claramente tendríamos que describir el nombre, la suavidad y color de su pelo, el tamaño, la raza, su comida favorita y más. Pero el perro no sólo tiene cualidades (en programación le decimos "propiedades"), sino también comportamientos ("métodos" o "funciones"). Los perros ladran, saltan, corren, comen y miman.
-
-Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orientado a objetos) puede contener datos (sus propiedades) y métodos (sus comportamientos). En esta introducción no vamos a indagar tanto en crear métodos dentro de los objetos. Pasito a pasito :)
+Creamos una variable llamada **app** y la igualamos a **new Vue({})**, es decir, creamos una instancia de un objeto. Podemos tener varias instancias del mismo objeto y que cada una maneje las mismas claves y variables, pero con distintos datos. ¡Acordate! [Más arriba](#qué-es-un-objeto) te comenté que era un objeto.
 
 ### Línea 2
 
