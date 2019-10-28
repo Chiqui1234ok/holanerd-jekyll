@@ -222,13 +222,23 @@ Vue tiene varios parámetros que pueden adicionarse a los clásicos tags de HTML
 **Continuará...**
 
 <script>
-var app = new Vue({
-    el: '#app',
-    delimiters: ['<%',
-    '%>'],
-    data: {
-        titulo: 'Prueba con Vue',
-        mensaje: '¡Hola Vue!'
-    }
-    })
+var app = new Vue({ // Crea una instancia (un objeto) nuevo
+el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
+delimiters: ["<%", "%>"], // delimitadores, lo veremos más adelante
+data: { // toda la información que querramos poner en el HTML va acá
+        cualidades: {
+            nombre: 'Draco',
+            pelo: 'negro',
+            edad: 5,
+            tipo: 'perro'
+        },
+        dueno: {
+            alias: 'Pepe',
+            nombre: 'El sapo Pepe',
+            ciudad: 'Olivos',
+            provincia: 'Buenos Aires',
+            edad: 60
+        }
+}
+})
 </script>
