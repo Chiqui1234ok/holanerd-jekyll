@@ -3,13 +3,13 @@
 {
     color: var(--sentenceColor);
 }
-    .language-javascript .nx, .language-html .nx /* var names, class names */
+    .language-javascript .nx, .language-html .nt /* var names, class names, tags names */
     {
         color: var(--jsHighLight);
     }
-    .language-javascript .kd, .language-javascript .k /* 'var', 'new', etc */
+    .language-javascript .kd, .language-javascript .k, .language-html .na /* 'var', 'new', claves de un objeto, 'id=', etc */
     {
-        color: var(--highLight)
+        color: var(--highLight);
     }
     .language-javascript .s1, .language-html .s2 /* lo que va entre comillas, cómo cadenas de texto, nombres de elementos, etc */
     {
