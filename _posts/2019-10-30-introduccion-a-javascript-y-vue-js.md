@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a Javascript y Vue.js
-image: https://miro.medium.com/max/850/0*BRrBBgjCGAzRniV8.jpg
+image: https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.JPG
 date: 2019-10-30 20:00
 category: programacion
 author: chiqui
