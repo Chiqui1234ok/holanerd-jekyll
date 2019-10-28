@@ -160,7 +160,23 @@ Yo no puedo hacer eso en mi caso particular :) Esto es porque tengo otro lenguaj
 
 Fijate que **delimiters** es un array de dos posiciones. El primer elemento es **<%** y el segundo elemento es **%>** ;) Vue.js entiende que el primer valor corresponde para la apertura y el segundo, para el cierre.
 
-Continuará...
+# Parámetros específicos de Vue.js, en el HTML
+
+Vue tiene varios parámetros que pueden adicionarse a los clásicos tags de HTML. Miremos a continuación :)
+
+## v-bind
+
+.
+
+## v-if
+
+.
+
+## v-on
+
+.
+
+**Continuará...**
 
 <script>
 var app = new Vue({
