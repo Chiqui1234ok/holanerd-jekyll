@@ -1,6 +1,6 @@
 <main class="readWidth">
         <article> <!-- content -->
-            <div id="poster" class="fixed">
+            <div id="poster">
                 <img src="{{ page.image }}" class="fullWidth" />
                 <p class="line-1 padding">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
                 <p class="line-2 padding">Un post sobre {{ page.category }}.</p>
