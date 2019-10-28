@@ -92,19 +92,19 @@ data: { // toda la información que querramos poner en el HTML va acá
             pelo: 'negro',
             edad: 5,
             tipo: 'perro'
-        },
+        }, // fijate cómo uso la coma acá
         dueno: {
             alias: 'Pepe',
             nombre: 'El sapo Pepe',
             ciudad: 'Olivos',
             provincia: 'Buenos Aires',
             edad: 60
-        }
+        } // pero acá no uso la coma, porque sólo se pone entre claves (cualidades y dueno son claves)
 }
 })
 {% endhighlight %}
 
-<div id="app" style="background: #eee;" title="ID afectado por Vue.js"> 
+<div id="app" title="ID afectado por Vue.js" style="background: #eee;"> 
     <h1><% cualidades.nombre %></h1>
     <p>Es la mascota (<% cualidades.tipo %>) de <% dueno.nombre %> y viven en <% dueno.ciudad %> :D</p>
 </div>
