@@ -15,3 +15,8 @@
     {
         color: var(--sentenceColor);
     }
+
+.lineno /* clase de los números de línea */
+{
+    color: var(--sentenceColor2);
+}

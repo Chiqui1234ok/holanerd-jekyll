@@ -67,10 +67,10 @@ Este plugin te dará información acerca del rendimiento y tiene varias cosas m�
 En realidad, Liquid reemplaza cosas cómo:
 
 {% highlight liquid %}
-{{ site.url }}
+[[ site.url ]]
 {% endhighlight %}
 
-En **holanerd.net**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
+En **{{ site.url }}**, a la hora de compilar. Es algo así cómo los #define de C y C++. Sin embargo, Vue.js es mucho más dinámico... veamos a continuación parte de nuestro HTML :)
 
 {% highlight html linenos %}
     <div id="app"> <!-- ID afectado por Vue.js -->
@@ -81,14 +81,14 @@ En **holanerd.net**, a la hora de compilar. Es algo así cómo los #define de C 
 
 Y podemos tener un javascript (Vue.js) así:
 
-{% highlight javascript %}
-    var app = new Vue({
-    el: '#app', // el ID que queremos afectar en nuestro HTML
+{% highlight javascript linenos %}
+    var app = new Vue({ // Crea una instancia (un objeto) nuevo
+    el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
     delimiters: ["<%",
-    "%>"],
-    data: {
-        titulo: 'Prueba con Vue',
-        mensaje: '¡Hola Vue!'
+    "%>"], // delimitadores, lo veremos más adelante
+    data: { // toda la información que querramos poner en el HTML va acá
+        titulo: 'Prueba con Vue', // variable 'titulo' que pertenece al objeto 'app'
+        mensaje: '¡Hola Vue!' // variable 'mensaje' que pertenece al objeto 'app'
     }
     })
 {% endhighlight %}
@@ -96,12 +96,48 @@ Y podemos tener un javascript (Vue.js) así:
 <div id="app"> <!-- ID afectado por Vue.js -->
     <h3><% titulo %></h3>
     <p><% mensaje %></p>
-    <% mensaje %>
 </div>
+
+## ¿Qué sucedió acá?
+
+Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo dos claves en mi código. Se llaman **titulo** y **mensaje** y están dentro de la variable/objeto "data". Fijate cómo es la sintáxis del objeto data que, dicho sea de paso, podría haber más de un objeto dentro de mi instancia Vue. La instancia Vue se crea dentro de una variable, en esta línea:
+
+{% highlight javascript %}
+var app = new Vue({ })
+{% endhighlight %}
+
+¡Pasemos a explicar línea a línea!
+
+### 1
+
+{% highlight javascript %}
+var app = new Vue({ // Crea una instancia (un objeto) nuevo
+{% endhighlight %}
+
+Creamos una variable llamada **app** y la igualamos a **new Vue({})**, es decir, creamos una instancia de un objeto. Un objeto tiene variables y formas de comportarse. 
+Supongamos que un perro es un objeto. Para muchos el canino es algo mucho mejor, pero en programación la movida es así :P
+Si quisieramos simular un perro en programación, claramente tendríamos que describir el nombre, la suavidad y color de su pelo, el tamaño, la raza, su comida favorita y más. Pero el perro no sólo tiene cualidades (en programación le decimos "propiedades"), sino también comportamientos ("métodos" o "funciones"). Los perros ladran, saltan, corren, comen y miman.
+
+Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orientado a objetos) puede contener datos (sus propiedades) y métodos (sus comportamientos). En esta introducción no vamos a indagar tanto en crear métodos dentro de los objetos. Pasito a pasito :)
+
+### 2
+
+{% highlight javascript %}
+    el: '#app', // configuramos el ID que queremos afectar en nuestro HTML
+{% endhighlight %}
+
+El valor que contiene **el** es nada más ni nada menos el div que queremos afectar. Es decir que las **claves** (titulo y mensaje) dentro de la variable "data" tienen sentido dentro del div con id **app**.
+Si tuvieramos
+
+{% highlight javascript %}
+    el: '#testeo', // configuramos el ID que queremos afectar en nuestro HTML
+{% endhighlight %}
+
+El id del div (en el HTML) tendría que ser **testeo**. Caso contrario, no podrías acceder a tus claves título y mensaje. Es decir que este objeto que nace a partir de **new Vue({})** tiene sentido y puede ser accedido únicamente desde el elemento que tiene designado: #app.
 
 <script>
 var app = new Vue({
-    el: '#app', // el ID que queremos afectar en nuestro HTML
+    el: '#app',
     delimiters: ["<%",
     "%>"],
     data: {
