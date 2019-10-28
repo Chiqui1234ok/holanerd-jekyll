@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a Javascript y Vue.js
-image: https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.JPG
+image: https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.webp
 date: 2019-10-30 20:00
 category: programacion
 author: chiqui
@@ -36,7 +36,7 @@ Una vez que terminaste la primer versión de tu desarrollo y querés ponerlo onl
 
 # Vue devtools
 
-![Captura-Vue-Devtools](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools.JPG)
+![Captura-Vue-Devtools](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools.webp)
 
 Si querés, podés buscar el plugin **Vue Devtools**. ¡Está en los navegadores más usados!
 Este plugin te dará información acerca del rendimiento y tiene varias cosas más específicas para Vue que las propias "Herramientas para desarrollador" que poseen Chrome y Firefox, por ejemplo.
