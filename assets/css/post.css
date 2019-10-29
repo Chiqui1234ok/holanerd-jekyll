@@ -18,3 +18,7 @@ figure p, figure span, figure pre, code p, code span, code pre
     font-size: 15px;
     line-height: 28px;
 }
+main h1
+{
+    padding: 30px 0 10px 0;
+}
