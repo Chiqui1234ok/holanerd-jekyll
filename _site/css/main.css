@@ -42,9 +42,9 @@ span
 .fixed {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda */
 .textCenter {text-align: center;}
 /* Auxiliares > tamaño */
-.readWidth {width: 70%;}
-.fullWidth {width: 100%;}
-.fullHeight {height: 100vh;}
+.read-width {width: 70%;}
+.full-width {width: 100%;}
+.full-height {height: 100vh;}
 /* Auxiliares > grid */
 .grid-4  {display:grid;grid-template-columns: repeat(4, 1fr);}
 .grid-2  {display:grid;grid-template-columns: repeat(2, 1fr);}
