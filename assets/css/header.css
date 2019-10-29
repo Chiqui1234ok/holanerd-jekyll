@@ -10,8 +10,12 @@ header
 header nav, header #logo
 {
     font-size: 18px;
+    align-self: center;
 }
-
+header nav ul 
+{
+    align-self: center;
+}
 header nav ul li
 {
     display: inline-block;
