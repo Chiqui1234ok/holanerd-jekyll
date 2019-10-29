@@ -135,7 +135,7 @@ data: { // toda la información que querramos poner en el HTML va acá
 
 ## ¿Qué magia pasó acá?
 
-Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo muchas claves en mi código. La instancia Vue se crea dentro de una variable y también puede haber una o más por archivo Javascript. 
+Seguramente, si ya tenés la extensión **Vue devtools** te fijaste que tengo muchas claves en mi código. La instancia Vue se crea dentro de una variable y también puede haber una o más "new Vue" por archivo Javascript, pero recordá que los nombres de variables, constantes, funciones y palabras reservadas por el lenguaje no pueden repetirse. 
 
 ![Captura-Vue-Devtools-testing](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/vue-devtools-components.webp)
 
