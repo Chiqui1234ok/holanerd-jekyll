@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6
     font-family: 'Open Sans', sans-serif;
 }
 span {color: var(--highLight);}
-p, ul, ol, header #logo
+p, ul, ol
 {
     line-height: 38px;
     font-size: 18px;

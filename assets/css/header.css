@@ -7,3 +7,22 @@ header
     --webkit-backdrop-filter: blur(2px); /* Safari 9.1 en adelante */
     z-index: 99;
 }
+header nav, header #logo
+{
+    font-size: 18px;
+}
+
+header nav ul li
+{
+    display: inline-block;
+    margin: 0 5px 0 5px;
+}
+header nav a
+{
+    color: var(--linkColor2);
+    border-bottom: 2px solid var(--headerColor);
+}
+header nav a:hover
+{
+    color: var(--linkHover2);
+}

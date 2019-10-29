@@ -10,18 +10,17 @@
         <!-- <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous"> -->
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/main.min.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/header.min.css" />
-        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/nav.min.css" />
-        {% if !page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/home.min.css" />{% endif %}
+        {% unless page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/home.min.css" />{% endunless %}
         <!-- <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/animations.css" /> -->
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/widget.min.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/input.min.css" />
-        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/responsive.min.css" />
-        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/footer.min.css" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/favicon.png" />
-        {% if !page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/warning.min.css" /> {% endif %}
+        {% unless page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/warning.min.css" /> {% endunless %}
         {% if page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/post.min.css" /> {% endif %}
         {% if page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/languages.min.css" />{% endif %}
+        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/responsive.min.css" />
+        <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/footer.min.css" />
         {% if page.vue == 'yes' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.min.js"></script> <!-- Vue.js production --> {% endif %}
         {% if page.vue == 'development' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> {% endif %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
