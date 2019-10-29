@@ -19,9 +19,11 @@ Vamos a aprovechar las bondades de Jekyll y el Markdown para implementar el proy
 Veremos cómo implementarlo de manera rápida y porqué es tan importante aprender este framework "reactivo".
 Antes que nada, creá un archivo HTML básico para comenzar :)
 
+Después, elegí una de las dos opciones que te voy a pasar a continuación. Uno de esos dos scripts tendrán que estar entre tus etiquetas head :)
+
 # Vue.js para cuándo estemos desarrollando el proyecto
 
-Este archivo contiene alertas en consola que no incorpora la versión de producción. Lo ideal es incluirla ahora que estamos programando y después sacar esa línea para poner el script "para producción", algo más ligero y que no es tan insistente con las alertas (osea, no está en modo **debug**).
+Este archivo contiene alertas en consola que no incorpora la versión de producción. Además, es compatible con **Vue devtools** al 100%. Lo ideal es incluirla ahora que estamos programando y después sacar esa línea para poner el script "para producción", algo más ligero y que no es tan insistente con las alertas (osea, no está en modo **debug**).
 
 {% highlight javascript %}
 <!-- Vue.js para desarrollo, con más notificaciones por consola -->
@@ -54,7 +56,25 @@ Dicho de otra forma, un objeto en javascript (y en cualquier otro lenguaje orien
 
 # ¿Cómo interacciona javascript con un objeto?
 
-.
+Javascript tiene acceso completo al DOM, es decir, puede captar y afectar a cualquier objeto presente en el documento HTML, cómo un párrafo, un título o cualquier caja (div).
+
+Javascript puede estar atento a los **eventos** que sucedan en nuestro sitio web. Por ejemplo, si queremos que salga una alerta al usuario cuándo pasa el cursor por arriba de una imágen, sería algo así:
+{% highlight html %}
+<img src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png" onmouseover="crearAlerta('¡Has pasado el cursor por arriba de Google!')" />
+{% endhighlight %}
+{% highlight javascript %}
+function crearAlerta(texto)
+{
+    alert(texto); // Imprime en pantalla el texto "¡Has pasado el cursor por arriba de Google!"
+}
+{% endhighlight %}
+
+Mirá y probá este código en [Codepen](https://codepen.io/Chiqui1234/pen/wvvqjMe) :) 
+
+Tiene varios eventos más y se pueden agregar a prácticamente cualquier etiqueta del documento HTML.
+* onclick
+* onmouseover
+* onchange
 
 # Comencemos con el código
 
