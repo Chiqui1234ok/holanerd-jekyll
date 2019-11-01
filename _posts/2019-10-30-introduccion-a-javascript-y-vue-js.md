@@ -12,6 +12,8 @@ vue: development
 
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
 
+**Este post está incompleto**, en parte porque estamos a punto de ver AngularJS en un curso que estoy tomando y además, me gustaría dar estos temas (que son más complejos) en video para que podamos escribir y probar código juntos y "mejor acompañados". Sin embargo, **voy a dejar este post así cómo está** porque quizá le sirve a alguien :)
+
 Vamos a aprovechar las bondades de Jekyll y el Markdown para implementar el proyecto Vue.js directo en este post.
 
 **Tené en cuenta** que para aprender Javascript y Vue te va a servir muchísimo [esta introducción a la programación](http://holanerd.net/programacion/2019/10/12/Introduccion-a-la-programacion.html) dónde explico qué son las variables, constantes y objetos. Esa es **tu base**, ¡y te va a servir para este tutorial y muchos otros!
