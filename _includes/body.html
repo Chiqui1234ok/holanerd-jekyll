@@ -1,6 +1,5 @@
 <main class="grid-2 gap read-width">
     {% for post in site.posts offset:0 limit:1 %}
-    {%- assign portada = {{ post.image }} -%}
     <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
             <div id="image" style="background: url('{{ post.image }}') center;background-size: cover;"></div>
             <div>
@@ -18,7 +17,7 @@
     </div> <!-- !widget -->
     <div id="widget" class="padding shadow-superhero-box widget-border"> <!-- widget -->
             <ul class="minimal-list">
-                {% for post in site.posts offset:1 limit:5 %}
+                {% for post in site.posts offset:1 limit:10 %}
                 <li>
                     <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
                 </li>
