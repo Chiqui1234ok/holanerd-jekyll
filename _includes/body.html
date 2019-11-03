@@ -1,5 +1,6 @@
 <main class="grid-2 gap read-width">
     {% for post in site.posts offset:0 limit:1 %}
+    {%- assign portada = {{ post.image }} -%}
     <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
             <div id="image"></div>
             <div>
@@ -31,6 +32,6 @@
 let responsive = isMobile();
 if( !responsive )
 {
-    document.getElementById('image').style = 'background: url(\'{{ post.image }}\') center;background-size: cover;';
+    document.getElementById('image').style = 'background: url("{{ portada }}") center;background-size: cover;';
 }
 </script>
