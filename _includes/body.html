@@ -1,7 +1,7 @@
 <main class="grid-2 gap read-width">
     {% for post in site.posts offset:0 limit:1 %}
     <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
-            <div id="image" style=""></div>
+            <div id="image"></div>
             <div>
                 <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
                 <h1><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
