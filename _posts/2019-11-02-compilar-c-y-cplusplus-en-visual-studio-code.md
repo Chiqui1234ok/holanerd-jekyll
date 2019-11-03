@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Compilar y debuggear C y C++ en Visual Studio Code
+image: https://code.visualstudio.com/assets/docs/editor/debugging/Debugging.png
 date: 2019-12-02 12:00
 category: programacion
 author: chiqui
@@ -40,7 +41,10 @@ Deberán estar en la raíz de tu proyecto, dentro de la carpeta .vscode. Por eje
 
 # ¿Qué variables existen para definir una ruta dentro de mi proyecto?
 
-Estas variables te van a servir para que Visual Studio Code sepa a qué carpeta ir y qué archivo ejecutar o compilar.
+Estas variables te van a servir para que Visual Studio Code sepa a qué carpeta ir y qué archivo ejecutar y compilar.
+
+![travolta-confundido](https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif)
+
 Es **muy importante** abrir **una carpeta** con VSCode, para que el programa pueda setear estas variables tanto para uso de tasks.json/launch.json cómo también para la terminal (si, podés abrir una terminal dentro de VSCode, también con CTRL+Shift+C si la querés en una ventana aparte).
 
 * ${workspaceRoot}: dirección raíz de tu carpeta abierta con vscode
@@ -48,6 +52,8 @@ Es **muy importante** abrir **una carpeta** con VSCode, para que el programa pue
 * ${fileDirname}: ruta hasta el archivo (en focus)
 * ${fileExtname}: extensión del archivo (en focus, ejemplo ".exe")
 * ${fileBasenameNoExt}: nombre del archivo (en focus, sin extensión)
+
+Es un poco engorroso pero es muy probable que uses 2 o 3 en tu vida :P
 
 Ahora pasemos a ver cada json y qué magia hacen :) Cómo estarás pensando, vamos a usar alguna de éstas variables para poder compilar cualquier archivo .c, ¡incluso dentro de sub-carpetas!
 
@@ -57,7 +63,7 @@ Este archivo se encarga de ejecutar tareas, como su nombre lo indica. Está en f
 
 Puede suceder que tu compilador o lenguaje no figure en las templates. En ese caso, elegí cualquier template... de todas formas tenemos que editar el código :)
 
-Mi tasks.json figura así:
+Mi tasks.json es así:
 
 {% highlight json linenos %}
 {
@@ -85,18 +91,20 @@ Mi tasks.json figura así:
 }
 {% endhighlight %}
 
-Lo importante es saber que el dato que contiene **label** (build) es el nombre de esa tarea. Tené en cuenta que ésto es un objeto, cómo expliqué en [la introducción a programación](/programacion/2019/10/12/Introduccion-a-la-programacion.html#objetos) o [codeé en este tutorial de Vue.js](/programacion/2019/10/30/introduccion-a-javascript-y-vue-js.html#comencemos-con-el-código).
+Lo importante es saber que el dato que contiene **label**, es el nombre de esa tarea (osea, "build"). Tené en cuenta que ésto es un objeto, cómo expliqué en [la introducción a programación](/programacion/2019/10/12/Introduccion-a-la-programacion.html#objetos) o [codeé en este tutorial de Vue.js](/programacion/2019/10/30/introduccion-a-javascript-y-vue-js.html#comencemos-con-el-código).
 Osea, dentro de "tasks" tenemos un objeto que se hace llamar "build". Tiene otras claves, cómo **command** y **args**, ¡esto es lo más importante!
 
 Cuándo era jóven y compilaba "a mano" escribiendo un comando en la terminal, hacía esto:
 
 > gcc -g main.c funciones.c -o main.o
 
+![gif-sorprendido](https://images.ctfassets.net/1wryd5vd9xez/6r9wHPWs2KAhaWqkuPZ1I1/0e36fe0e6a468066b336bfeb0b135f70/https___cdn-images-1.medium.com_max_2000_1_Dt5uQuJKj_Bf1wbM9Qc8nw.gif?w=768&h=187&q=100&fit=fill)
+
 Entendamos a **gcc** cómo el command de nuestro tasks.json. En realidad es una ruta al compilador, pero en sistemas Linux y WSL basta con poner el nombre del ejecutable (Linux solito buscará dentro de **usr/bin/** el ejecutable gcc). 
 
 ¡Ojo! Si tenés MinGW o Cygwin en Windows tenés que poner la ruta completa a tu compilador, por ej (para cygwin64):
 
-> c:\\cygwin64\\bin\\gcc
+> c:\\\cygwin64\\\bin\\\gcc
 
 Todo lo que le sigue a la palabra "gcc" son **argumentos**.
 
@@ -123,7 +131,6 @@ Este archivo se encarga, simplemente, de llamar a **tasks > build** si el dato d
             "preLaunchTask": "build",
             "type": "cppdbg",
             "request": "launch",
-            //"program": "${workspaceFolder}${file}",
             "program": "${fileDirname}/${fileBasenameNoExtension}.o",
             "args": [],
             "stopAtEntry": false,
