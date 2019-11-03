@@ -43,7 +43,7 @@ Deberán estar en la raíz de tu proyecto, dentro de la carpeta .vscode. Por eje
 
 Estas variables te van a servir para que Visual Studio Code sepa a qué carpeta ir y qué archivo ejecutar y compilar.
 
-![travolta-confundido](https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif)
+![travolta-confundido](https://i.kym-cdn.com/photos/images/newsfeed/001/042/619/4ea.jpg)
 
 Es **muy importante** abrir **una carpeta** con VSCode (y no un archivo individual), para que el programa pueda setear estas variables tanto para uso de tasks.json/launch.json cómo también para la terminal (si, podés abrir una terminal dentro de VSCode, también con CTRL+Shift+C si la querés en una ventana aparte).
 
@@ -99,7 +99,7 @@ Cuándo era jóven y compilaba "a mano" escribiendo un comando en la terminal, h
 
 > gcc -g main.c funciones.c -o main.o
 
-![gif-sorprendido](https://images.ctfassets.net/1wryd5vd9xez/6r9wHPWs2KAhaWqkuPZ1I1/0e36fe0e6a468066b336bfeb0b135f70/https___cdn-images-1.medium.com_max_2000_1_Dt5uQuJKj_Bf1wbM9Qc8nw.gif?w=768&h=187&q=100&fit=fill)
+![gif-sorprendido](https://i.kym-cdn.com/photos/images/newsfeed/001/340/531/04c.gif)
 
 Entendamos a **gcc** cómo el command de nuestro tasks.json. En realidad es una ruta al compilador, pero en sistemas Linux y WSL basta con poner el nombre del ejecutable (Linux solito buscará dentro de **usr/bin/** el ejecutable gcc).
 
