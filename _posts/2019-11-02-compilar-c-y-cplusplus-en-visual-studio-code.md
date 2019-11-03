@@ -45,7 +45,7 @@ Estas variables te van a servir para que Visual Studio Code sepa a qué carpeta 
 
 ![travolta-confundido](https://media.giphy.com/media/g01ZnwAUvutuK8GIQn/giphy.gif)
 
-Es **muy importante** abrir **una carpeta** con VSCode, para que el programa pueda setear estas variables tanto para uso de tasks.json/launch.json cómo también para la terminal (si, podés abrir una terminal dentro de VSCode, también con CTRL+Shift+C si la querés en una ventana aparte).
+Es **muy importante** abrir **una carpeta** con VSCode (y no un archivo individual), para que el programa pueda setear estas variables tanto para uso de tasks.json/launch.json cómo también para la terminal (si, podés abrir una terminal dentro de VSCode, también con CTRL+Shift+C si la querés en una ventana aparte).
 
 * ${workspaceRoot}: dirección raíz de tu carpeta abierta con vscode
 * ${file}: archivo actual (el que está en focus)
@@ -91,8 +91,9 @@ Mi tasks.json es así:
 }
 {% endhighlight %}
 
-Lo importante es saber que el dato que contiene **label**, es el nombre de esa tarea (osea, "build"). Tené en cuenta que ésto es un objeto, cómo expliqué en [la introducción a programación](/programacion/2019/10/12/Introduccion-a-la-programacion.html#objetos) o [codeé en este tutorial de Vue.js](/programacion/2019/10/30/introduccion-a-javascript-y-vue-js.html#comencemos-con-el-código).
-Osea, dentro de "tasks" tenemos un objeto que se hace llamar "build". Tiene otras claves, cómo **command** y **args**, ¡esto es lo más importante!
+Lo importante es saber que el dato que contiene **label**, es el nombre de esa tarea (osea, "build"). Tené en cuenta que ésto es una clave dentro del objeto "tasks", cómo expliqué en [la introducción a programación](/programacion/2019/10/12/Introduccion-a-la-programacion.html#objetos) o [codeé en este tutorial de Vue.js](/programacion/2019/10/30/introduccion-a-javascript-y-vue-js.html#comencemos-con-el-código).
+
+Existen otras claves, cómo **command** y **args**, ¡esto es lo más importante!
 
 Cuándo era jóven y compilaba "a mano" escribiendo un comando en la terminal, hacía esto:
 
@@ -100,11 +101,13 @@ Cuándo era jóven y compilaba "a mano" escribiendo un comando en la terminal, h
 
 ![gif-sorprendido](https://images.ctfassets.net/1wryd5vd9xez/6r9wHPWs2KAhaWqkuPZ1I1/0e36fe0e6a468066b336bfeb0b135f70/https___cdn-images-1.medium.com_max_2000_1_Dt5uQuJKj_Bf1wbM9Qc8nw.gif?w=768&h=187&q=100&fit=fill)
 
-Entendamos a **gcc** cómo el command de nuestro tasks.json. En realidad es una ruta al compilador, pero en sistemas Linux y WSL basta con poner el nombre del ejecutable (Linux solito buscará dentro de **usr/bin/** el ejecutable gcc). 
+Entendamos a **gcc** cómo el command de nuestro tasks.json. En realidad es una ruta al compilador, pero en sistemas Linux y WSL basta con poner el nombre del ejecutable (Linux solito buscará dentro de **usr/bin/** el ejecutable gcc).
 
 ¡Ojo! Si tenés MinGW o Cygwin en Windows tenés que poner la ruta completa a tu compilador, por ej (para cygwin64):
 
 > c:\\\cygwin64\\\bin\\\gcc
+
+Sin embargo, si **c:\\\cygwin64\\\bin** está en tu PATH (Windows) podrías llamar a gcc (y todos los ejecutables que estén dentro de tu "bin") de la misma manera que WSL/Linux/MacOS.
 
 Todo lo que le sigue a la palabra "gcc" son **argumentos**.
 
@@ -114,13 +117,13 @@ Todo lo que le sigue a la palabra "gcc" son **argumentos**.
 
 Básicamente y como viste en el tasks.json, tenés que separar cada palabra y meterlo dentro del vector **args** cómo figura más arriba.
 
-Recordá que ${fileDirname} da la ruta hasta el archivo focuseado y luego le pongo **main.c** y abajo hacemos lo mismo, pero escribiendo **funciones.c**.
+Recordá que ${fileDirname} da la ruta hasta el archivo focuseado y luego le agrego **main.c** y abajo hacemos lo mismo, pero escribiendo **funciones.c**.
 
-Estos dos nombres (o si tenés más archivos C) acomodalos a tu proyecto :)
+Estos dos nombres .c (o si tenés más archivos C) adaptalos según tu proyecto :)
 
 # launch.json
 
-Este archivo se encarga, simplemente, de llamar a **tasks > build** si el dato de "preLaunchTask" es "build", aunque preLaunchTask puede tomar cualquier otro nombre. Osea, launch.json lanza **build** gracias a que preLaunchTask = "build". Tranqui, en un segundo vemos el código para que te ubiques :)
+Este archivo se encarga, simplemente, de llamar a **tasks > build** si el dato de "preLaunchTask" es "build", aunque preLaunchTask puede tomar cualquier otro valor. Osea, launch.json lanza **build** gracias a que preLaunchTask = "build". Tranqui, en un segundo vemos el código para que te ubiques :)
 
 {% highlight json linenos %}
 {
@@ -152,8 +155,8 @@ Este archivo se encarga, simplemente, de llamar a **tasks > build** si el dato d
 
 Hay otra clave: **program**. ¿Te acordás de mi tasks que puse arriba? Ahí puse dos argumentos:
 
-* **-o** (para indicar que quiero un nombre de compilado específico)
-* **${fileDirname}/{$fileBasenameNoExtension}.o** (este es el nombre de compilado específico, suponete **main.o**)
+* **-o** (para indicar que quiero un nombre específico para mi programa compilado)
+* **${fileDirname}/{$fileBasenameNoExtension}.o** (este es el nombre del programa ya compilado, suponete **main.o**)
 
 Esto tiene que coincidir en tasks y launch, para que el nombre de lo que compilás y próximamente ejecutás, sea exactamente el mismo.
 
@@ -161,7 +164,7 @@ Esto tiene que coincidir en tasks y launch, para que el nombre de lo que compil�
 
 Si configuraste bien las rutas (lo único que hay que hacer, en realidad) deberías poder hacer F5 en tu archivo .c que quieras compilar y eso va a compilar, correr y depurar (debuggear) el programa.
 
-Algo así deberías ver al apretar F5 para correr tu programa. Sobretodo si seguiste la guía para [activar WSL en Windows](/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html).
+Algo así deberías ver al apretar F5 para correr tu programa. Sobretodo si seguiste la guía para [activar WSL en Windows](/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html) o estás trabajando en algún sistema con kernel Linux.
 
 ![vscode-carpetas](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/compilar-c-y-cplusplus-en-visual-studio-code/vscode-activado.webp)
 
