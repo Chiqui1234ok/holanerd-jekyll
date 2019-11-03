@@ -6,7 +6,7 @@ date: 2019-11-03 12:37
 category: programacion
 author: chiqui
 tags: javascript, responsive, ahorro
-summary: ¿Pensabas que un display:none de CSS era suficiente? Mirá mejores maneras de controlar el contenido que ven tus usuarios en móviles y ayudá a que ahorren datos
+summary: ¿Pensabas que un "display none" de CSS era suficiente? Mirá mejores maneras de controlar el contenido que ven tus usuarios en móviles y ayudá a que ahorren datos
 ---
 
 En Holanerd hago todo lo posible para optimizar tanto del lado cliente cómo del servidor. En el lado del cliente, me di cuenta de un detalle que había dado por "resuelto".
