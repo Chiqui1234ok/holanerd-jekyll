@@ -2,7 +2,7 @@
 layout: post
 title: Compilar y debuggear C y C++ en Visual Studio Code
 image: https://code.visualstudio.com/assets/docs/editor/debugging/Debugging.png
-date: 2019-12-02 12:00
+date: 2019-11-02 12:00
 category: programacion
 author: chiqui
 tags: compilar, vscode, visual studio code, vscode ide, gcc, g++
