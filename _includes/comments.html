@@ -1,8 +1,12 @@
 <div id="disqus_thread"></div>
+<script src="/assets/js/isMobile.js"></script>
 <script>
-var windowSize = window.innerWidth;
-console.log(windowSize);
-if(windowSize > 1023)
+let responsive = isMobile();
+if( responsive )
+{
+  document.getElementById('disqus_thread').innerHTML = '<p>Los comentarios están deshabilitados en dispositivos móviles con el fin de ahorrar datos.</p>';
+}
+else
 {
   // Disqus
   (function() { // DON'T EDIT BELOW THIS LINE
@@ -11,9 +15,5 @@ if(windowSize > 1023)
     s.setAttribute('data-timestamp', +new Date());
     (d.head || d.body).appendChild(s);
     })();
-}
-else
-{
-  document.getElementById('disqus_thread').innerHTML = '<p>Los comentarios están deshabilitados en dispositivos móviles con el fin de ahorrar datos.</p>';
 }
   </script>
