@@ -4,4 +4,4 @@
 
 layout: postsList
 ---
-¿Te gustan estos posts?
+Acá listamos todos los posts creados hasta la fecha :)

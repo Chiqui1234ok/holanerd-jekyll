@@ -1,13 +1,13 @@
-<main class="grid-2 gap readWidth">
+<main class="grid-2 gap read-width">
     {% for post in site.posts offset:0 limit:1 %}
-    <div id="widget" class="fullColumn grid-2 gap padding widget-border"> <!-- widget -->
-        <div style="background: url('{{ post.image }}') center;background-size: cover;"></div>
-        <div>
-            <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
-            <h1><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
-            <p>{{ post.summary }}</p>
-            <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Leer más</a>.</p>
-        </div>
+    <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
+            <div id="image" style="background: url('{{ post.image }}') center;background-size: cover;"></div>
+            <div>
+                <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
+                <h1><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
+                <p>{{ post.summary }}</p>
+                <p><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">Leer más</a>.</p>
+            </div>
     </div> <!-- !widget -->
     {% endfor %}
     <div id="widget" class="padding"> <!-- widget -->
@@ -16,19 +16,21 @@
         <p>¿Querés sumarte? <a href="#">Aprendé a trabajar con GitHub y subí tu post</a>, ¡es fácil!</p>
     </div> <!-- !widget -->
     <div id="widget" class="padding shadow-superhero-box widget-border"> <!-- widget -->
-        <ul class="minimalList">
-            {% for post in site.posts offset:1 limit:5 %}
-            <li>
-                <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-            </li>
-            {% endfor %}
-            <li class="text-center"><a href="{{ site.url }}{{ site.baseurl }}/blog.html">--> Ver todos los posts <--</a></li>
-        </ul>
+            <ul class="minimal-list">
+                {% for post in site.posts offset:1 limit:10 %}
+                <li>
+                    <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
+                </li>
+                {% endfor %}
+                <li class="text-center"><a href="{{ site.url }}{{ site.baseurl }}/blog.html">--> Ver todos los posts <--</a></li>
+            </ul>
     </div> <!-- !widget -->
-    <div id="widget">
-        <xml src="https://holanerd.disqus.com/latest.rss">
-
-        </xml>
-    </div>
 </main>
-<script type="text/javascript" src="https://funbutlearn.disqus.com/recent_comments_widget.js?num_items=10&hide_avatars=0&avatar_size=40&excerpt_length=200"></script>
+<script src="/assets/js/isMobile.js"></script>
+<script>
+let responsive = isMobile();
+if( responsive )
+{
+    document.getElementById('image').style = '';
+}
+</script>

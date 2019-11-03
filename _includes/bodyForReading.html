@@ -1,11 +1,9 @@
-<div id="poster">
-    
-</div>
-
-<main class="readWidth">
-        <img src="{{ page.image }}" class="fullWidth" />
-        <p class="line-1">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time></p>
-        <p class="line-2">Un post sobre {{ page.category }}.</p>
+<main class="read-width" id="root">
+        <img src="{{ page.image }}" class="full-width" />
+        <div class="grid-2">
+            <p class="line-1">Por {{ author.name }}, <time datetime="{{ page.date | date: "%Y-%m-%d" }}">{{ page.date | date_to_long_string }}</time>.</p>
+            <p class="line-2">Un post sobre {{ page.category }}.</p>
+        </div>
         <article> <!-- content -->
             <h1>{{ page.title }}</h1>
             {{ content }}
@@ -15,7 +13,7 @@
                 <div>
                     <h2 class="shadow-superhero">{{ author.name }}</h2>
                     <h4>¡Seguime!</h4>
-                    <ul class="minimalList">
+                    <ul class="minimal-list">
                         <li><span class="icon-twitter"></span><a href="{{ author.twitter }}">Twitter</a></li>
                         <li><span class="icon-instagram"></span> <a href="{{ author.instagram }}">Instagram</a></li>
                         <li><span class="icon-youtube"></span> <a href="{{ author.youtube }}">YouTube</a></li>
@@ -33,4 +31,5 @@
                     </div>
                 </div>
         </div> <!-- Info del autor-->
+        {%  include comments.html     %}
 </main> <!-- Cierre main -->

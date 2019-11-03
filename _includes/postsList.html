@@ -1,16 +1,11 @@
-<div id="root" class="grid-2 gap readWidth">
+<main class="read-width">
     <!-- widget -->
     <div id="widget" class="rainbowBorder shadow-superhero-box">
         <div id="content" class="padding">
-            <ul class="minimalList">
+            <ul class="minimal-list">
                 {% for post in site.posts limit: 10000 %}
                 <li>
                     <p>> <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></p>
-                    <!--<div class="grid2">
-                        <p><time datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date_to_long_string }}</time></p>
-                        <p>{{ post.author }}</p>
-                    </div>-->
-                    <!--{{ post.content }}-->
                 </li>
                 {% endfor %}
             </ul>
@@ -20,5 +15,5 @@
     <div id="content">
         {{ content }}
     </div>
-</div>
+</main>
     

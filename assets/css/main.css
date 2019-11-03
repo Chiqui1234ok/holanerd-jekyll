@@ -34,7 +34,7 @@ h1, h2, h3, h4, h5, h6
     font-family: 'Open Sans', sans-serif;
 }
 span {color: var(--highLight);}
-p, ul, ol, header #logo
+p, ul, ol
 {
     line-height: 38px;
     font-size: 18px;
@@ -78,20 +78,32 @@ main
 .margin {margin: 10px;}
 .margin-mini {margin: 2px;}
 .border-light {border: 1px solid var(--background1);}
-.minimalList {list-style-type: none;padding: 0;margin: 0;}
+.minimal-list {list-style-type: none;padding: 0;margin: 0;}
 .fixed, .fixed-conditional {top: 0;left: 0;position: fixed;} /* Fixea arriba a la izquierda | .fixed-conditional se vuelve 'static' en viewport muy pequeños */
 .text-center {text-align: center;}
 .text-right {text-align: right;}
 .semi-transparent {opacity: 0.9;}
 .semi-transparent:hover {opacity: 1;}
 /* Auxiliares > tamaño */
-.readWidth {width: 70%;}
-.fullWidth {width: 100%;}
-.fullHeight {height: 100vh;}
-.fullColumn {grid-column: 1 / span 4;}
+.read-width {width: 70%;}
+.full-width {width: 100%;}
+.full-height {height: 100vh;}
+.full-column {grid-column: 1 / span 4;}
 /* Auxiliares > grid */
-.grid-4  {display:grid;grid-template-columns: repeat(4, 1fr);}
-.grid-2  {display:grid;grid-template-columns: repeat(2, 1fr);}
+.grid-flex 
+{
+    grid-template-columns: repeat(auto-fit, 1fr);
+}
+.grid-4  
+{
+    display:grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+.grid-2  
+{
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+}
 .gap    {gap: 10px;}
 /* Auxiliares > Shadow */
 .shadow-superhero { /* Sombra para texto */
@@ -106,22 +118,6 @@ main
 .text-shadow
 {
     text-shadow: 0 0 5px var(--sentenceColor);
-}
-/* Auxiliares > separadores */
-.separator-top
-{
-    border-top: 1px solid var(--footerColor);    
-}
-/* Auxiliares > avisos */
-.warning
-{
-    background: var(--warningColor1);
-    border: 1px solid var(--warningColor2);
-}
-.warning p
-{
-    font-size: 15px;
-    line-height: 30px;
 }
 /* Base */
 body

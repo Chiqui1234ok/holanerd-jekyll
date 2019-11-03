@@ -12,6 +12,8 @@ vue: development
 
 ¡Hey! Estoy escribiendo este post, aún no lo termino :O
 
+**Este post está incompleto**, en parte porque estamos a punto de ver AngularJS en un curso que estoy tomando y además, me gustaría dar estos temas (que son más complejos) en video para que podamos escribir y probar código juntos y "mejor acompañados". Sin embargo, **voy a dejar este post así cómo está** porque quizá le sirve a alguien :)
+
 Vamos a aprovechar las bondades de Jekyll y el Markdown para implementar el proyecto Vue.js directo en este post.
 
 **Tené en cuenta** que para aprender Javascript y Vue te va a servir muchísimo [esta introducción a la programación](http://holanerd.net/programacion/2019/10/12/Introduccion-a-la-programacion.html) dónde explico qué son las variables, constantes y objetos. Esa es **tu base**, ¡y te va a servir para este tutorial y muchos otros!
@@ -228,7 +230,7 @@ var mascota = {
 console.log(mascota.cualidades.nombre + ' es el ' + mascota.cualidades.tipo + ' de ' + mascota.dueno.nombre + '. ' + mascota.dueno.alias +', y por consecuente ' + mascota.cualidades.nombre + ', viven en ' + mascota.dueno.ciudad + '.'); // Imprime "Draco es el perro de El sapo Pepe. Pepe, y por consecuente Draco, viven en Olivos."
 {% endhighlight %}
 
-¿Vale la pena seguir explicando las demás líneas? Tené en cuenta que lo que resta son **claves**. Tienen un nombre (cómo una variable y se le asigna un valor poniendo el símbolo **:** de por medio).
+¿Vale la pena seguir explicando las demás líneas? Tené en cuenta que lo que resta son **claves** dentro de **objetos** ("cualidades" y "dueno"). Tienen un nombre (cómo una variable y se le asigna un valor poniendo el símbolo **:** de por medio).
 
 {% highlight javascript linenos %}
 }
@@ -238,7 +240,7 @@ console.log(mascota.cualidades.nombre + ' es el ' + mascota.cualidades.tipo + ' 
 La primer llave de cierre es para cerrar "data". Luego aparece una llave y paréntesis de cierre. Eso está para cerrar a la instancia de Vue, es decir:
 
 {% highlight javascript %}
-var app = new Vue({ // Cerrar esta primer línea con lo que les acabo de mencionar
+var app = new Vue({ // Cerrar esta primer línea con "} })", cómo les mostré en el código de arriba
 {% endhighlight %}
 
 # Parámetros específicos de Vue.js, en el HTML

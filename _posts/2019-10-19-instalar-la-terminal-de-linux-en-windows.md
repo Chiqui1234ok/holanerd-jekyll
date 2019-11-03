@@ -72,4 +72,12 @@ Te vas a enterar que funciona todo cuándo veas este logo en la parte inferior i
 
 ![notificacion](https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/notificacion.JPG)
 
+# Se viene una nueva terminal de Windows 10
+
+Edito este post para agregar que se viene una terminal nueva en Windows 10, más acorde al **Fluid Design** que cada vez está más pulido :)
+
+Miren el video demo, y su [proyecto en GitHub](https://github.com/microsoft/terminal). Si querés tener la preview YA, andá a Microsoft Store y buscá "Windows Terminal" :) ¡Disponible a partir de la build 1903!
+
+<iframe width="100%" height="350" src="https://www.youtube.com/embed/8gw0rXPMMPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 ¡Un gusto leer con ustedes! 
