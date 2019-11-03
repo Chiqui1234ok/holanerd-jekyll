@@ -2,7 +2,7 @@
     {% for post in site.posts offset:0 limit:1 %}
     {%- assign portada = {{ post.image }} -%}
     <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
-            <div id="image"></div>
+            <div id="image" style="background: url('{{ post.image }}') center;background-size: cover;"></div>
             <div>
                 <p>Mirá nuestro <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">último post</a>, hecho por <i>{{ post.author }}</i>. :)</p>
                 <h1><a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h1>
@@ -30,8 +30,8 @@
 <script src="/assets/js/isMobile.js"></script>
 <script>
 let responsive = isMobile();
-if( !responsive )
+if( responsive )
 {
-    document.getElementById('image').style = 'background: url("{{ portada }}") center;background-size: cover;';
+    document.getElementById('image').style = '';
 }
 </script>

@@ -47,16 +47,14 @@ Sólo basta con preguntar el ancho de la ventana del navegador, o el tamaño de 
 Si necesitás una opción más dinámica posiblemente te funcione el primer código. En mi caso, el código de abajo viene perfecto porque coincide con las **@media-queries** que tengo en mis archivos CSS.
 
 {% highlight javascript linenos %}
-var windowSize = window.innerWidth; // obtengo el ancho de la ventana
-if(windowSize > 1023)
+function isMobile()
 {
-    // código a ejecutar si estoy en una pantalla grande
-}
-else
-{
-    // código a ejecutar si la pantalla es -posiblemente- de un dispositivo móvil
+    var windowSize = window.innerWidth;
+    return windowSize<1024?true:false; // devuelve TRUE si windowSize es menor a 1024, o FALSE en caso contrario
 }
 {% endhighlight %}
+
+Podés almacenar la devolución de la función y manejar el flujo de tu web en base a ese dato :)
 
 # En la práctica, ¿cómo funciona en holanerd?
 
