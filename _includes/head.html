@@ -3,7 +3,7 @@
     <head>
         <title>{% if page.title %}{{ page.title }} | {% else %} {{ site.description }} | {% endif %}{{ site.title }}</title>
         <meta name="og:title" content="{{ page.title }}" />
-        <meta name="og:description" content="Comunidad de programadores. {{ page.summary }}" />
+        <meta name="og:description" content="{% unless page.summary %} Comunidad de programadores. {% else %} {{ page.summary }} {% endunless %}" />
         <meta name="og:image" content="{{ page.image }}" />
         <meta name="og:image:secure_url" content="{{ page.image }}" />
         <meta name="keywords" content="{{ page.tags }}" />
@@ -17,7 +17,7 @@
         <link rel="stylesheet" href="/assets/css/responsive.min.css" />
         <link rel="stylesheet" href="/assets/css/footer.min.css" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-        <link rel="shortcut icon" href="{{/favicon.png" />
+        <link rel="shortcut icon" href="/favicon.png" />
         {% unless page.summary %} 
         <link rel="stylesheet" href="/assets/css/warning.min.css" /> 
         {% endunless %}
@@ -30,9 +30,9 @@
         <link rel="stylesheet" href="/assets/css/responsive.min.css" />
         <link rel="stylesheet" href="/assets/css/footer.min.css" />
         {% if page.vue == 'development' %} 
-        <script async type="text/javascript" src="/assets/js/vue.min.js"></script> 
+        <script async src="/assets/js/vue.dev.min.js"></script>
         {% else %}
-        <script async src="/assets/js/vue.dev.min.js"></script> 
+        <script async type="text/javascript" src="/assets/js/vue.min.js"></script>  
         {% endif %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
@@ -44,7 +44,7 @@
         </script>
     </head>
 <body class="defaultBg">
-<div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div>
+<!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
 <!-- <header class="full-width grid-2 padding fixed-conditional">
     <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
     <nav>
@@ -54,16 +54,16 @@
         </ul>
     </nav>
 </header> -->
-<div id="sidebar" v-if="">
+<div id="sidebar" v-if="visible">
     <ul>
         <li>
-            <a href="">_li1.name_</a>
+            <a href="">_home.name_</a>
         </li>
         <li>
-            <a href="">Blog</a>
+            <a href="">_blog.name_</a>
         </li>
         <li>
-            <a href="">Contacto</a>
+            <a href="">_contact.name_</a>
         </li>
     </ul>
 </div>

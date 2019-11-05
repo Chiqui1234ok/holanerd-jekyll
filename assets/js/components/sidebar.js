@@ -3,12 +3,31 @@ var sidebar = new Vue({
     delimiters: ['_', '_'],
     data: 
     {
-        li1: 
+        visible = false,
+        home: 
         {
             name: 'Inicio',
             url: '/'
         },
-        li2: 'Blog',
-        li3: 'Contacto'
+        blog: 
+        {
+            name: 'Blog',
+            url: '/blog.html'
+        },
+        contact:
+        {
+            name: 'Contacto',
+            url: '/contacto.html'
+        }
+    },
+    methods: {
+        openSidebar = function()
+        {
+            this.visible = true;
+        },
+        closeSidebar = function()
+        {
+            this.visible = false;
+        }
     }
 })
