@@ -57,14 +57,17 @@
 <div id="sidebar" v-if="visible">
     <ul>
         <li>
-            <a href="">_home.name_</a>
+            <a :href="_home.url_">_home.name_</a>
         </li>
         <li>
-            <a href="">_blog.name_</a>
+            <a :href="_blog.url_">_blog.name_</a>
         </li>
         <li>
-            <a href="">_contact.name_</a>
+            <a :href="_contact.url_">_contact.name_</a>
         </li>
     </ul>
 </div>
+<button id="menu" v-on:click="sidebar.openSidebar()">
+w
+</button>
 <script src="/assets/js/components/sidebar.js"></script>
