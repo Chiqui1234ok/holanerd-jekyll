@@ -31,10 +31,9 @@
         <link rel="stylesheet" href="/assets/css/responsive.min.css" />
         <link rel="stylesheet" href="/assets/css/footer.min.css" />
         {% if page.vue == 'development' %} 
-        <script async type="text/javascript" src="{{/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> 
+        <script async type="text/javascript" src="/assets/js/vue.min.js"></script> 
         {% else %}
-        <!-- <script async type="text/javascript" src="/assets/js/vue.min.js"></script> Vue.js production -->
-        <script src="/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> 
+        <script async src="/assets/js/vue.dev.min.js"></script> 
         {% endif %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
@@ -69,3 +68,4 @@
         </li>
     </ul>
 </div>
+<script src="/assets/js/components/sidebar.js"></script>
