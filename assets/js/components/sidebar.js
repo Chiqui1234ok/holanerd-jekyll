@@ -3,7 +3,7 @@ var sidebar = new Vue({
     delimiters: ['_', '_'],
     data: 
     {
-        visible = false,
+        visible: false,
         home: 
         {
             name: 'Inicio',
