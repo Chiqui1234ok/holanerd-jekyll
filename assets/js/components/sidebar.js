@@ -21,11 +21,11 @@ var sidebar = new Vue({
         }
     },
     methods: {
-        openSidebar: function()
+        openSidebar: function(event)
         {
             this.visible = true;
         },
-        closeSidebar: function()
+        closeSidebar: function(event)
         {
             this.visible = false;
         }
