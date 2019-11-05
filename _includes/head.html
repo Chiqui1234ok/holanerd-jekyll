@@ -19,13 +19,15 @@
         <?xml-stylesheet type="text/css" href="/assets/css/last-comments.min.css"?>
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="{{ site.url }}{{ site.baseurl }}/favicon.png" />
-        {% unless page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/warning.min.css" /> {% endunless %}
+        {% unless page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/warning.min.css" /> 
+        {% endunless %}
         {% if page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/post.min.css" /> {% endif %}
         {% if page.summary %} <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/languages.min.css" />{% endif %}
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/responsive.min.css" />
         <link rel="stylesheet" href="{{ site.url }}{{site.baseurl}}/assets/css/footer.min.css" />
-        {% if page.vue == 'yes' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.min.js"></script> <!-- Vue.js production --> {% endif %}
-        {% if page.vue == 'development' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> {% endif %}
+        {% if page.vue == 'development' %} <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.dev.min.js"></script> <!-- Vue.js development --> {% else %}
+        <script type="text/javascript" src="{{ site.url }}{{ site.baseurl }}/assets/js/vue.min.js"></script> <!-- Vue.js production -->
+        {% endif %}
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
         <script>
