@@ -1,0 +1,17 @@
+#menu
+{
+    width: 32px;
+    height: 32px;
+    top: 10px;
+    left: 10px;
+    display: grid;
+    cursor: pointer;
+}
+#menu a
+{
+    line-height: 0;
+    border: none;
+    text-align: center;
+    align-self: center;
+    color: var(--background0);
+}
