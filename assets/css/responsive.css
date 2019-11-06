@@ -5,7 +5,7 @@
     .full-column {grid-column: 1;} /* Soporte completo a .grid-2 */
     .remove-mobile {display: none;}
     .textRight {text-align: center;}
-    .read-width {width: 80%;}
+    .read-width {width: calc(100% - 72px);margin-left: 72px;}
     img {width: 100%;}
     #widget-float {width: calc(50vw - 20px);} /* -20px porque es el 'left' de la caja */
 }
@@ -14,7 +14,7 @@
     .full-column {grid-column: 1;} /* Soporte completo a .grid-2 */
     .remove-mobile {display: none;}
     .textRight {text-align: center;}
-    .read-width {width: 80%;}
+    .read-width {width: calc(100% - 72px);margin-left: 72px;}
     img {width: 100%;}
     #widget-float {width: calc(75vw - 20px);} /* -20px porque es el 'left' de la caja */
     .fixed-conditional {position: static;}

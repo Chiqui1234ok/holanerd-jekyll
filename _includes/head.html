@@ -26,6 +26,7 @@
         {% endif %}
         <link rel="stylesheet" href="/assets/css/responsive.min.css" />
         <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="/favicon.png" />
         <!-- Global site tag (gtag.js) - Google Analytics -->
@@ -36,9 +37,6 @@
             gtag('js', new Date());
             gtag('config', 'UA-150079181-1');
         </script>
-        <!-- Vue.js -->
-        <!-- <script type="text/javascript" src="/assets/js/vue.dev.min.js"></script>  -->
-        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
     </head>
 <body class="defaultBg">
 <!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
@@ -52,21 +50,11 @@
     </nav>
 </header> -->
 
-<div id="menu" class="hoverMe fixed" v-model="sidebar" v-on:click="sidebar.openSidebar()"> <!-- menu -->
-    <a>></a>
-</div> <!-- !menu -->
-
-<div id="sidebar" v-if="visible">
+<div id="sidebar" class="fixed full-height">
     <ul>
-        <li>
-            <a :href="_home.url_">_home.name_</a>
-        </li>
-        <li>
-            <a :href="_blog.url_">_blog.name_</a>
-        </li>
-        <li>
-            <a :href="_contact.url_">_contact.name_</a>
-        </li>
+        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
+        <li><a href="/blog.html"><i class="fa fa-newspaper-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-user"></i></a></li>
     </ul>
 </div>
 
