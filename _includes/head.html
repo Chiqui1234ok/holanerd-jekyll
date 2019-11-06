@@ -28,8 +28,6 @@
         <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
         <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
         <link rel="shortcut icon" href="/favicon.png" />
-        <!-- Vue.js -->
-        <script type="text/javascript" src="/assets/js/vue.min.js"></script> 
         <!-- Global site tag (gtag.js) - Google Analytics -->
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
         <script>
@@ -38,6 +36,8 @@
             gtag('js', new Date());
             gtag('config', 'UA-150079181-1');
         </script>
+        <!-- Vue.js -->
+        <script type="text/javascript" src="/assets/js/vue.dev.min.js"></script> 
     </head>
 <body class="defaultBg">
 <!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
@@ -51,7 +51,7 @@
     </nav>
 </header> -->
 
-<div id="menu" class="hoverMe fixed" v-on:click="sidebar.openSidebar()"> <!-- menu -->
+<div id="menu" class="hoverMe fixed" v-model="sidebar" v-on:click="sidebar.openSidebar()"> <!-- menu -->
     <a>></a>
 </div> <!-- !menu -->
 
