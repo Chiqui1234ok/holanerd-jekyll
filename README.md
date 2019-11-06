@@ -1,2 +1,3 @@
 # Holanerd (jekyll)
-Comunidad de programadores
+Blog de programación :)
+[Link acá](http://holanerd.net)
