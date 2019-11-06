@@ -2,6 +2,7 @@
 {
     background: var(--sentenceColor2);
     width: 52px;
+    padding-top: 10px;
     box-shadow: 0 0 10px var(--shadow);
     transition: color 0.5s;
 }
