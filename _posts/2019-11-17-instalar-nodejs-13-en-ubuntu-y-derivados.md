@@ -25,6 +25,6 @@ Una vez finalizada la instalación, deberías poder escribir **node -v** y tendr
 
 ### Para cerrar, chequeamos las versiones
 
-![versiones](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/versions.webp)
+![versiones](https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/version.webp)
 
 ¡Suerte!
