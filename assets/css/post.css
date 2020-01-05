@@ -70,7 +70,7 @@ main#post .img .title {
 }
     @media (max-width: 899px) {
         main#post .img .title {
-            height: 42px;
+            height: 64px;
         }
     }
 /* common */
