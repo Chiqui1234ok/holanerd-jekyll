@@ -7,6 +7,15 @@ aside#post-info {
     transition: left var(--transitionFast) ease-in-out;
     z-index: 22;
 }
+    @media (max-width: 1279px) {
+        aside#post-info {
+            width: 75vw;
+            left: -75vw;
+        }
+        aside#post-info .grid-2 {
+            grid-template-columns: 1fr 1fr;
+        }
+    }
 aside#post-info:hover {
     left: 0;
 }
@@ -31,6 +40,9 @@ aside#post-info .comment * {
     color: var(--light);
 }
 /* post style */
+main img {
+    max-width: 100%;
+}
 main#post .img {
     width: 100%;
     height: 32px;
@@ -41,11 +53,11 @@ main#post .img {
 main#post .img:hover {
     height: 50vh;
 }
-@media (max-width: 899px) {
-    main#post .img:hover {
-        height: 40vh;
+    @media (max-width: 899px) {
+        main#post .img:hover {
+            height: 40vh;
+        }
     }
-}
 main#post .img .title {
     width: 100%;
     height: 42px;
