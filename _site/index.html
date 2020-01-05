@@ -1,39 +1,136 @@
 <!DOCTYPE html>
 <html lang="es">
     <head>
-        <title>¡Bienvenido a la comunidad! | Your awesome title</title>
-        <link rel="stylesheet" href="http://localhost:4000/css/main.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/animations.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/widget.css" />
-        <link rel="stylesheet" href="http://localhost:4000css/input.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/responsive.css" />
+        <title> Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description. | Your awesome title</title>
+        <meta name="og:title" content="" />
+        <meta name="og:description" content=" Comunidad de programadores. " />
+        <meta name="og:image" content="" />
+        <meta name="og:image:secure_url" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" href="/assets/css/main.min.css" />
+        <link rel="stylesheet" href="/assets/css/header.min.css" />
+        <link rel="stylesheet" href="/assets/css/sidebar.min.css" />
+        <link rel="stylesheet" href="/assets/css/animations.min.css" />
+        <link rel="stylesheet" href="/assets/css/widget.min.css" />
+        <link rel="stylesheet" href="/assets/css/input.min.css" />
+        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
+        <link rel="stylesheet" href="/assets/css/footer.min.css" />
+         
+        <link rel="stylesheet" href="/assets/css/warning.min.css" /> 
+        
+        
+        
+        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
+        <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-150079181-1');
+        </script>
     </head>
 <body class="defaultBg">
-<header class="fullWidth grid2 padding fixed">
-    Holanerd&copy 2019
-</header>
-<div id="root" class="grid2 gap readWidth">
-    <!-- widget -->
-    <div id="widget" class="rainbowBorder">
-        <div id="content" class="padding">
-            test
-        </div>
-    </div>
-    <!-- content -->
-    <div id="content">
-        <p>¡Hola y bienvenido al sitio web de Holanerd!</p>
-<div id="like_button_container"></div>
+<!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
+<!-- <header class="full-width grid-2 padding fixed-conditional">
+    <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
+    <nav>
+        <ul class="minimal-list text-center">
+            <li><a href="http://localhost:4000">Inicio</a></li>
+            <li><a href="http://localhost:4000/blog.html">Blog</a></li>
+        </ul>
+    </nav>
+</header> -->
 
-    </div>
+<div id="sidebar" class="fixed">
+    <ul>
+        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
+        <li><a href="/blog.html"><i class="fa fa-newspaper-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-user"></i></a></li>
+    </ul>
 </div>
-    
-<script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
 
-<!-- Cargamos nuestro componente de React. -->
-<script src="http://localhost:4000/js/like_button.js"></script>
-<footer class="padding textCenter">
-    Holanerd&copy 2019
+<script src="/assets/js/components/sidebar.js"></script>
+<main class="grid-2 gap read-width">
+    
+    <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
+            <div id="image" style="background: url('') center;background-size: cover;"></div>
+            <div>
+                <p>Mirá nuestro <a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">último post</a>, hecho por <i></i>. :)</p>
+                <h1><a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">Welcome to Jekyll!</a></h1>
+                <p></p>
+                <p><a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">Leer más</a>.</p>
+            </div>
+    </div> <!-- !widget -->
+    
+    <div id="widget" class="padding"> <!-- widget -->
+        <p>¡Hola y bienvenido al sitio web de Holanerd!
+            Acá vas a encontrar tutoriales y notas de calidad sobre la programación y el mundo informático en general ;)</p>
+        <p>¿Querés sumarte? <a href="#">Aprendé a trabajar con GitHub y subí tu post</a>, ¡es fácil!</p>
+    </div> <!-- !widget -->
+    <div id="widget" class="padding shadow-superhero-box widget-border"> <!-- widget -->
+            <ul class="minimal-list">
+                
+                <li class="text-center"><a href="http://localhost:4000/blog.html">--> Ver todos los posts <--</a></li>
+            </ul>
+    </div> <!-- !widget -->
+</main>
+<script src="/assets/js/isMobile.js"></script>
+<script>
+let responsive = isMobile();
+if( responsive )
+{
+    document.getElementById('image').style = '';
+}
+</script>
+
+<div id="widget-float" class="padding shadow-superhero-box">
+    ¿Te gustan las cookies? Gracias a Google Analytics, tomamos información sobre tu visita para mejorar tu navegación en el futuro. Si no estás de acuerdo con esto, simplemente abandoná el sitio.
+    <button type="button" class="padding textCenter" onclick="closeCookies();">¡Ok! Entendido</button>
+</div>
+<script>
+    function setCookie(name,value,days) {
+    var expires = "";
+    if (days) {
+        var date = new Date();
+        date.setTime(date.getTime() + (days*24*60*60*1000));
+        expires = "; expires=" + date.toUTCString();
+    }
+        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
+    }
+    function getCookie(name) {
+        var nameEQ = name + "=";
+        var ca = document.cookie.split(';');
+        for(var i=0;i < ca.length;i++) {
+            var c = ca[i];
+            while (c.charAt(0)==' ') c = c.substring(1,c.length);
+            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
+        }
+        return null;
+    }
+    function eraseCookie(name) {   
+        document.cookie = name+'=; Max-Age=-99999999;';  
+    }
+    //
+    let doc = document.getElementById("widget-float"); // Obtengo el widget-float 
+    let cookiesPolicy = getCookie('cookiesPolicy');
+    if(cookiesPolicy)
+    {
+        doc.style.display = 'none';
+    }
+    function closeCookies() // Si las cookies no se aceptaron aún pero se clickea en <button>, seteamos cookies
+    {
+        doc.style.display = 'none';
+        setCookie('cookiesPolicy', 'yes', 14);
+    }
+</script>
+<footer class="grid-2 gap full-width padding">
+    <div>Otro blog de programación :D</div>
+    <div class="text-center">Holanerd&copy 2019</div>
 </footer>
 </body>
 </html>

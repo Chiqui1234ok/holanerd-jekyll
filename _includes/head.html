@@ -1,61 +1,29 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <title>{% if page.title %}{{ page.title }} | {% else %} {{ site.description }} | {% endif %}{{ site.title }}</title>
-        <meta name="og:title" content="{{ page.title }}" />
-        <meta name="og:description" content="{% unless page.summary %} Comunidad de programadores. {% else %} {{ page.summary }} {% endunless %}" />
-        <meta name="og:image" content="{{ page.image }}" />
-        <meta name="og:image:secure_url" content="{{ page.image }}" />
-        <meta name="keywords" content="{{ page.tags }}" />
-        <link rel="stylesheet" href="/assets/css/main.min.css" />
-        <link rel="stylesheet" href="/assets/css/header.min.css" />
-        <link rel="stylesheet" href="/assets/css/sidebar.min.css" />
-        <link rel="stylesheet" href="/assets/css/animations.min.css" />
-        <link rel="stylesheet" href="/assets/css/widget.min.css" />
-        <link rel="stylesheet" href="/assets/css/input.min.css" />
-        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
-        <link rel="stylesheet" href="/assets/css/footer.min.css" />
-        {% unless page.summary %} 
-        <link rel="stylesheet" href="/assets/css/warning.min.css" /> 
-        {% endunless %}
-        {% if page.summary %} 
-        <link rel="stylesheet" href="/assets/css/post.min.css" /> 
-        {% endif %}
-        {% if page.summary %} 
-        <link rel="stylesheet" href="/assets/css/languages.min.css" />
-        {% endif %}
-        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
-        <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-        <link rel="shortcut icon" href="/favicon.png" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-150079181-1');
-        </script>
-    </head>
-<body class="defaultBg">
-<!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
-<!-- <header class="full-width grid-2 padding fixed-conditional">
-    <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
-    <nav>
-        <ul class="minimal-list text-center">
-            <li><a href="{{ site.url }}{{ site.baseurl }}">Inicio</a></li>
-            <li><a href="{{ site.url }}{{ site.baseurl }}/blog.html">Blog</a></li>
-        </ul>
-    </nav>
-</header> -->
-
-<div id="sidebar" class="fixed">
-    <ul>
-        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
-        <li><a href="/blog.html"><i class="fa fa-newspaper-o"></i></a></li>
-        <li><a href="#"><i class="fa fa-user"></i></a></li>
-    </ul>
-</div>
-
-<script src="/assets/js/components/sidebar.js"></script>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <!-- CSS Exclusivo del theme -->
+    <link rel="stylesheet" href="assets/css/blog.css" />
+    <!-- Reboot_strap -->
+    <link rel="stylesheet" href="assets/css/alert.css" />
+    <link rel="stylesheet" href="assets/css/animations.css" />
+    <link rel="stylesheet" href="assets/css/effects.css" />
+    <link rel="stylesheet" href="assets/css/footer.css" />
+    <link rel="stylesheet" href="assets/css/grid.css" />
+    <link rel="stylesheet" href="assets/css/grid-responsive.css" />
+    <link rel="stylesheet" href="assets/css/header.css" />
+    <link rel="stylesheet" href="assets/css/input.css" />
+    <link rel="stylesheet" href="assets/css/link.css" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="assets/css/main-responsive.css" />
+    <link rel="stylesheet" href="assets/css/text.css" />
+    <link rel="stylesheet" href="assets/css/text-responsive.css" />
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
+    <!-- Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" />
+    <title>Holanerd</title>
+</head>
+<body>

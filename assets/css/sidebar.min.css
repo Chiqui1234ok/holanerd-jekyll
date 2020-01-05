@@ -1,1 +1,0 @@
-#sidebar{background:var(--sentenceColor2);width:52px;padding-top:10px;box-shadow:0 0 10px var(--shadow);transition:color .5s}#sidebar ul{list-style:none;padding:0}#sidebar i{width:52px;height:32px;font-size:32px;text-align:center;line-height:0}#sidebar a{color:var(--sentenceColor);border:none}#sidebar a:hover{color:var(--jsHighLight)}

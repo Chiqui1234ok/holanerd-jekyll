@@ -1,2 +1,5 @@
-_posts/2019-10-22-que-tan-genial-es-bootstrap.md
-_posts/2019-10-21-ejercicio-semi-integrador-de-colas-en-c.md
+_site
+.sass-cache
+.jekyll-cache
+.jekyll-metadata
+vendor

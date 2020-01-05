@@ -2,17 +2,60 @@
 <html lang="en"><!DOCTYPE html>
 <html lang="es">
     <head>
-        <title> | Your awesome title</title>
-        <link rel="stylesheet" href="http://localhost:4000/css/main.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/animations.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/widget.css" />
-        <link rel="stylesheet" href="http://localhost:4000css/input.css" />
-        <link rel="stylesheet" href="http://localhost:4000/css/responsive.css" />
+        <title>About | Your awesome title</title>
+        <meta name="og:title" content="About" />
+        <meta name="og:description" content=" Comunidad de programadores. " />
+        <meta name="og:image" content="" />
+        <meta name="og:image:secure_url" content="" />
+        <meta name="keywords" content="" />
+        <link rel="stylesheet" href="/assets/css/main.min.css" />
+        <link rel="stylesheet" href="/assets/css/header.min.css" />
+        <link rel="stylesheet" href="/assets/css/sidebar.min.css" />
+        <link rel="stylesheet" href="/assets/css/animations.min.css" />
+        <link rel="stylesheet" href="/assets/css/widget.min.css" />
+        <link rel="stylesheet" href="/assets/css/input.min.css" />
+        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
+        <link rel="stylesheet" href="/assets/css/footer.min.css" />
+         
+        <link rel="stylesheet" href="/assets/css/warning.min.css" /> 
+        
+        
+        
+        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
+        <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
+        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+        <link rel="shortcut icon" href="/favicon.png" />
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'UA-150079181-1');
+        </script>
     </head>
 <body class="defaultBg">
-<header class="fullWidth grid2 padding fixed">
-    Holanerd&copy 2019
-</header><body><header class="site-header" role="banner">
+<!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
+<!-- <header class="full-width grid-2 padding fixed-conditional">
+    <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
+    <nav>
+        <ul class="minimal-list text-center">
+            <li><a href="http://localhost:4000">Inicio</a></li>
+            <li><a href="http://localhost:4000/blog.html">Blog</a></li>
+        </ul>
+    </nav>
+</header> -->
+
+<div id="sidebar" class="fixed">
+    <ul>
+        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
+        <li><a href="/blog.html"><i class="fa fa-newspaper-o"></i></a></li>
+        <li><a href="#"><i class="fa fa-user"></i></a></li>
+    </ul>
+</div>
+
+<script src="/assets/js/components/sidebar.js"></script><body><header class="site-header" role="banner">
 
   <div class="wrapper"><a class="site-title" rel="author" href="/">Your awesome title</a><nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -52,13 +95,9 @@
 </article>
 
       </div>
-    </main><script src="https://unpkg.com/react@16/umd/react.production.min.js" crossorigin></script>
-<script src="https://unpkg.com/react-dom@16/umd/react-dom.production.min.js" crossorigin></script>
-
-<!-- Cargamos nuestro componente de React. -->
-<script src="http://localhost:4000/js/like_button.js"></script>
-<footer class="padding textCenter">
-    Holanerd&copy 2019
+    </main><footer class="grid-2 gap full-width padding">
+    <div>Otro blog de programación :D</div>
+    <div class="text-center">Holanerd&copy 2019</div>
 </footer>
 </body>
 </html></body>

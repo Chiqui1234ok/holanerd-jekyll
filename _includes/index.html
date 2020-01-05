@@ -1,0 +1,24 @@
+<main class="container center margin-top">
+    <ul id="posts" class="grid-3 super-gap minimal-list text-center padding">
+        {% for post in site.posts offset:0 %}
+        <li class="super-rounded super-padding">
+            <div class="category padding" style="background: var(--darkBlue-transparent);"><a href="">Programación</a></div>
+            <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><div class="img" style="background: url('{{ post.image }}') center;"></div></a>
+            <div class="date padding"><i class="far fa-calendar-alt"></i> {{ post.date }}</div>
+            <div class="title padding">{{ post.title }}</div>
+            <div class="text padding">{{ post.summary }}</div>
+            <div id="authorSection" class="grid-3 gap padding">
+                <div class="author grid-2 gap">
+                    <img src="https://www.legatowebtech.com/wp-content/uploads/2019/01/avatar-372-456324.png" width="100%" /> {{ post.author }}
+                </div>
+                <div class="likes" title="93">
+                    <a href="#post#comments"><i class="fas fa-comment"></i></a>
+                </div>
+                <div class="comments" title="2">
+                    <a href="#post#like"><i class="fas fa-thumbs-up"></i></a>
+                </div>
+            </div>
+        </li>
+        {% endfor %}
+    </ul>
+</main>

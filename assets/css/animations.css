@@ -1,43 +1,45 @@
-.rainbowEffect /* Demostración */
-{ 
-    height: 100%;
-    width: 100%;
-    left:0;
-    right: 0;
-    top: 0;
-    bottom: 0;
-    position: absolute;
-    background: linear-gradient(124deg, #ff2400, #e81d1d, #e8b71d, #e3e81d, #1de840, #1ddde8, #2b1de8, #dd00f3, #dd00f3);
-    background-size: 1800% 1800%;  
-    -webkit-animation: rainbowEffect 18s ease infinite;
-    -z-animation: rainbowEffect 18s ease infinite;
-    -o-animation: rainbowEffect 18s ease infinite;
-    animation: rainbowEffect 18s ease infinite;
+/* Fade In */
+.fadeIn {
+    animation: fadeIn .5s linear;
 }
-  @keyframes rainbowEffect { 
-      0%{background-position:0% 82%}
-      50%{background-position:100% 19%}
-      100%{background-position:0% 82%}
-  }
-
-.hoverMe
-{
-    border-radius: 100%;
-    background: var(--headerColor);
-    animation: hoverMe 2s ease infinite;
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
 }
-    .hoverMe:hover
-    {
-        background: var(--highLight);
+/**/
+/* Zoom in */
+.zoomIn-normal {
+    animation: zoomIn-normal .5s linear;
+}
+@keyframes zoomIn-normal {
+    from { transform: scale(0.5);}
+    to { transform: scale(1); }
+}
+/**/
+@-webkit-keyframes float {
+    0%{margin-top: -2.5px;}
+    50%{margin-top: 2.5px;}
+    100%{margin-top: -2.5px;}
+}
+@-moz-keyframes float {
+    0%{margin-top: -2.5px;}
+    50%{margin-top: 2.5px;}
+    100%{margin-top: -2.5px;}
+}
+@keyframes float {
+    0%{margin-top: -2.5px;}
+    50%{margin-top: 2.5px;}
+    100%{margin-top: -2.5px;}
+}
+/* Text effects */
+@keyframes textShadowPulse {
+    0% {
+        text-shadow: 0 0 5px var(--light);
     }
-    @keyframes hoverMe 
-    {
-        50%  
-        {
-            box-shadow: 0 0 5px rgba(100, 225, 200, 0.9);
-        }
-        0%, 100%
-        {
-            box-shadow: 0 0 15px rgba(75, 175, 250, 0.7);
-        }
+    50% {
+        text-shadow: 0 0 5px transparent;
     }
+    100% {
+        text-shadow: 0 0 5px var(--light);
+    }
+}
