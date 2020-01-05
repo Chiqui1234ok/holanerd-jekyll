@@ -35,9 +35,10 @@ footer {
         font-size: 32px;
         display: inline;
     }
-    header ul li a {
+    header .logo a, header ul li a {
         color: var(--light);
     }
     header ul li a:hover {
-        color: var(--darkBlue);
+        color: var(--light);
+        text-shadow: 0 0 15px var(--light);
     }

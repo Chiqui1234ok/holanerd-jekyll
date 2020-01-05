@@ -13,7 +13,7 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>Para entender porqué no nos decantamos por CMS súper probados como <strong>Wordpress</strong>, <strong>Joomla</strong> o <strong>Drupal</strong> hay que saber cuál es el público objetivo de #Holanerd hoy en día.</p>
 <p>A día de hoy y según nuestras analíticas, los dispositivos que más frecuentan la web son dispositivos móviles, de los cuáles asumimos que no todos tienen gran potencia.</p>
 
-<h1>La educación debería ser libre y accesible para todos</h1>
+<h1>La educación, en algún punto, debería ser accesible para todos</h1>
 <p>Para quién no sepa, hubo años en los que el Estado y la capital Argentina hicieron grandes esfuerzos en brindar a los estudiantes de ciclos primarios y secundarios (entre 6 y 18 años aprox) netbooks educativas.</p>
 <p>Sin embargo, la Internet pronto empezó a devorar CPU y RAM cómo si se estuviera corriendo un videojuego. Realmente esos Atom N270 / N455 estaban dando todo para mantener YouTube andando sobre Windows 7 Starter.</p>
 <p>En ese punto creo yo que me frustré en exceso. Era penoso ponerse a ver "Julio Profe" o algún tutorial de programación, ni hablar de tener un IDE abierto en segundo plano.</p>
@@ -30,6 +30,9 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>Esta plataforma sólo necesita que crees tus posts en formato <strong>Markdown</strong> (.md) y los alojes dentro de la carpeta <strong>_posts</strong>. Cada vez que ejecutás <strong>git push</strong>, la web se sube a los servidores y, con Github Pages activado, se compila todo en la nube para que no tengas que hacer nada más.</p>
 <p>La integración entre Jekyll y GitHub es preciosa :)</p>
 
+<h1>Crea packs de iconos</h1>
+<p><a href="https://icomoon.io/">Icomoon</a> es un sitio web que tiene packs de iconos de Fontawesome (entre muchos otros) y permite crear una tipografía sólo con los iconos que necesitas. Es así como tu <strong>all.min.css</strong> de Font Awesome pasa de 12KB (y te hace esperar un segundo más al cargar la web) a unos 2 o 3KB.</p>
+
 <h1>Desarrolla o utiliza APIs específicas</h1>
 <p>Si tuviera que hacer este blog en Wordpress sólo para que mis usuarios puedan comentar y tuvieran un avatar asociado, sería un desperdicio.</p>
 <p>Wordpress está pensado, en mi opinión, para algo mucho más grande que aún no descubrí.</p>
@@ -44,6 +47,7 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <h1>Nuevos formatos y tecnologías más ligeros</h1>
 <p>Hace varios años salieron dos formatos de Google. <strong>Webp</strong> para imágenes y <strong>WebM</strong> para videos. Sacando los servicios de Google, vi muy pocos sitios webs utilizando este formato que reduce en hasta un 50% (según pruebas propias) el peso de tus archivos multimedia.</p>
 <p>Si querés tener bajo peso y una rápida respuesta, sin duda usa estas dos extensiones.</p>
+<p>Puedes convertir imágenes png/jpg/jpeg a webp gracias a <a href="https://convertio.co/es/image-converter/">Convertio</a>, que también transforma videos, audios, etc. Si te limitan los 10 minutos que tiene para cuentas gratuitas, puedes adquirir un plan o bien, buscar otro sitio web que haga la misma tarea.</p>
 
 <h1>Trastea con las tecnologías puras, sin bibliotecas</h1>
 <p>Es muy distinto trabajar en un grupo de freelancers o sólo en vez de en una empresa. En la empresa tienes que cumplir pautas o utilizar tecnologías determinadas.</p>
