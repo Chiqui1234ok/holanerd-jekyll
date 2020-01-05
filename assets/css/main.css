@@ -46,6 +46,17 @@
     --lightLink: var(--green);
     --darkLink: var(--darkBlue);
         --darkLinkHover: var(--blue);
+    /* Category colors */
+    --linux: var(--violet);
+        --linuxText: var(--light);
+    --programacion: var(--darkBlue-transparent);
+        --programacionText: var(--light);
+    --web: var(--skyBlue-transparent);
+        --webText: var(--black);
+    --review: var(--yellow-transparent);
+        --reviewText: var(--black);
+    --holanerd: var(--red-transparent);
+        --holanerdText: var(--light);
 }
 body {
     width: 100%;
