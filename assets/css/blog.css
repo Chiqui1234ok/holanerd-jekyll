@@ -2,12 +2,17 @@
 @media (max-width: 1659px) { /* Entre 1023px y 1279px (tablets) */
     #posts.grid-3 {
         grid-template-columns: 1fr 1fr;
+        grid-auto-rows: 37vh;
     }
 }
 @media (max-width: 1279px) {
     #posts.grid-3 {
         grid-template-columns: 100%;
+        grid-auto-rows: 50vh;
     }
+}
+#posts.grid-3 {
+    grid-auto-rows: 33vh;
 }
 #posts.super-gap {
     gap: 50px;
@@ -75,12 +80,12 @@
     font-size: 16px;
 }
 #posts li .title {
-    font-size: 20px;
+    font-size: 24px;
     font-family: 'Julius Sans One', Arial, sans-serif;
     font-weight: 600;
 }
 #posts li .text {
-    font-size: 17px;
+    font-size: 18px;
 }
 #posts li #authorSection {
     width: 100%;

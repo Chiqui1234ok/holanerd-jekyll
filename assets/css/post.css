@@ -39,7 +39,12 @@ main#post .img {
     transition: all var(--transitionFast) ease-in-out;
 }
 main#post .img:hover {
-    height: 450px;
+    height: 50vh;
+}
+@media (max-width: 899px) {
+    main#post .img:hover {
+        height: 40vh;
+    }
 }
 main#post .img .title {
     width: 100%;
