@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Porqué negamos bibliotecas de terceros
-image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.webp
 date: 2020-01-05 20:50
 category: programacion
 author: chiqui
