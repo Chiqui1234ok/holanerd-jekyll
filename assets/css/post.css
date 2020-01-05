@@ -68,4 +68,9 @@ main#post .img .title {
     bottom: 0;
     left: 0;
 }
+    @media (max-width: 899px) {
+        main#post .img .title {
+            height: 42px;
+        }
+    }
 /* common */
