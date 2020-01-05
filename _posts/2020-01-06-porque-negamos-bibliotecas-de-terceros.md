@@ -14,6 +14,7 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>A día de hoy y según nuestras analíticas, los dispositivos que más frecuentan la web son dispositivos móviles, de los cuáles asumimos que no todos tienen gran potencia.</p>
 
 <h1>La educación, en algún punto, debería ser accesible para todos</h1>
+<img src="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/netbooks-conectar-igualdad.webp" width="100%" />
 <p>Para quién no sepa, hubo años en los que el Estado y la capital Argentina hicieron grandes esfuerzos en brindar a los estudiantes de ciclos primarios y secundarios (entre 6 y 18 años aprox) netbooks educativas.</p>
 <p>Sin embargo, la Internet pronto empezó a devorar CPU y RAM cómo si se estuviera corriendo un videojuego. Realmente esos Atom N270 / N455 estaban dando todo para mantener YouTube andando sobre Windows 7 Starter.</p>
 <p>En ese punto creo yo que me frustré en exceso. Era penoso ponerse a ver "Julio Profe" o algún tutorial de programación, ni hablar de tener un IDE abierto en segundo plano.</p>
