@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Activar GitHub Pages
-image: https://i.ytimg.com/vi/2MsN8gpT6jY/maxresdefault.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp
 date: 2019-10-20 21:50
 category: git
 author: chiqui

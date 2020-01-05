@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instalar NodeJS 13 en Ubuntu y derivados
-image: https://tudip.com/wp-content/uploads/2017/06/rsz_saadad.png
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp
 date: 2019-11-17 20:30
 category: linux
 author: chiqui

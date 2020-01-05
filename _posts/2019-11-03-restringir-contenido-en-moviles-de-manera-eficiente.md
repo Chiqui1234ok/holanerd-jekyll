@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Restringir contenido web en móviles de manera eficiente
-image: https://www.webfx.com/blog/wp-content/uploads/2011/03/iStock-612224522.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/restringir-contenido-en-moviles-de-manera-eficiente/poster.webp
 date: 2019-11-03 12:00
 category: programacion
 author: chiqui

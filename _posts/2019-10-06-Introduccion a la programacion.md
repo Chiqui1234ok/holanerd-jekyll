@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Introducción a la programación (Capítulo 1) 
-image: https://cdn.suwalls.com/wallpapers/vector/personal-computer-34562-1920x1200.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/introduccion-a-la-programacion/poster.webp
 date: 2019-10-12 14:50
 category: programacion
 author: chiqui

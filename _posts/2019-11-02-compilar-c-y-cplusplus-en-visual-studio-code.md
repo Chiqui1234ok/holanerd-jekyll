@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Compilar y debuggear C y C++ en Visual Studio Code
-image: https://code.visualstudio.com/assets/docs/editor/debugging/Debugging.png
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/compilar-c-y-cplusplus-en-visual-studio-code/poster.webp
 date: 2019-11-02 12:00
 category: programacion
 author: chiqui

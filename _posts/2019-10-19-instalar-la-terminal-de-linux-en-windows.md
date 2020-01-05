@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Instalar la terminal de Linux en Windows (2019)
-image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.jpg
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.webp
 date: 2019-10-19 20:50
 category: programacion
 author: chiqui

@@ -2,7 +2,7 @@
 layout: post
 title: Porqué te diría que CSS es programar (o casi)
 date: 2019-10-19 19:35
-image: https://www.tutorialrepublic.com/lib/images/css-illustration.png
+image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-te-diria-que-css-es-programar-o-casi/poster.webp
 category: programacion
 author: chiqui
 tags: css, programar, maquetar, web
