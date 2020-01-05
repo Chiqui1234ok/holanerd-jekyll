@@ -51,7 +51,7 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>Utilizo Google Analytics para tener información de qué visitas tengo, desde dónde me ven, etc. Este plugin me es imprecindible para mi, y no puedo desarrollar un software de semejante nivel ahora. Además, es súmamente cómodo de administrar. ¿Vale la pena hacer un plugin propio? Desde mi punto de vista, no.</p>
 <p>Pero vayamos con un ejemplo más simple. Actualmente, si colocas el cursor del mouse por encima del icono like y comentarios en la página de inicio (estas dos imágenes aparecen al colocar el cursor encima de un post listado), tendrás un pequeño <i>tooltip</i> que indica la cantidad de comentarios y likes del post.</p>
 
-<img src="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/tooltip-sin-plugins.webp" width="100%" />
+<img src="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/tooltip-sin-plugins.webp" />
 
 <p>Esto no es un plugin en JQuery, sino que averigué sobre dar estilo CSS a ciertos parámetros de etiquetas HTML, y encontré que el parámetro <strong>title</strong> puede recibir estilos de CSS. Y en 2 minutos, pasé de tener un clásico (por no decir feo) tooltip a una cajita celeste con blur detrás. Mucho más estético y de hecho, más rápido que buscar e implementar un script Javascript que hiciera el trabajo.</p>
 <p>Las cosas nativas pueden resultar <strong>muy eficientes</strong>.</p>
@@ -75,7 +75,7 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>También tiene funciones, filtros, opacidad, colores rgba y variables que no sólo pueden almacenar valores y strings, sino que también almacenan colores, unidades de tiempo y unidades de medición (px, em, vh, vw, etc).</p>
 <p><strong>Pasando al lado de Javascript</strong>, bibliotecas cómo React y Vue.js son bastante buenas, pero si estás en un proyecto simple es probable que no necesites incluir ni siquiera JQuery.</p>
 <p>Si querés tener algún atajo al seleccionar un elemento del DOM, puedes utilizar el <strong>getElementById</strong> clásico y almacenar ese objeto en una variable, para poder utilizarla escribiendo menos.</p>
-<p>Una variable de ese tipo pesa realmente poco, y sin JQuery te ahorras varios Kilobytes que puedes utilizar en iconos o la portada de tu flamante post.</p>
+<p>Una variable de ese tipo pesa realmente poco, y sin JQuery te ahorras varios Kilobytes que puedes utilizar en iconos, la portada de tu flamante post y servicios como Google Analytics y Disqus, sin tener mal rendimiento.</p>
 <p><strong>PD</strong>: Siempre que puedas, intenta colocar las bibliotecas JS al final del documento HTML (y antes de los scripts que utilicen dichas bibliotecas).</p>
 
 <h1>Conclusión</h1>
