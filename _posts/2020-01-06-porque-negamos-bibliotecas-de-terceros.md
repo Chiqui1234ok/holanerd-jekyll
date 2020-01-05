@@ -2,7 +2,7 @@
 layout: post
 title: Porqué negamos bibliotecas de terceros
 image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.webp
-date: 2020-01-05 20:50
+date: 2020-01-05 19:00
 category: programacion
 author: chiqui
 tags: negamos, bibliotecas, front-end, back-end, optimizacion
@@ -33,6 +33,9 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>La integración entre Jekyll y GitHub es preciosa, y es un sistema que se adapta a cualquier theme de manera fácil. Si ya eres front-end developer, te gustará mucho :)</p>
 
 <h1>Crea packs de iconos</h1>
+
+<img src="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/icomoon.webp" width="100%" />
+
 <p><a href="https://icomoon.io/">Icomoon</a> es un sitio web que tiene packs de iconos de Fontawesome (entre muchos otros) y permite crear una tipografía sólo con los iconos que necesitas. Es así como tu <strong>all.min.css</strong> de Font Awesome pasa de 12KB (y te hace esperar un segundo más al cargar la web) a unos 2 o 3KB.</p>
 <p>Es más, el PageSpeed Insights debería tirar una nota relativamente baja sobre Holanerd hoy, debido a que estoy cargando FontAwesome completito. <strong>Icomoon</strong> entrará en acción en cuánto termine el theme actual.</p>
 
@@ -53,11 +56,11 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p>Las cosas nativas pueden resultar <strong>muy eficientes</strong>.</p>
 
 <h1>Se ahorran recursos en el cliente, pero también en el servidor</h1>
-<p>Al tener un <strong>footsprint</strong> (huella) tan pequeño, no sólo estamos ahorrando megabytes al usuario sino que también el servidor utiliza menos espacio en disco y de hecho, menos servicios en segundo plano.</p>
-<p>Al no utilizar bases de datos, PHP o Nodejs, el servidor precisa el módulo Apache o Nginx para servir tu sitio web, y Ruby para auto-compilar el sitio web cada vez que subas un post. Es por esto que el servidor está muy tranquilo en cada petición que le hacemos. Debe entregar un archivo HTML, sin tener que conectar con una BD ni pensar nada "estrambótico".</p>
+<p>Al tener un <strong>footsprint</strong> (huella) tan pequeño, no sólo estamos ahorrando megabytes al usuario sino que también el servidor utiliza menos espacio en disco y de hecho, menos servicios deben correr en segundo plano para que la web funcione correctamente.</p>
+<p>Al no utilizar bases de datos, PHP ni Nodejs, el servidor precisa el módulo Apache o Nginx para servir tu sitio web, y Ruby para auto-compilar el sitio web cada vez que subas un post. Es por esto que el servidor está muy tranquilo en cada petición que le hacemos. Debe entregar un archivo HTML, sin tener que conectar con una BD ni pensar nada "estrambótico".</p>
 
-<h1>Nuevos formatos y tecnologías más ligeros</h1>
-<p>Hace varios años salieron dos formatos de Google. <strong>Webp</strong> para imágenes y <strong>WebM</strong> para videos. Sacando los servicios de Google, vi muy pocos sitios webs utilizando este formato que reduce en hasta un 50% (según pruebas propias) el peso de tus archivos multimedia.</p>
+<h1>Nuevos formatos y tecnologías más ligeras</h1>
+<p>Hace varios años salieron <a href="https://developers.google.com/speed/webp">dos formatos de Google</a>. <strong>Webp</strong> para imágenes y <strong>WebM</strong> para videos. Sacando los servicios de Google, vi muy pocos sitios webs utilizando este formato que reduce en hasta un 50% (según pruebas propias) el peso de tus archivos multimedia.</p>
 <p>Si querés tener bajo peso y una rápida respuesta, sin duda usa estas dos extensiones.</p>
 <p>Puedes convertir imágenes png/jpg/jpeg a webp gracias a <a href="https://convertio.co/es/image-converter/">Convertio</a>, que también transforma videos, audios, etc. Si te limitan los 10 minutos que tiene para cuentas gratuitas, puedes adquirir un plan o bien, buscar otro sitio web que haga la misma tarea. Creo que <a href="https://imagen.online-convert.com/es/convertir-a-webp">online-convert.com</a> es ilimitado.</p>
 
@@ -68,10 +71,13 @@ summary: El restyling de Holanerd se da por terminado, y luego de probar Bootstr
 <p><strong>Sin embargo</strong>, para proyectos propios puedes hacer casi lo que se te de en gana, y es por eso que el sitio web del cuál estás leyendo está basado en HTML, CSS y Ruby.</p>
 <p>De hecho, uso Ruby porque Jekyll lo usa, y el trabajo que han hecho con esta plataforma no ha podido ser superada por mis saberes. Distinta es la historia con CSS 3, un lenguaje de maquetación que maduró <strong>muchísimo</strong> desde las primeras versiones de SASS (y otros pre-compiladores de CSS) y Bootstrap.</p>
 <p>Actualmente, CSS cuenta con (al menos) dos sistemas de grillas <strong>nativas</strong> que puedes implementar sin gastar ni 1Kb de más: CSS Grid y Flex.</p>
-<p><strong>Pasando al lado de Javascript</strong>, bibliotecas cómo React y Vue.js son bastante buenas, pero si estás en un proyecto simple es probable que no necesites incluir JQuery con tal de tener algún atajo al seleccionar un div#id o div.class. Puedes utilizar el <strong>getElementById</strong> y almacenar ese div en una variable, para poder utilizarla escribiendo menos.</p>
-<p>Una variable de ese tipo pesa realmente poco, y te ahorras varios Kilobytes que puedes utilizar en iconos o la portada de tu flamante post.</p>
+<p>También tiene funciones, filtros, opacidad, colores rgba y variables que no sólo pueden almacenar valores y strings, sino que también almacenan colores, unidades de tiempo y unidades de medición (px, em, vh, vw, etc).</p>
+<p><strong>Pasando al lado de Javascript</strong>, bibliotecas cómo React y Vue.js son bastante buenas, pero si estás en un proyecto simple es probable que no necesites incluir ni siquiera JQuery.</p>
+<p>Si querés tener algún atajo al seleccionar un elemento del DOM, puedes utilizar el <strong>getElementById</strong> clásico y almacenar ese objeto en una variable, para poder utilizarla escribiendo menos.</p>
+<p>Una variable de ese tipo pesa realmente poco, y sin JQuery te ahorras varios Kilobytes que puedes utilizar en iconos o la portada de tu flamante post.</p>
 <p><strong>PD</strong>: Siempre que puedas, intenta colocar las bibliotecas JS al final del documento HTML (y antes de los scripts que utilicen dichas bibliotecas).</p>
 
 <h1>Conclusión</h1>
+<p>Al fin y al cabo, mucho depende de tu comodidad al desarrollar y las necesidades del cliente, pero si sabes re-utilizar buen código y tu trabajo funciona bien, poco se pueden quejar :)</p>
 <p>¿Te interesa o crees necesario tener tu web optimizada? ¿Qué estás haciendo para que todo sea fluído y cargue bien?</p>
 <p>¡Los leo!</p>
