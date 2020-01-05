@@ -1,4 +1,7 @@
 /**/
+#posts.grid-3 {
+    grid-auto-rows: 33vh;
+}
 @media (max-width: 1659px) { /* Entre 1023px y 1279px (tablets) */
     #posts.grid-3 {
         grid-template-columns: 1fr 1fr;
@@ -10,9 +13,6 @@
         grid-template-columns: 100%;
         grid-auto-rows: 50vh;
     }
-}
-#posts.grid-3 {
-    grid-auto-rows: 33vh;
 }
 #posts.super-gap {
     gap: 50px;
