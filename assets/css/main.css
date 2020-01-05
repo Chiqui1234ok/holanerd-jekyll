@@ -47,7 +47,9 @@
     --darkLink: var(--darkBlue);
         --darkLinkHover: var(--blue);
     /* Category colors */
-    --linux: var(--violet);
+    --git: var(--green-transparent);
+        --gitText: var(--black);
+    --linux: var(--violet-transparent);
         --linuxText: var(--light);
     --programacion: var(--darkBlue-transparent);
         --programacionText: var(--light);
