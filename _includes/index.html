@@ -2,7 +2,7 @@
     <ul id="posts" class="grid-3 super-gap minimal-list text-center padding">
         {% for post in site.posts offset:0 %}
         <li class="super-rounded super-padding">
-            <div class="category padding" style="background: var(--{{ post.category }}-transparent);color: var(--{{ post.category }}Text);"><a href="">{{ post.category }}</a></div>
+            <div class="category padding" style="background: var(--{{ post.category }});color: var(--{{ post.category }}Text);"><a href="">{{ post.category }}</a></div>
             <a href="{{ site.url }}{{ site.baseurl }}{{ post.url }}"><div class="img" style="background: url('{{ post.image }}') center;"></div></a>
             <div class="date padding"><i class="far fa-calendar-alt"></i> {{ post.date }}</div>
             <div class="title padding">{{ post.title }}</div>
