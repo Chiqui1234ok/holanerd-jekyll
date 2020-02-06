@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ¿Cómo instalar Quake III Arena en Linux?
-image: https://steemitimages.com/p/F1sR3uPuh6LGwo3L3pvzZfrseUKu56YtMc5ER74DJqnrmL4M8d3d97W2rwiidowygifXRBajXK4eCLgCtY5UXGHM87Fi2rYyftZ54SmZWK8M1wgTyKT1RFv4x12M5HXUokFf9UFw8WKx345N2UYbZuu6kpR4QSvrfczzqJzCtEk2aiYy1gdh5v1o9fZBy6bx51NhBxzRJTgv1BbSXcSF2BmYviXT?format=match&mode=fit&width=640
+image: https://4.bp.blogspot.com/_5PH5FtVhTFI/TMISAp_9kAI/AAAAAAAAADM/Spya1n8Mws0/s1600/quake3a.jpg
 date: 2020-02-05 22:00
 category: linux
 author: chiqui
