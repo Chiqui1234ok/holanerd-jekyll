@@ -1,200 +1,145 @@
 * {
-    font-family: -apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Helvetica,Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji", "Segoe UI Symbol";
-    box-sizing: border-box; /* El padding está incluído en el tamaño especificado en el CSS */
-    z-index: inherit;
+    box-sizing: border-box;
 }
+/*  */
+@font-face {
+    font-family: "VT323";
+    src: url('../font/VT323-Regular.ttf');
+}
+@font-face {
+    font-family: "Dancing Script";
+    src: url('../font/DancingScript-Medium.ttf');
+}
+@font-face {
+    font-family: "snes";
+    src: url('../font/SnesItalic-vmAPZ.ttf');
+}
+@font-face {
+    font-family: "Clicky";
+    src: url('../font/ClickyBricks-xgZj.ttf');
+}
+@font-face {
+    font-family: "Neoteric";
+    src: url('../font/Neoteric-32A8.ttf');
+}
+/*  */
 :root {
-    /* Paleta de colores */
-    --black: rgb(40, 40, 40); /* será convertido a 'night' en próximas versiones */
-        --black-transparent: rgba(40, 40, 40, 0.8); /* será convertido a 'night' en próximas versiones */
-    --light: rgb(240, 240, 240);
-        --light-transparent: rgba(240, 240, 240, 0.8);
-    --green: rgb(32, 235, 93);
-        --green-transparent: rgba(32, 235, 93, 0.8);
-    --yellow: rgb(235, 238, 74);
-        --yellow-transparent: rgba(235, 238, 74, 0.8);
-    --blue: rgb(70, 59, 214);
-        --blue-transparent: rgba(70, 59, 214, 0.8);
-    --skyBlue: rgb(81, 162, 255);
-        --skyBlue-transparent: rgb(81, 162, 255, 0.8);
-    --darkBlue: rgb(50, 35, 190);
-        --darkBlue-transparent: rgba(50, 35, 190, 0.8);
-    --darkerBlue: rgb(40, 17, 139);
-    --violet: rgb(143, 74, 221);
-        --violet-transparent: rgba(143, 74, 221, 0.8);
-    --darkViolet: rgb(68, 25, 187);
-    --red: rgb(240, 25, 61);
-        --red-transparent: rgba(240, 25, 61, 0.8);
-    /* Header */
-    --lightHeader: rgba(40, 140, 255, 0.8);
-    --darkHeader: rgb(25, 22, 39);
-    /* Footer */
-    --lightFooter: rgb(75, 56, 241);
-    /* Sizes */
-    --pSize: 20px;
-    --readWidth: 75%;
-    --readWidthMobile: 95%;
-    /* Margins */
-    --gap: 10px; /* standard gap (margin, padding, etc) for the base template */
-    --super-gap: 20px;
-    /* Transition duration */
-    --transitionFast: 0.3s;
-    --transitionSlow: 0.5s;
-    /* Text colors */
-    --darkP: var(--black);
-    /* Link colors */
-    --lightLink: var(--green);
-    --darkLink: var(--darkBlue);
-        --darkLinkHover: var(--blue);
-    /* Category colors */
-    --git: var(--green-transparent);
-        --gitText: var(--black);
-    --linux: var(--violet-transparent);
-        --linuxText: var(--light);
-    --programacion: var(--darkBlue-transparent);
-        --programacionText: var(--light);
-    --web: var(--skyBlue-transparent);
-        --webText: var(--black);
-    --review: var(--yellow-transparent);
-        --reviewText: var(--black);
-    --holanerd: var(--red-transparent);
-        --holanerdText: var(--light);
+    --black: #212121;
+    --black-semi: rgba(25, 25, 25, 0.75);
+    --grey: #393939;
+    --white: #fafafa;
+    --white-semi: rgba(250, 250, 250, 0.75);
+    --violet: rgb(67, 32, 221);
+    --lightviolet: rgb(68, 56, 241);
+    --blue: #1b65d0;
+    --blue-semi: rgba(11, 101, 247, 0.75);
+    --lightblue: #1b7fd0;
+    --lightblue-semi: rgba(26.6, 100.8, 208.3, 0.9);
+    --pink: rgb(235, 22, 111);
+    --red: rgb(240, 16, 27);
+    --red-semi: rgba(240, 16, 27, 0.75);
+    --green: rgb(79, 216, 25);
+    --yellow: rgb(224, 228, 23);
+    --orange: rgb(241, 147, 24);
+    /*  */
+    --gap: 20px;
+    --gap10: 10px;
+    /*  */
+    --timing: 0.5s;
 }
 body {
-    width: 100%;
     margin: 0;
-    clear: both;
-    content: "";
     overflow-x: hidden;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-html, body {
-    min-height: 100vh;
+p {
+    line-height: 32px;
 }
-/* Base > Main */
-main.margin-top {
-    margin-top: 70px;
+a {
+    color: var(--white);
+    text-decoration: none;
+    padding-bottom: 1px;
+    border-bottom: 1px solid var(--white);
+    transition: var(--timing) ease-out;
 }
-/* Base > Size */
-.full-width { /* Ocupa todo el ancho disponible en el div.padre */
-    width: 100%;
+a:hover {
+    text-shadow: 0 1px 5px var(--lightblue);
 }
-.full-height { /* Ocupa todo el alto disponible de la pantalla */
-    height: 100vh;
+img {max-width: 100%;}
+/*  */
+.vt323 {
+    font-family: 'VT323', 'Courier New', Courier, monospace;
 }
-.full-screen { /* Ocupa toda la pantalla */
-    width: 100vw;
-    min-height: 100vh;
+.dancingScript {
+    font-family: 'Dancing Script', Georgia, 'Times New Roman', Times, serif;
 }
-/* Base > Margin */
-.margin {
-    margin: var(--gap);
-}   /* analizar si existe un macro para sintetizar "margin-*" en una sola */
-    .margin-top {
-        margin-top: var(--gap);
+.snes {
+    font-family: 'snes', sans-serif;
+}
+.clicky {
+    font-family: 'Clicky';
+}
+.neoteric {
+    font-family: 'Neoteric';
+}
+/*  */
+.fullScreen {width: 100vw;min-height: 100vh;}
+.fullWidth {width: 100%;}
+.readWidth {width: 75%;}
+/*  */
+.padding {padding: var(--gap);}
+.paddingY {padding: 10px 0 10px 0;}
+.margin {padding: var(--gap);}
+.marginY {margin: 10px 0 10px 0;}
+.marginX {margin: 0 10px 0 10px;}
+.center {margin: 0 auto;}
+/*  */
+.whiteText {color: var(--white);}
+/*  */
+.whiteBorder {border: 1px solid var(--white);}
+.redBorder {border: 1px solid var(--red);}
+.blueBorder {border: 1px solid var(--lightblue);}
+/*  */
+.btn {
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: var(--timing) ease-out;
+}
+.btn:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 5px var(--black);
+}
+.blueBtn {
+    background-color: var(--blue);
+    border: 1px solid var(--lightblue);
+    color: var(--white);
+}
+.redBtn {
+    background-color: var(--red);
+    border: 1px solid var(--pink);
+    color: var(--white);
+}
+.whiteBtn {
+    background-color: var(--white);
+    border: 1px solid var(--grey);
+    color: var(--black);
+}
+/*  */
+.blackBg {background-color: var(--black);}
+.greyBg {background-color: var(--grey);}
+.whiteBg {background-color: var(--white);}
+.blueBg {background-color: var(--blue);}
+.lightBlueBg {background-color: var(--lightblue);}
+.pinkBg {background-color: var(--pink);}
+.redBg {background-color: var(--red);}
+/*  */
+.centerText {text-align: center;}
+/*  */
+ul.minimal {margin-left: 0;padding: 0;list-style: none;}
+/*  */
+@media (max-width: 1279px) {
+    .removeMobile {
+        display: none;
     }
-    .margin-bottom {
-        margin-bottom: var(--gap);
-    }
-    .margin-left {
-        margin-left: var(--gap);
-    }
-    .margin-right {
-        margin-right: var(--gap);
-    }
-    .no-margin {
-        margin: 0;
-    }
-/* Base > Padding */
-.padding {
-    padding: var(--gap);
-}
-    .padding-top {
-        padding-top: var(--gap);
-    }
-    .padding-bottom {
-        padding-bottom: var(--gap);
-    }
-    .padding-left {
-        padding-left: var(--gap);
-    }
-    .padding-right {
-        padding-right: var(--gap);
-    } 
-    .no-padding {
-        padding: 0;
-    }
-    .super-padding {
-        padding: var(--super-gap);
-    }
-/* Base > Centerland */
-.center { /* horizontal center */
-    margin: 0 auto;
-}
-/* Base > Sharpness */
-.rounded {
-    border-radius: var(--gap);
-}
-.super-rounded {
-    border-radius: 20px;
-}
-/* Base > Boxes || Base > Widgets */
-.box.black {
-    background: var(--black-transparent);
-}
-.box.light, .box {
-    background: var(--light-transparent);
-}
-.box.green {
-    background: var(--green-transparent);
-}
-.box.yellow {
-    background: var(--yellow-transparent);
-}
-.box.blue {
-    background: var(--blue-transparent);
-}
-.box.violet {
-    background: var(--violet-transparent);
-}
-/* Base > Display */
-.inline {
-    display: inline;
-}
-.block {
-    display: block;
-}
-/* Base > Fixed positioning */
-.bottom {
-    position: fixed;
-    bottom: var(--gap);
-    left: var(--gap);
-}
-/* Base > Mouse cursors */
-.cursor-default {
-    cursor: default;
-}
-.cursor-pointer {
-    cursor: pointer;
-}
-.cursor-not-allowed {
-    cursor: not-allowed;
-}
-/* Base > Mobile restrictions => in main-responsive.css */
-/* CSS Personalizado (exclusivo para la web en desarrollo y no pertenece a Reboot_strap */
-/* Fondos */
-.hero1 {
-    background: url('../img/wallpapers/hero1.webp') right;
-    background-size: cover;
-}
-.hero2 {
-    background: url('../img/wallpapers/hero-ethereum.png') center;
-    background-size: cover;
-}
-.bitcoin {
-    background: url('../img/wallpapers/bitcoin.jpg') center;
-    background-size: cover;
-}
-.buy-bitcoin-credit-cards {
-    background: url('../img/wallpapers/buy-bitcoin-credit-cards.png') center;
-    background-size: cover;
 }

@@ -3,7 +3,7 @@ layout: post
 title: Cómo usar un FTP muy fácil y rápido
 image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/como-usar-un-ftp-muy-facil-y-rapido/poster.webp
 date: 2019-10-16 21:00
-category: web
+category: programacion
 author: chiqui
 tags: ftp, explorador de archivos
 summary: ¿Sabías que podés conectarte a un servidor por el protocolo FTP sin instalar ningún programa extra?

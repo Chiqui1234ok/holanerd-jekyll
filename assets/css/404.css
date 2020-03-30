@@ -1,0 +1,155 @@
+#root {
+    align-content: center;
+}
+/*  */
+#sidebar {
+    width: 25vw;
+    min-height: 100vh;
+    overflow-y: hidden;
+    background-color: var(--lightblue-semi);
+    box-shadow: 5px 0 15px var(--black);
+    backdrop-filter: blur(2px) brightness(45%);
+    position: fixed;
+    display: block;
+    animation: fadeSidebarIn 7s ease-out;
+    -moz-animation: fadeSidebarIn 7s ease-out;
+    -webkit-animation: fadeSidebarIn 7s ease-out;
+    z-index: 900;
+}
+#sidebar .img {
+    width: 100%;
+    height: 350px;
+}
+#sidebar span {
+    padding-bottom: 2px;
+    border-bottom: 2px solid var(--white);
+    color: var(--white);
+}
+@keyframes fadeSidebarIn { 0%, 90% {opacity: 0;display: none;} }
+@-moz-keyframes fadeSidebarIn { 0%, 90% {opacity: 0;display: none;} }
+@-webkit-keyframes fadeSidebarIn { 0%, 90% {opacity: 0;display: none;} }
+@media (max-width: 1279px) {
+    #sidebar {width: 50vw;}
+}
+@media (max-width: 799px) {
+    #sidebar {width: 100vw;}
+}
+/*  */
+#wrapper {
+    min-height: 340px;
+}
+#wrapper.dinno {
+    width: 90%;
+    margin: 0 auto;
+    border-bottom: 1px solid var(--black);
+    position: relative;
+}
+#wrapper .dinnoMovement {
+    width: 320px;
+    height: 340px;
+    float: left;
+    animation: 4s dinnoMovement linear 1;
+    -moz-animation: 4s dinnoMovement linear 1;
+    -webkit-animation: 4s dinnoMovement linear 1;
+    position: absolute;
+    bottom: 0;
+    left: calc(100% - 325px - 20% - var(--gap));
+}
+@keyframes dinnoMovement {
+    0% {left: 0;}
+    100% {left: calc(100% - 325px - 20% - var(--gap));}
+}
+@-moz-keyframes dinnoMovement {
+    0% {left: 0;}
+    100% {left: calc(100% - 325px - 20% - var(--gap));}
+}
+@-webkit-keyframes dinnoMovement {
+    0% {left: 0;}
+    100% {left: calc(100% - 325px - 20% - var(--gap));}
+}
+#wrapper .dinnoSprite {
+    width: 100%;
+    height: 100%;
+    background-image: url('../img/dinno/dinnoSprite-lores.png');
+    animation: dinnoRun .75s steps(2) 5; /* step-start evita la animación del sliding de la imágen */
+    -moz-animation: dinnoRun .75s steps(2) 5;
+    -webkit-animation: dinnoRun .75s steps(2) 5;
+}
+@keyframes dinnoRun {
+    0% {background-position: 0 0;}
+    100% {background-position: 635px 0;}
+}
+@-moz-keyframes dinnoRun {
+    0% {background-position: 0 0;}
+    100% {background-position: 635px 0;}
+}
+@-webkit-keyframes dinnoRun {
+    0% {background-position: 0 0;}
+    100% {background-position: 635px 0;}
+}
+#wrapper #error {
+    width: 20%;
+    float: right;
+    animation: aparicion 4s ease-out;
+    -moz-animation: aparicion 4s ease-out;
+    -webkit-animation: aparicion 4s ease-out;
+    text-shadow: 0 2px 5px var(--black);
+    color: var(--white);
+    font-family: "VT323", 'Courier New', Courier, monospace;
+}
+@keyframes aparicion {
+    0% {
+        filter: blur(5px);
+        color: var(--black);
+        transform: scale(2.5);
+        text-shadow: 0 0 35px var(--grey);
+    }
+}
+#wrapper #error h1 {
+    font-size: 44px;
+}
+#wrapper #error p {
+    font-size: 28px;
+}
+#wrapper .climb {
+    width: 100%;
+    height: 200px;
+    border-right: 1px solid var(--black);
+    position: absolute;
+    right: 0;
+    bottom: -200px;
+}
+/* Responsive */
+@media (max-width: 1279px) and (max-height: 739px) {
+    #root {
+        padding-top: var(--gap);
+        align-content: flex-start;
+    }
+}
+@media (max-width: 1279px) {
+    #wrapper #error {
+        width: calc(100% - 320px - var(--gap));
+        animation: none;
+        -moz-animation: none;
+        -webkit-animation: none;
+    }
+    #wrapper .dinnoMovement {
+        animation: none;
+        -moz-animation: none;
+        -webkit-animation: none;
+        left: 0;
+    }
+    #wrapper .dinnoSprite {
+        animation: none;
+        -moz-animation: none;
+        -webkit-animation: none;
+    }
+    #wrapper .climb {height: 120px;bottom: -120px;}
+}
+@media (max-width: 779px) {
+    #wrapper #error {
+        width: 100%;
+        position: absolute;
+        bottom: -150px;
+    }
+}

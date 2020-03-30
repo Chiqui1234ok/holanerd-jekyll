@@ -1,43 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <!-- Meta tags -->
-    <meta name="og:title" content="{{ page.title }}" />
-    <meta name="og:description" content="{% unless page.summary %} Comunidad de programadores. {% else %} {{ page.summary }} {% endunless %}" />
-    <meta name="og:image" content="{{ page.image }}" />
-    <meta name="og:image:secure_url" content="{{ page.image }}" />
-    <meta name="keywords" content="{{ page.tags }}" />
-    <!-- CSS Exclusivo del theme -->
-    <link rel="stylesheet" href="/assets/css/blog.min.css" />
-    <link rel="stylesheet" href="/assets/css/post.min.css" />
-    <!-- Reboot_strap -->
-    <link rel="stylesheet" href="/assets/css/alert.min.css" />
-    <link rel="stylesheet" href="/assets/css/animations.min.css" />
-    <link rel="stylesheet" href="/assets/css/effects.min.css" />
-    <link rel="stylesheet" href="/assets/css/grid.min.css" />
-    <link rel="stylesheet" href="/assets/css/grid-responsive.min.css" />
-    <link rel="stylesheet" href="/assets/css/header.min.css" />
-    <link rel="stylesheet" href="/assets/css/input.min.css" />
-    <link rel="stylesheet" href="/assets/css/link.min.css" />
-    <link rel="stylesheet" href="/assets/css/main.min.css" />
-    <link rel="stylesheet" href="/assets/css/main-responsive.min.css" />
-    <link rel="stylesheet" href="/assets/css/text.min.css" />
-    <link rel="stylesheet" href="/assets/css/text-responsive.min.css" />
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" />
-    <!-- Google Fonts -->
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Julius+Sans+One&display=swap" />
-    <title>{% if page.title %}{{ page.title }} | {% else %} {{ site.description }} | {% endif %}{{ site.title }}</title>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-        gtag('config', 'UA-150079181-1');
-    </script>
+    <title>
+        {{site.title}}
+        {% if page.title %}| {{ page.title }}{% endif %}
+    </title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/grid.css" />
+    <!--  -->
+    <link rel="stylesheet" href="/assets/css/home.css" />
+    {% if layout.type == 'post' %}<link rel="stylesheet" href="/assets/css/post.css" />{% endif %}
+    {% if layout.type == 'error404' %}<link rel="stylesheet" href="/assets/css/404.css" /> {% endif %}
 </head>
 <body>

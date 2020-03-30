@@ -1,0 +1,96 @@
+<div id="root" class="fullScreen paddingY">
+    <div id="wrapper" class="readWidth center"> <!-- wrapper -->
+        <!-- Reviews -->
+        <div id="reviews" class="padding blueBorder marginY">
+            <h2 class="centerText">Reviews</h2>
+            <div class="grid-2 gap">
+                <div class="img" style="background-image: url('assets/img/zalman-cnps-9500-led/thumb.jpg');"></div>
+                <ul class="minimal">
+                    {% assign counter = 0 %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'review' and counter < 5 %}
+                        <li>
+                            <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
+                        </li>
+                        {% assign counter = counter | plus:1 %}
+                    {% endif %}
+                    {% endfor %}
+                    {% if counter == 0 %}
+                        <p>Por el momento, no hay nada por acá.</p>
+                        <p>¡Estoy trabajando para traerte los mejores reviews!</p>
+                    {% endif %}
+                </ul>
+            </div>
+        </div>
+        <!-- !Reviews -->
+        <div id="blockCategory1" class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
+            <div id="programming">
+                <h2 class="vt323 centerText">Programación</h2>
+                {% assign counter = 0 %}
+                {% for post in site.posts %}
+                    {% if post.category == 'programacion' and counter < 1 %}
+                    <div class="img" style="background-image: url('{{ post.image }}');"></div>
+                    {% assign counter = counter | plus:1 %}
+                    {% endif %}
+                {% endfor %}
+                <ul class="minimal marginY">
+                    {% assign counter = 0 %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'programacion' and counter < 5 %}
+                        <li>
+                            <div class="text"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                        </li>
+                        {% assign counter = counter | plus:1 %}
+                    {% endif %}
+                    {% endfor %}
+                    {% if counter == 0 %}
+                        <p>Por el momento, no hay nada por acá.</p>
+                        <p>Mirá un videito, 100% real no fake :D</p>
+                        <iframe width="100%" height="315" src="https://www.youtube.com/embed/pKO9UjSeLew" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    {% endif %}
+                </ul>
+            </div>
+            <div id="linux">
+                <h2 class="dancingScript centerText">Linux & servers</h2>
+                <ul class="minimal marginY">
+                    {% assign counter = 0 %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'linux' and counter < 500 %}
+                        <li style="background-image: url('{{ post.image }}');background-position-y: {{ counter }}px;">
+                            <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
+                        </li>
+                        {% assign counter=counter | plus:50 %}
+                    {% endif %}
+                    {% endfor %}
+                </ul>
+            </div>
+        </div> <!-- !Lista de categorías -->
+
+        <div id="blockCategory2" class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
+            <div id="printer">
+                <h2 class="clicky centerText">3D y Raspberry</h2>
+                <div class="img" style="background-image: url('https://i.ytimg.com/vi/dH-iZO05Eoc/maxresdefault.jpg');"></div>
+                <p>¡Hey! ¿Te interesa esta sección tanto como nosotros? Si tenés la posibilidad, envianos un email con contenido para un post nuevo :)</p>
+                <p>Mientras tanto, nosotros seguiremos juntando plata y captando momentos para poder llevar a cabo esta categoría :)</p>
+            </div>
+            <div id="design">
+                <h2 class="dancingScript centerText">Diseño</h2>
+                <div class="img" style="background-image: url('https://i.ytimg.com/vi/DPSs1IxiDsM/maxresdefault.jpg');"></div>
+                <ul class="minimal marginY">
+                    {% assign counter = 0 %}
+                    {% for post in site.posts %}
+                    {% if post.category == 'diseno' and counter < 5 %}
+                        <li>
+                            <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
+                        </li>
+                        {% assign counter = counter | plus:1 %}
+                    {% endif %}
+                    {% endfor %}
+                    {% if counter == 0 %}
+                        <p>Ya estaremos haciendo algún tutorial de diseño gráfico. Siempre es útil estar de ambos lados del mostrador.</p>
+                    {% endif %}
+                </ul>
+            </div>
+        </div> <!-- !Lista de categorías -->
+    </div> <!-- !wrapper -->
+</div>

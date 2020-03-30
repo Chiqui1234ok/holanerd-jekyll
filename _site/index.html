@@ -1,136 +1,227 @@
 <!DOCTYPE html>
 <html lang="es">
-    <head>
-        <title> Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description. | Your awesome title</title>
-        <meta name="og:title" content="" />
-        <meta name="og:description" content=" Comunidad de programadores. " />
-        <meta name="og:image" content="" />
-        <meta name="og:image:secure_url" content="" />
-        <meta name="keywords" content="" />
-        <link rel="stylesheet" href="/assets/css/main.min.css" />
-        <link rel="stylesheet" href="/assets/css/header.min.css" />
-        <link rel="stylesheet" href="/assets/css/sidebar.min.css" />
-        <link rel="stylesheet" href="/assets/css/animations.min.css" />
-        <link rel="stylesheet" href="/assets/css/widget.min.css" />
-        <link rel="stylesheet" href="/assets/css/input.min.css" />
-        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
-        <link rel="stylesheet" href="/assets/css/footer.min.css" />
-         
-        <link rel="stylesheet" href="/assets/css/warning.min.css" /> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>
+        Holanerd
         
-        
-        
-        <link rel="stylesheet" href="/assets/css/responsive.min.css" />
-        <link rel="stylesheet" href="/assets/css/footer.min.css" /> 
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" />
-        <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
-        <link rel="shortcut icon" href="/favicon.png" />
-        <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-150079181-1"></script>
-        <script>
-            window.dataLayer = window.dataLayer || [];
-            function gtag(){dataLayer.push(arguments);}
-            gtag('js', new Date());
-            gtag('config', 'UA-150079181-1');
-        </script>
-    </head>
-<body class="defaultBg">
-<!-- <div style="width:100vw;height:100vh;z-index:1000;background:#fff;opacity:0.95;position:fixed;top:0;left:0;"><h2>Holanerd está en mantenimiento</h2></div> -->
-<!-- <header class="full-width grid-2 padding fixed-conditional">
-    <div id="logo" class="remove-mobile">Holanerd&copy 2019</div>
-    <nav>
-        <ul class="minimal-list text-center">
-            <li><a href="http://localhost:4000">Inicio</a></li>
-            <li><a href="http://localhost:4000/blog.html">Blog</a></li>
-        </ul>
-    </nav>
-</header> -->
-
-<div id="sidebar" class="fixed">
-    <ul>
-        <li><a href="/index.html"><i class="fa fa-home"></i></a></li>
-        <li><a href="/blog.html"><i class="fa fa-newspaper-o"></i></a></li>
-        <li><a href="#"><i class="fa fa-user"></i></a></li>
-    </ul>
-</div>
-
-<script src="/assets/js/components/sidebar.js"></script>
-<main class="grid-2 gap read-width">
+    </title>
+    <link rel="stylesheet" href="/assets/css/main.css" />
+    <link rel="stylesheet" href="/assets/css/grid.css" />
+    <!--  -->
+    <link rel="stylesheet" href="/assets/css/home.css" />
     
-    <div id="widget" class="full-column grid-2 gap padding widget-border"> <!-- widget -->
-            <div id="image" style="background: url('') center;background-size: cover;"></div>
-            <div>
-                <p>Mirá nuestro <a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">último post</a>, hecho por <i></i>. :)</p>
-                <h1><a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">Welcome to Jekyll!</a></h1>
-                <p></p>
-                <p><a href="http://localhost:4000/jekyll/update/2020/01/03/welcome-to-jekyll.html">Leer más</a>.</p>
+    
+</head>
+<body>
+
+<div id="root" class="fullScreen paddingY">
+    <div id="wrapper" class="readWidth center"> <!-- wrapper -->
+        <!-- Reviews -->
+        <div id="reviews" class="padding blueBorder marginY">
+            <h2 class="centerText">Reviews</h2>
+            <div class="grid-2 gap">
+                <div class="img" style="background-image: url('assets/img/zalman-cnps-9500-led/thumb.jpg');"></div>
+                <ul class="minimal">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <p>Por el momento, no hay nada por acá.</p>
+                        <p>¡Estoy trabajando para traerte los mejores reviews!</p>
+                    
+                </ul>
             </div>
-    </div> <!-- !widget -->
-    
-    <div id="widget" class="padding"> <!-- widget -->
-        <p>¡Hola y bienvenido al sitio web de Holanerd!
-            Acá vas a encontrar tutoriales y notas de calidad sobre la programación y el mundo informático en general ;)</p>
-        <p>¿Querés sumarte? <a href="#">Aprendé a trabajar con GitHub y subí tu post</a>, ¡es fácil!</p>
-    </div> <!-- !widget -->
-    <div id="widget" class="padding shadow-superhero-box widget-border"> <!-- widget -->
-            <ul class="minimal-list">
+        </div>
+        <!-- !Reviews -->
+        <div id="blockCategory1" class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
+            <div id="programming">
+                <h2 class="vt323 centerText">Programación</h2>
                 
-                <li class="text-center"><a href="http://localhost:4000/blog.html">--> Ver todos los posts <--</a></li>
-            </ul>
-    </div> <!-- !widget -->
-</main>
-<script src="/assets/js/isMobile.js"></script>
-<script>
-let responsive = isMobile();
-if( responsive )
-{
-    document.getElementById('image').style = '';
-}
-</script>
+                
+                    
+                
+                    
+                    <div class="img" style="background-image: url('https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-negamos-bibliotecas-de-terceros/poster.webp');"></div>
+                    
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                    
+                
+                <ul class="minimal marginY">
+                    
+                    
+                    
+                    
+                    
+                        <li>
+                            <div class="text"><a href="/programacion/2020/01/05/porque-negamos-bibliotecas-de-terceros.html">Porqué negamos bibliotecas de terceros</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                    
+                    
+                        <li>
+                            <div class="text"><a href="/programacion/2019/11/03/restringir-contenido-en-moviles-de-manera-eficiente.html">Restringir contenido web en móviles de manera eficiente</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                        <li>
+                            <div class="text"><a href="/programacion/2019/11/02/compilar-c-y-cplusplus-en-visual-studio-code.html">Compilar y debuggear C y C++ en Visual Studio Code</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                        <li>
+                            <div class="text"><a href="/programacion/2019/10/30/introduccion-a-javascript-y-vue-js.html">Introducción a Javascript y Vue.js</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                    
+                    
+                        <li>
+                            <div class="text"><a href="/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html">Instalar la terminal de Linux en Windows (2019)</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+            <div id="linux">
+                <h2 class="dancingScript centerText">Linux & servers</h2>
+                <ul class="minimal marginY">
+                    
+                    
+                    
+                        <li style="background-image: url('https://4.bp.blogspot.com/_5PH5FtVhTFI/TMISAp_9kAI/AAAAAAAAADM/Spya1n8Mws0/s1600/quake3a.jpg');background-position-y: 0px;">
+                            <div class="text"><a href="/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html">¿Cómo instalar Quake III Arena en Linux?</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                    
+                    
+                        <li style="background-image: url('https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp');background-position-y: 50px;">
+                            <div class="text"><a href="/linux/2019/11/17/instalar-nodejs-13-en-ubuntu-y-derivados.html">Instalar NodeJS 13 en Ubuntu y derivados</a></div>
+                        </li>
+                        
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                </ul>
+            </div>
+        </div> <!-- !Lista de categorías -->
 
-<div id="widget-float" class="padding shadow-superhero-box">
-    ¿Te gustan las cookies? Gracias a Google Analytics, tomamos información sobre tu visita para mejorar tu navegación en el futuro. Si no estás de acuerdo con esto, simplemente abandoná el sitio.
-    <button type="button" class="padding textCenter" onclick="closeCookies();">¡Ok! Entendido</button>
+        <div id="blockCategory2" class="grid-2 gap padding blueBorder marginY"> <!-- Lista de categorías -->
+            <div id="printer">
+                <h2 class="clicky centerText">3D y Raspberry</h2>
+                <div class="img" style="background-image: url('https://i.ytimg.com/vi/dH-iZO05Eoc/maxresdefault.jpg');"></div>
+                <p>¡Hey! ¿Te interesa esta sección tanto como nosotros? Si tenés la posibilidad, envianos un email con contenido para un post nuevo :)</p>
+                <p>Mientras tanto, nosotros seguiremos juntando plata y captando momentos para poder llevar a cabo esta categoría :)</p>
+            </div>
+            <div id="design">
+                <h2 class="dancingScript centerText">Diseño</h2>
+                <div class="img" style="background-image: url('https://i.ytimg.com/vi/DPSs1IxiDsM/maxresdefault.jpg');"></div>
+                <ul class="minimal marginY">
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                    
+                        <p>Ya estaremos haciendo algún tutorial de diseño gráfico. Siempre es útil estar de ambos lados del mostrador.</p>
+                    
+                </ul>
+            </div>
+        </div> <!-- !Lista de categorías -->
+    </div> <!-- !wrapper -->
 </div>
-<script>
-    function setCookie(name,value,days) {
-    var expires = "";
-    if (days) {
-        var date = new Date();
-        date.setTime(date.getTime() + (days*24*60*60*1000));
-        expires = "; expires=" + date.toUTCString();
-    }
-        document.cookie = name + "=" + (value || "")  + expires + "; path=/";
-    }
-    function getCookie(name) {
-        var nameEQ = name + "=";
-        var ca = document.cookie.split(';');
-        for(var i=0;i < ca.length;i++) {
-            var c = ca[i];
-            while (c.charAt(0)==' ') c = c.substring(1,c.length);
-            if (c.indexOf(nameEQ) == 0) return c.substring(nameEQ.length,c.length);
-        }
-        return null;
-    }
-    function eraseCookie(name) {   
-        document.cookie = name+'=; Max-Age=-99999999;';  
-    }
-    //
-    let doc = document.getElementById("widget-float"); // Obtengo el widget-float 
-    let cookiesPolicy = getCookie('cookiesPolicy');
-    if(cookiesPolicy)
-    {
-        doc.style.display = 'none';
-    }
-    function closeCookies() // Si las cookies no se aceptaron aún pero se clickea en <button>, seteamos cookies
-    {
-        doc.style.display = 'none';
-        setCookie('cookiesPolicy', 'yes', 14);
-    }
-</script>
-<footer class="grid-2 gap full-width padding">
-    <div>Otro blog de programación :D</div>
-    <div class="text-center">Holanerd&copy 2019</div>
-</footer>
 </body>
 </html>
