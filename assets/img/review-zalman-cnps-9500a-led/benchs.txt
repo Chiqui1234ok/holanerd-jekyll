@@ -1,0 +1,15 @@
+XMRIG 5.10.0 (8 threads)
+Cooler stock:
+	Máx: 66,5 grados
+	Media: 66 grados
+Zalman:
+	Máx: 53 grados
+	Media: 51,5 grados
+
+STRESS-NG (16 threads)
+Cooler stock: 
+	Máx: 61,25 grados
+	Media: 60,5 grados
+Zalman:
+	Máx: 52,1 grados
+	Media: 51,5 grados
