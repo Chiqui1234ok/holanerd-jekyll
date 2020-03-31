@@ -1,4 +1,356 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-30T17:28:51-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Holanerd</title><subtitle>Esto es una descripción de ejemplo PD: c:</subtitle><entry><title type="html">¿Cómo instalar Quake III Arena en Linux?</title><link href="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html" rel="alternate" type="text/html" title="¿Cómo instalar Quake III Arena en Linux?" /><published>2020-02-05T22:00:00-03:00</published><updated>2020-02-05T22:00:00-03:00</updated><id>http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux</id><content type="html" xml:base="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html">&lt;p&gt;Hace un montón que juegos similares al Quake III Arena estaban en Linux, en forma de Warsow o Xonotic… 
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T15:06:57-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Holanerd</title><subtitle>Esto es una descripción de ejemplo PD: c:</subtitle><entry><title type="html">Tutorial desarrollo web (Parte 1)</title><link href="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html" rel="alternate" type="text/html" title="Tutorial desarrollo web (Parte 1)" /><published>2020-03-31T12:30:00-03:00</published><updated>2020-03-31T12:30:00-03:00</updated><id>http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general</id><content type="html" xml:base="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html">&lt;p&gt;Tengo en otro repositorio &lt;strong&gt;git&lt;/strong&gt; un tutorial que terminé hace una semana aproximadamente. La intención es grabar una serie de videos para complementar y maximizar el tutorial en cuestión, que explica todo un poco “por arriba” para darles a los nuevos un paneo general sobre el mundo de programación y diseño web.&lt;/p&gt;
+
+&lt;h1 id=&quot;contenidos-del-tutorial&quot;&gt;Contenidos del tutorial&lt;/h1&gt;
+&lt;p&gt;Cabe aclarar que estos contenidos se acompañarán, en cuánto tenga tiempo, de una serie de videos dónde los llevaré a experimentar muchas propiedades HTML y CSS, para luego saltar a Javascript y Vue.Js. En una segunda parte podemos saltar al back-end con NodeJs y MongoDB.&lt;/p&gt;
+
+&lt;h3 id=&quot;en-breve-tendrás-acceso-gratuito-a-una-serie-de-desarrollo-web-en-youtube&quot;&gt;En breve tendrás acceso gratuito a una serie de Desarrollo Web en YouTube&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;¿Qué es y como se escribe el HTML?&lt;/li&gt;
+  &lt;li&gt;¿Cómo se diseña una web?
+    &lt;ul&gt;
+      &lt;li&gt;¡Apliquemos estilos!&lt;/li&gt;
+      &lt;li&gt;Cajas comunes y bloques&lt;/li&gt;
+      &lt;li&gt;Ensamblemos todo&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Las etiquetas HTML y sus parámetros&lt;/li&gt;
+  &lt;li&gt;Pensemos de forma modular (CSS)
+    &lt;ul&gt;
+      &lt;li&gt;Variables y unidades (CSS)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;El servidor&lt;/li&gt;
+  &lt;li&gt;El dinamismo&lt;/li&gt;
+  &lt;li&gt;Objetos&lt;/li&gt;
+  &lt;li&gt;En runtime&lt;/li&gt;
+  &lt;li&gt;No vamos a aprender JQuery&lt;/li&gt;
+  &lt;li&gt;Configurar una vista de Vue.js&lt;/li&gt;
+  &lt;li&gt;Consumir datos de otra web&lt;/li&gt;
+  &lt;li&gt;Acceder a los datos de Vue.js&lt;/li&gt;
+  &lt;li&gt;Arrays&lt;/li&gt;
+  &lt;li&gt;Iteremos&lt;/li&gt;
+  &lt;li&gt;Aprendamos NodeJs&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;h1 id=&quot;link&quot;&gt;Link&lt;/h1&gt;
+&lt;p&gt;&lt;a href=&quot;https://chiqui1234.github.io/Tutorial-para-desarrollo-web-full-stack/&quot;&gt;Podés entrar al tutorial acá&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;¡Abrazo grande!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="tutorial" /><category term="web," /><category term="desarrollo," /><category term="programacion," /><category term="html," /><category term="css," /><category term="js," /><category term="vuejs," /><category term="nodejs" /><summary type="html">Tengo en otro repositorio git un tutorial que terminé hace una semana aproximadamente. La intención es grabar una serie de videos para complementar y maximizar el tutorial en cuestión, que explica todo un poco “por arriba” para darles a los nuevos un paneo general sobre el mundo de programación y diseño web.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/Tutorial-para-desarrollo-web-full-stack/img/first.webp" /><media:content medium="image" url="https://chiqui1234.github.io/Tutorial-para-desarrollo-web-full-stack/img/first.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Review Zalman CNPS 9500A Led</title><link href="http://localhost:4000/review/2020/03/31/review-zalman-cnps-9500a-led.html" rel="alternate" type="text/html" title="Review Zalman CNPS 9500A Led" /><published>2020-03-31T01:30:00-03:00</published><updated>2020-03-31T01:30:00-03:00</updated><id>http://localhost:4000/review/2020/03/31/review-zalman-cnps-9500a-led</id><content type="html" xml:base="http://localhost:4000/review/2020/03/31/review-zalman-cnps-9500a-led.html">&lt;p&gt;El &lt;a href=&quot;https://www.zalman.com/contents/products/view.html?no=461&quot;&gt;Zalman CNPS 9500A Led&lt;/a&gt; es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Nota del editor: sí, puede anclarse en AM4 por más que no lo anuncie de forma oficial.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;equipo-de-pruebas&quot;&gt;Equipo de pruebas&lt;/h1&gt;
+&lt;p&gt;El equipo de pruebas es mi PC de escritorio actual, por lo cuál no es una test bench auténtica, sino una PC en formato ITX.
+&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/setup-terminado.jpg&quot; alt=&quot;pc-de-pruebas-itx&quot; /&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;CPU: AMD Ryzen 7 2700&lt;/li&gt;
+  &lt;li&gt;MOBO: Gigabyte X570I Aorus Pro WiFi&lt;/li&gt;
+  &lt;li&gt;RAM: 2x8GB Adata D60 RGB 3000 @ 3400&lt;/li&gt;
+  &lt;li&gt;GPU: Gigabyte RX 590 8GB Rev 2.0&lt;/li&gt;
+  &lt;li&gt;PSU: EVGA 500W 80+ Gold&lt;/li&gt;
+  &lt;li&gt;CASE: EVGA Hadron Air&lt;/li&gt;
+  &lt;li&gt;SO: Xubuntu 19.10&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;metodología-de-pruebas&quot;&gt;Metodología de pruebas&lt;/h1&gt;
+&lt;p&gt;El cooler será probado con dos programas distintos con el fin de medir su temperatura:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Stress-ng (simil Prime95)&lt;/li&gt;
+  &lt;li&gt;XMRig 5.10.0 (software para criptominería)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;También probé Shadow of Tomb Raider, para ver las temperaturas del CPU y averigüar si la placa de video se ve beneficiada por tener un cooler extractor justo arriba.&lt;/p&gt;
+
+&lt;h1 id=&quot;unboxing&quot;&gt;Unboxing&lt;/h1&gt;
+&lt;p&gt;La caja podría desentonar un poco con cajas de sistemas de refrigeración actuales, que tienen tipografías, colores y diseños más rectos y serios. Zalman por aquella época eligió una caja celeste y tener el cooler empacado en un plástico transparente.&lt;/p&gt;
+
+&lt;h2 id=&quot;frente&quot;&gt;Frente&lt;/h2&gt;
+
+&lt;p&gt;El frente nos indica que el cooler es compatible con una diversidad grande de sockets. Te indico a continuación con &lt;strong&gt;todos&lt;/strong&gt; los sockets con los que es compatible este Zalman:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Intel: 775, 1156, 1155, 1150, 1151 y 1151 v2.&lt;/li&gt;
+  &lt;li&gt;AMD: AM2, AM2+, AM3, FM1, AM3+ FM2 y AM4.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;El cooler se pudo instalar sin mayores inconvenientes en mi X570, aflojando levemente los tornillos de ambos plásticos de los cuáles se sostiene este Zalman.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/caja-frente.jpg&quot; alt=&quot;caja-frente&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lado-de-las-especificaciones&quot;&gt;Lado de las especificaciones&lt;/h2&gt;
+
+&lt;p&gt;Este lado nos informa de las especificaciones del producto, además de que notifica que trae un controlador de fanes único para el ventilador de 92mm que posee.
+El ventilador puede funcionar tanto con 5 cómo 12 voltios a unas revoluciones de entre 1350 hasta 2650 RPM, produciendo 27,5 dBa; es un ventilador relativamente silencioso.&lt;/p&gt;
+
+&lt;p&gt;El sistema es a bolillas, no rulemán.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/caja-lado-especificaciones.jpg&quot; alt=&quot;caja-lado-especificaciones&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lado-dos&quot;&gt;Lado dos&lt;/h2&gt;
+
+&lt;p&gt;Esta cara tiene escrita en siete idiomas diferentes (Inglés, Francés, Alemán, Español, Ruso y dos lenguajes asiáticos) algunas “claves” del producto. 
+Se trata de un producto hecho enteramente de cobre, y viene con un ventilador incorporado de 92mm con iluminación azúl.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/caja-lado-sinopsis.jpg&quot; alt=&quot;caja-lado-sinopsis&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;lado-trasero&quot;&gt;Lado trasero&lt;/h2&gt;
+
+&lt;p&gt;Esta tapa explica el diseño del ventilador, renderizado en 3D y mostrado por secciones. Su diseño consta de utilizar cobre puro para su base, sus 3 heatpipes y aletas. Es un diseño bastante inteligente y me gustaría probar un cooler DeepCool de 12cm o el mítico Hyper 212X (AM4) para ver que tal se comporta. Cabe destacar que este Zalman es ideal para configuraciones ITX dónde no cabe ningún cooler que tenga un fan de 12cm, como es mi caso. Las medidas de este CNPS 9500 Led son de 12,5cm (alto) y 11,2cm (ancho), albergando en su interior un ventilador de 92mm. El espesor es de 8,5cm y el producto pesa tan sólo 530 gramos, estando muy lejos de mosquear cualquier motherboard o backplate.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/caja-atras.jpg&quot; alt=&quot;caja-lado-trasero&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;manual&quot;&gt;Manual&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/manual-y-adhesivo.jpg&quot; alt=&quot;manual-y-adhesivo-para-el-controlador-fanmate-2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El manual es idéntico para el CNPS9700 (el hermano mayor) y el 9500A. Está escrito en siete idiomas y se entiende bien; de todas formas la instalación no es complicada para ninguna plataforma.&lt;/p&gt;
+
+&lt;p&gt;El manual en digital &lt;a href=&quot;/assets/pdf/review-zalman-cnps-9500a-led/manual.pdf&quot;&gt;está a tu disposición acá&lt;/a&gt;. :)&lt;/p&gt;
+
+&lt;h1 id=&quot;controlador-fanmate-2&quot;&gt;Controlador Fanmate 2&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/controlador-fanmate-y-cable-full.jpg&quot; alt=&quot;controlador-fanmate-y-cable-de-seis-pines&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Las contenidas dimensiones son de 70x26x26mm (largo, ancho, espesor) y su peso es de 20 gramos.&lt;/p&gt;
+
+&lt;p&gt;No hay ningún “pero” especial para este controlador, simplemente funciona y de regulación precisa. En el manual, Zalman espera que coloques este controlador pegado con cinta de doble cara en el exterior de tu gabinete, cosa que nunca haría (pero gracias por la cinta).&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/controlador-fanmate.jpg&quot; alt=&quot;controlador-fanmate-primer-plano&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Sería genial que el led azúl del ventilador se pudiera apagar desde el controlador, pero esta posibilidad no se ofrece. En mi computadora el led azúl queda &lt;strong&gt;muy&lt;/strong&gt; mal (es todo color cobre y naranja), así que posiblemente pinte de negro el ventilador para que no salga ni un rayito de luz led.&lt;/p&gt;
+
+&lt;h1 id=&quot;ventilador&quot;&gt;Ventilador&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/especificaciones-fan.jpg&quot; alt=&quot;especificaciones-del-fan&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El ventilador es desmontable mediante dos tornillos. Es de 12v y led azúl. El modelo exacto es &lt;strong&gt;ZF9225ATH&lt;/strong&gt; y cumple con el objetivo de Zalman de ser “anti vibración” como el resto del producto, bajo RPMs medias y bajas.&lt;/p&gt;
+
+&lt;h1 id=&quot;disipador&quot;&gt;Disipador&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/cooler-frente.jpg&quot; alt=&quot;foto-de-frente&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;El diseño del disipador trata de una patente de Zalman en más de veinte países, así que estamos comprando un diseño exclusivo y, supongo por la confianza de la empresa, un disipador muy efectivo por el reducido tamaño.
+En la página del producto dan a entender que los tres heatpipes rinden como seis, debido a que atraviezan un gran porcentaje del disipador.
+Para ser precisos, los heatpipes atraviezan 90 aletas de cobre de 0.2mm de espesor :O&lt;/p&gt;
+
+&lt;h1 id=&quot;pasta-térmica&quot;&gt;Pasta térmica&lt;/h1&gt;
+
+&lt;p&gt;La pasta térmica tiene partículas de metal líquido, por lo cuál hace que este componente sea conductor eléctrico y debés asegurarte que no toque ningún punto de soldadura o pin descubierto en tu motherboard u otro componente. El modelo de esta pasta es la &lt;strong&gt;ZM-STG2M&lt;/strong&gt; y tiene una conductividad térmica de 4,1 W/mK (Watt por metro kelvin), osea que disipa la mitad de bien que pastas térmicas tope de gama como la &lt;strong&gt;Noctua NT-H1&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://noctua.at/media/mrproslider/5/3/53513f2ff010a112fd139b16a33014c7.jpg&quot; alt=&quot;foto-noctua-nt_h1&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Es una pasta gama media y coherente en performance con el precio del cooler. Sin embargo, si querés arañar entre 1 y 5 grados poniendo la mejor pasta del mercado, sos bienvenido :D&lt;/p&gt;
+
+&lt;h1 id=&quot;instalación&quot;&gt;Instalación&lt;/h1&gt;
+
+&lt;p&gt;No cubrí la instalación en Intel porque no tenía ningún motherboard de la marca a mano, pero sí hay fotos de sus anclajes por si necesitan verlos.
+La instalación de Intel no parece más complicada, sino que tomará un poco más de tiempo que la instalación en AMD, que se hace anclando directamente a los plásticos del socket como cualquier cooler “viejo” de un FX o Phenom.&lt;/p&gt;
+
+&lt;h2 id=&quot;anclaje-intel&quot;&gt;Anclaje Intel&lt;/h2&gt;
+
+&lt;p&gt;Exceptuando por la última chapa que está en la parte inferior de la imágen, todo el resto pertenece a una instalación en socket Intel. El cooler no precisa de un bracket/armor, así que no es estrictamente necesario sacar el motherboard para instalar este Zalman. Bondades de ser un peso ligero :)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/anclajes-amd-e-intel.jpg&quot; alt=&quot;anclaje-metalico-y-tornillos-para-socket-intel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La chapa que ves abajo de todo es la correcta para la instalación en AMD.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/soporte-intel.jpg&quot; alt=&quot;anclaje-plastico-para-socket-intel&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este enorme plástico le da la separación correcta al cooler para apoyar bien sobre el IHS del procesador.&lt;/p&gt;
+
+&lt;p&gt;Hasta aquí llega la explicación en Intel, ya que no tengo una plataforma para realizar la instalación.&lt;/p&gt;
+
+&lt;h2 id=&quot;anclaje-amd&quot;&gt;Anclaje AMD&lt;/h2&gt;
+
+&lt;p&gt;La instalación de este Zalman pasa por su zona inferior central, mostrada a continuación.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/base-metalica.jpg&quot; alt=&quot;base-metalica&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;La instalación no require ver el manual. Simplemente colocá la chapita de AMD sobre el centro del cooler. Esta chapita tiene una compañera:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/anclaje-amd-2.jpg&quot; alt=&quot;pieza-adyacente-a-la-chapita-amd&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Es cuestión de ver que la chapita tiene una ranura dónde se sitúa esta pequeña pieza que aparece en la imágen de arriba, y todo debería quedarte así:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/anclaje-amd-full.jpg&quot; alt=&quot;anclaje-amd-puesto-en-el-cooler&quot; /&gt;&lt;/p&gt;
+
+&lt;h2 id=&quot;instalación-amd&quot;&gt;Instalación AMD&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/setup.jpg&quot; alt=&quot;fotografia-del-ryzen-7-2700-sobre-el-motherboard&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Ahora aplicamos la pasta térmica provista por Zalman en nuestro procesador, de forma más o menos pareja:&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/pasta-aplicada-zalman.jpg&quot; alt=&quot;aplicacion-de-pasta-sobre-el-ryzen-7-2700&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Este Zalman se coloca como cualquier cooler AMD FX, Phenom e inferiores. Si nunca tuviste un cooler de éstos te recomiendo ver un tutorial, para darte una mejor idea.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/setup-terminado.jpg&quot; alt=&quot;aplicacion-de-pasta-sobre-el-ryzen-7-2700&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;temperaturas&quot;&gt;Temperaturas&lt;/h1&gt;
+
+&lt;p&gt;Con una temperatura ambiente de 26 grados celcius, me dispuse a correr dos programas por 20 minutos para comparar el cooler stock con el Zalman.
+Entre prueba y prueba se apagó la computadora por 10 minutos.&lt;/p&gt;
+
+&lt;p&gt;Cabe aclarar que “Máx” es la temperatura máxima alcanzada durante la prueba, mientras que la “Media” es el promedio registrado durante los últimos 5 minutos, una vez que el procesador alcanza la temperatura de operación de forma estable.&lt;/p&gt;
+
+&lt;h2 id=&quot;stress-ng-16-threads&quot;&gt;Stress-ng (16 threads)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;stress-ng&lt;/strong&gt; es un programa muy completo que puede estresar el CPU, RAM, HDD, etc; controlandose por consola (terminal).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cooler AMD Wraith Spire RGB
+    &lt;ul&gt;
+      &lt;li&gt;Máx: 61,25c, Media: 60,5c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cooler Zalman CNPS9500A Led
+    &lt;ul&gt;
+      &lt;li&gt;Máx: 52,1c, Media: 51,5c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;xmrig-5100-8-threads&quot;&gt;XMRig 5.10.0 (8 threads)&lt;/h2&gt;
+
+&lt;p&gt;&lt;strong&gt;xmrig&lt;/strong&gt; es una aplicación para minar criptomonedas. En esta ocasión, se minó &lt;strong&gt;monero&lt;/strong&gt; por 20 minutos y registramos la temperatura de operación y su máximo. Utilizamos 8 hilos de procesamiento, que es notoriamente más veloz que utilizar 16 hilos en XMRig.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cooler AMD Wraith Spire RGB
+    &lt;ul&gt;
+      &lt;li&gt;Máx: 66,5c, Media: 66,0c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cooler Zalman CNPS9500A Led
+    &lt;ul&gt;
+      &lt;li&gt;Máx: 53,0c, Media: 51,5c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;shadow-of-tomb-raider&quot;&gt;Shadow of Tomb Raider&lt;/h2&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://i.blogs.es/e3195e/shadow-of-the-tomb-raider/1366_2000.jpeg&quot; alt=&quot;imagen-de-shadow-of-tomb-raider&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Las últimas tres entregas de Tomb Raider se portaron a Linux y tienen un gran rendimiento. En esta ocasión hice una pasada del benchmark incorporado para comparar las temperaturas entre el cooler stock y el Zalman en cuestión. Además, me resultó interesante este cooler por su posición vertical, que (en teoría) bajaría unos grados a mi RX 590 en comparación con el cooler Wraith Spire. ¡Veamos que hace! 
+Se corrió Tomb Raider a 3200x1800 y calidad Máxima, 34fps promedio (¿quién te conoce PS4 Pro?).&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Cooler AMD Wraith Spire RGB
+    &lt;ul&gt;
+      &lt;li&gt;CPU: Máx: 68,5c, Media: 67,0c&lt;/li&gt;
+      &lt;li&gt;GPU: Máx: 79c, Media: 78c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Cooler Zalman CNPS9500A Led
+    &lt;ul&gt;
+      &lt;li&gt;CPU: Máx: 57,0c, Media: 57,0c&lt;/li&gt;
+      &lt;li&gt;GPU: Máx: 75c, Media: 74,5c&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;La verdad que me parece muy agradable la bajada de -al menos- 10 grados en el CPU, considerando que por la posición del ventilador está respirando aire caliente de una RX 590, que nació “al límite” (por su overclock).&lt;/p&gt;
+
+&lt;h1 id=&quot;ruido&quot;&gt;Ruido&lt;/h1&gt;
+
+&lt;p&gt;Todas las pruebas se efectuaron con la velocidad del ventilador al máximo, tanto para la solución térmica probada acá cómo para el cooler stock de mi Ryzen 7 2700.
+Aún no cuento con dispositivos que midan los decibélios, pero en la práctica noté que el Zalman es algo más silencioso que el Wraith Spire. Quién tenga este cooler de AMD, disponible para Ryzen 7 1700 y 2700, sabrá que no hace mucho ruido a full load. Es un sonido tolerable y se agradece que el Zalman sea tan silencioso (o más) como el Wraith Spire.&lt;/p&gt;
+
+&lt;h1 id=&quot;precio&quot;&gt;Precio&lt;/h1&gt;
+
+&lt;p&gt;A un precio final de $2699 con envío gratis por Mercado Libre, estamos hablando de que compite en la gama baja/media de este 2020. Eso lo ubica con los siguientes coolers:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;ID-Cooling SE-213 (92mm)&lt;/li&gt;
+  &lt;li&gt;Thermaltake UX100 ARGB (92mm)&lt;/li&gt;
+  &lt;li&gt;Zalman CNPS5X Performa (92mm)&lt;/li&gt;
+  &lt;li&gt;ID-Cooling SE-214 (120mm)&lt;/li&gt;
+  &lt;li&gt;Deepcool Gamaxx 200T (120mm)&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Si estás en una configuración ITX (no slim) estás, posiblemente, limitado a las opciones de 92mm. Sin embargo, a no deprimirse porque las soluciones de 92mm no se alejan mucho de las versiones con ventiladores de 12cm, y eso lo veremos en próximos análisis.&lt;/p&gt;
+
+&lt;h1 id=&quot;conclusión&quot;&gt;Conclusión&lt;/h1&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/review-zalman-cnps-9500a-led/disipador-x570i-on.jpg&quot; alt=&quot;zalman-armado-en-itx-afuera-del-gabinete&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Estamos frente a un disipador muy viejo que por decisiones de AMD e Intel respecto a los orificios de sus sockets, sigue siendo compatible con cualquier CPU actual. Sería interesante comprobar los demás coolers de 92mm. Veremos como nos trata la cuarentena y probablemente voy a comprar algún modelo de ID-Cooling para lanzar en una comparativa. Sería muy interesante ver a los demás modelos y poder compararlos con las mismas pastas térmicas.&lt;/p&gt;
+
+&lt;p&gt;Si tu intención es instalar este cooler en AMD, tené en cuenta que la posición depende de cómo se sitúen los plásticos del socket. En Intel podés ubicar este cooler en cualquiera de las dos posiciones, gracias a que los orificios el en motherboard están a la misma distancia entre sí.&lt;/p&gt;
+
+&lt;p&gt;Te recomiendo este cooler si te gusta el color cobre y querés mantener el ruido a niveles coherentes. Además, pude overclockear mi Ryzen 7 y con el ventilador en modo silencioso se mantiene debajo de 68c en XMRig. Su diseño es muy interesante y sobretodo, efectivo. Enhorabuena por Zalman. La leyenda que soportaba overclocking en Pentium 4 por aire renació en videos de overclocking en varios Core i7 y ahora completó mi build 8-core. ¡Nada mal! Ni por su edad ni por el precio :D&lt;/p&gt;
+
+&lt;p&gt;¡Nos vemos en otro post!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="review" /><category term="zalman," /><category term="am3+," /><category term="am4," /><category term="cnps," /><category term="cnps" /><category term="9500," /><category term="ryzen," /><category term="amd," /><category term="intel" /><summary type="html">El Zalman CNPS 9500A Led es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configurar un servidor NodeJs y MongoDB en Ubuntu completo</title><link href="http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo.html" rel="alternate" type="text/html" title="Configurar un servidor NodeJs y MongoDB en Ubuntu completo" /><published>2020-03-30T13:00:00-03:00</published><updated>2020-03-30T13:00:00-03:00</updated><id>http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo</id><content type="html" xml:base="http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo.html">&lt;h1 id=&quot;instalar-nodejs&quot;&gt;Instalar NodeJs&lt;/h1&gt;
+
+&lt;p&gt;Instalar NodeJs es tan simple cómo hacerlo en tu computadora personal, o de hecho, es más fácil desde que descubrí unos scripts que hacen todo por mi, descubrimiento gracias a &lt;a href=&quot;https://jasonwatmore.com/post/2018/09/26/setup-nodejs-mongodb-production-server-on-ubuntu-1804&quot;&gt;Jasonwatmore&lt;/a&gt; (y no sé como no se me había ocurrido antes).&lt;/p&gt;
+
+&lt;p&gt;Para usar estos scripts necesitamos &lt;strong&gt;curl&lt;/strong&gt;, que probablemente esté instalado, pero por las dudas ejecutá:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;¡Ahora sí! Con el siguiente comando vas a guardar y ejecutar el script Bash que instala NodeJs y el gestor de paquetes NPM.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Si necesitás ver el código fuente, para asegurarte que el script no hace “nada raro”, podés abrir los links que están luego de &lt;strong&gt;curl&lt;/strong&gt; en los comandos.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/b792ace8470d9b4c35fc72947cc32393/raw/c1a412e2e61f31d5edabc6accb3798e2548b845a/install-node-10x-npm-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;instalar-mongodb-4&quot;&gt;Instalar MongoDB 4&lt;/h1&gt;
+
+&lt;p&gt;Este script también iniciará el servicio de MongoDB, para que autoarranque junto al inicio de Ubuntu.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/34e2e2b14979198151493cf893b0697d/raw/a5a1fff60c9d1c3f4386909b64955186b56790f8/install-mongodb-40-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;configurar-mongodb-4&quot;&gt;Configurar MongoDB 4&lt;/h1&gt;
+
+&lt;p&gt;Por defecto, esta base de datos no tiene usuarios ni rangos, por lo cuál cualquiera puede acceder a la base de datos y gestionarla a gusto.
+Si bien es poco probable que un ciberdelincuente afecte a tu pequeño proyecto (al menos, cuándo comenzás), es un error que podría costarte caro en algún momento.&lt;/p&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;PENDIENTE: explicar como crear un usuario y rangos&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h1 id=&quot;crear-la-carpeta-dónde-se-guardan-las-bds&quot;&gt;Crear la carpeta dónde se guardan las BDs&lt;/h1&gt;
+
+&lt;p&gt;Posiblemente cuándo quieras iniciar &lt;strong&gt;mongo&lt;/strong&gt; para administrar tus bases de datos, el programa se cierre al instante porque no encuentra la carpeta &lt;strong&gt;/data/db&lt;/strong&gt;. Así que la crearemos nosotros de forma manual:&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
+2
+&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /data
+&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /data/db
+&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;Listo el pollo, ya podés tipear &lt;strong&gt;mongo&lt;/strong&gt; en la terminal para ejecutar el programa. Acá un &lt;a href=&quot;#&quot;&gt;tutorial básico para manejar MongoDB en Linux&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h1 id=&quot;instalar-el-gestor-para-tus-apps-nodejs-pm2&quot;&gt;Instalar el gestor para tus apps NodeJs (PM2)&lt;/h1&gt;
+
+&lt;p&gt;Ojo que PM2 es un paquete de NPM, no una aplicación de GNU/Linux en sí. Pequeño detalle que quería aclarar :D
+Este script también iniciará el servicio de PM2, para que autoarranque junto al inicio de Ubuntu. Para ser un groso manejando PM2, &lt;a href=&quot;#&quot;&gt;te conviene este tutorial&lt;/a&gt;.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/91fe14bf4803f92eef662d7ded89e916/raw/ce16f128fbc01746f65bd48cb41c00233d1aafef/install-pm2-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;h1 id=&quot;instalar-el-servidor-web-nginx&quot;&gt;Instalar el servidor web (Nginx)&lt;/h1&gt;
+
+&lt;p&gt;Nginx es un servidor web muy fácil de configurar y ordenado, que además nos permite crear un proxy en una línea de código y es 100% compatible con &lt;a href=&quot;https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx&quot;&gt;Certbot&lt;/a&gt;, osea que vas a poder tener un &lt;strong&gt;certificado SSL gratis y verídico&lt;/strong&gt;. Obviamente, este servicio también debe iniciar con Ubuntu y así se configura en el script.sh :)&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/d1b48e0ddc66d6c69f9115aabe46d818/raw/5c69b716d4530f7f4aaf8c38eca2b31bb1060aed/install-nginx-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;¿Necesitás ayuda para configurar tus sitios en Nginx? ¡&lt;a href=&quot;#&quot;&gt;Entrá acá&lt;/a&gt;!&lt;/p&gt;
+
+&lt;h1 id=&quot;configurar-ufw-firewall&quot;&gt;Configurar UFW Firewall&lt;/h1&gt;
+
+&lt;p&gt;UFW (Uncomplicated Firewall) es un corta-fuegos de manejo sencillo que desconocí en mi primer proyecto, así que los primeros meses el servidor funcionó con acceso completo, porque &lt;strong&gt;usaba root&lt;/strong&gt;. Por suerte, cada día me convierto más en Ssr y dejo de ser Junior :P&lt;/p&gt;
+
+&lt;p&gt;El problema de usar un usuario no-root (y el porqué yo usé &lt;strong&gt;root&lt;/strong&gt; para manejarme en mi primer servidor, al principio) es que las cuentas de usuario normales no tienen acceso al manejo de puertos en el servidor, y si mal no recuerdo, había un lío con Nginx bárbaro. ¡Muy divertido todo!
+Evitemos dolores de cabeza y configuremos UFW con el siguiente script.&lt;/p&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/d7d1b42552287ad4afa3f579597e54d5/raw/59363792ad2e0a4b075cdbb9f509902939ac92a8/configure-ufw-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>chiqui</name></author><category term="linux" /><category term="linux," /><category term="servidor" /><category term="vps," /><category term="servidor" /><category term="dedicado," /><category term="ubuntu" /><category term="server," /><category term="nodejs," /><category term="mongodb," /><category term="pm2," /><category term="base" /><category term="de" /><category term="datos" /><summary type="html">Instalar NodeJs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp" /><media:content medium="image" url="http://localhost:4000/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">¿Cómo instalar Quake III Arena en Linux?</title><link href="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html" rel="alternate" type="text/html" title="¿Cómo instalar Quake III Arena en Linux?" /><published>2020-02-05T22:00:00-03:00</published><updated>2020-02-05T22:00:00-03:00</updated><id>http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux</id><content type="html" xml:base="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html">&lt;p&gt;Hace un montón que juegos similares al Quake III Arena estaban en Linux, en forma de Warsow o Xonotic… 
 Sin embargo, hace muchos años ya existe &lt;strong&gt;openarena&lt;/strong&gt; y el mismísimo &lt;strong&gt;ioquake3&lt;/strong&gt;, los motores gráficos que corren el juego :)
 Si tenés los archivos del juego necesarios, te funcionará todo de perlas. Si no tenés los archivos &lt;strong&gt;.pak&lt;/strong&gt; no te preocupes, &lt;a href=&quot;https://drive.google.com/open?id=1i0cWXRs3MSDh6AA8Fj__CPao3aqMSzJu&quot;&gt;acá compilé&lt;/a&gt; &lt;strong&gt;quake3-data&lt;/strong&gt; para que puedas tener los datos del juego y revivir esas épocas sin tanto lío. Es decir que instalas &lt;strong&gt;quake3&lt;/strong&gt; desde APT y luego el deb del link anterior y listo.&lt;/p&gt;
 
@@ -741,7 +1093,7 @@ data: { // toda la información que querramos poner en el HTML va acá
         }
 }
 })
-&lt;/script&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="introduccion," /><category term="programacion," /><category term="javascript," /><category term="vuejs" /><summary type="html">¡Hey! Estoy escribiendo este post, aún no lo termino :O</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.webp" /><media:content medium="image" url="https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Activar GitHub Pages</title><link href="http://localhost:4000/git/2019/10/20/activar-github-pages.html" rel="alternate" type="text/html" title="Activar GitHub Pages" /><published>2019-10-20T21:50:00-03:00</published><updated>2019-10-20T21:50:00-03:00</updated><id>http://localhost:4000/git/2019/10/20/activar-github-pages</id><content type="html" xml:base="http://localhost:4000/git/2019/10/20/activar-github-pages.html">&lt;p&gt;Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.&lt;/p&gt;
+&lt;/script&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="introduccion," /><category term="programacion," /><category term="javascript," /><category term="vuejs" /><summary type="html">¡Hey! Estoy escribiendo este post, aún no lo termino :O</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.webp" /><media:content medium="image" url="https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/introduccion-a-javascript-y-vue-js/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Activar GitHub Pages</title><link href="http://localhost:4000/programacion/2019/10/20/activar-github-pages.html" rel="alternate" type="text/html" title="Activar GitHub Pages" /><published>2019-10-20T21:50:00-03:00</published><updated>2019-10-20T21:50:00-03:00</updated><id>http://localhost:4000/programacion/2019/10/20/activar-github-pages</id><content type="html" xml:base="http://localhost:4000/programacion/2019/10/20/activar-github-pages.html">&lt;p&gt;Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.&lt;/p&gt;
 
 &lt;p&gt;Ahí entra &lt;strong&gt;GitHub Pages&lt;/strong&gt;, un servicio gratuito del ya de por sí gratuito &lt;strong&gt;GitHub&lt;/strong&gt; :D GitHub Pages puede trabajar con Ruby y &lt;a href=&quot;https://jekyllrb.com/&quot;&gt;Jekyll&lt;/a&gt; (cómo este sitio), o también puede servirte cómo un pequeño servidor web estático. No tiene módulos PHP ni otra cosa Back-end, pero si querés alojar archivos .html ésto te sobra.&lt;/p&gt;
 
@@ -767,200 +1119,4 @@ data: { // toda la información que querramos poner en el HTML va acá
 &lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/3-clic-en-el-nuevo-link.jpg&quot; alt=&quot;paso-3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;¡Tu web está online! O algo así… es probable que haya que esperar unos minutos para que Git deje tu sitio online. Si tenías un README.md, esa será la cara “por defecto” que verás al entrar al link.  Sin embargo, si creás un index.html, podrás verlo sin problemas.
-¡Mira! Puse online un repositorio de C (no garantizo que ese link esté por siempre, &lt;a href=&quot;https://chiqui1234.github.io/Pilas-Colas-y-Listas/&quot;&gt;pero podrías intentar si existe&lt;/a&gt;).&lt;/p&gt;</content><author><name>chiqui</name></author><category term="git" /><category term="github," /><category term="pages," /><category term="publicar" /><category term="web," /><category term="hosting" /><category term="gratis" /><summary type="html">Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalar la terminal de Linux en Windows (2019)</title><link href="http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html" rel="alternate" type="text/html" title="Instalar la terminal de Linux en Windows (2019)" /><published>2019-10-19T20:50:00-03:00</published><updated>2019-10-19T20:50:00-03:00</updated><id>http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows</id><content type="html" xml:base="http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html">&lt;p&gt;Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa:
-La compu grande para jugar pero la notebook con Ubuntu es ideal para trabajar y programar, listo. :D&lt;/p&gt;
-
-&lt;p&gt;La necesidad de tener una pantalla grande al ver los preciosos jeroglíficos de C/C++ se volvió &lt;strong&gt;muy evidente&lt;/strong&gt; y yo estaba entre lanzar un -lento y no responsivo- TeamViewer a la notebook, o conectar la maquinita en el living con la tele, los gatos, las bendiciones y el timbre del motoquero que &lt;del&gt;nos entrega una pizza&lt;/del&gt; se equivocó de timbre y era para el vecino :(&lt;/p&gt;
-
-&lt;p&gt;Buscando cómo hacer mi vida más amena en Windows, me topé con el &lt;strong&gt;Windows Subsystem for Linux&lt;/strong&gt;. Este software ojalá no sea el caballo de troya para las distribuciones del pinguino porque, sacando el hecho de que la mayoría son copy &amp;amp; paste entre sí, son buenas.
-¡Vamos al tutorial!&lt;/p&gt;
-
-&lt;h1 id=&quot;cómo-activar-linux-en-windows&quot;&gt;¿Cómo activar Linux en Windows?&lt;/h1&gt;
-
-&lt;p&gt;Lo dividí en 3 pasos principales, el cuarto es reiniciar, algo que no suele pasar en Linux :P
-&lt;img src=&quot;https://pm1.narvii.com/6910/ae67563a2ad03e8cb9db7b4fd946b1722a642ee2r1-1078-572v2_hq.jpg&quot; alt=&quot;aqui-no-hacemos-eso&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;1-andá-al-menú-inicio&quot;&gt;1. Andá al menú inicio&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/1-menu-inicio.jpg&quot; alt=&quot;paso-1&quot; /&gt;&lt;/p&gt;
-
-&lt;h3 id=&quot;2-escribí-características&quot;&gt;2. Escribí “características”&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/2-caracteristicas.jpg&quot; alt=&quot;paso-2&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Y seleccioná “Activar o desactivar las características de Windows” :)&lt;/p&gt;
-
-&lt;h3 id=&quot;3-activar-el-subsistema&quot;&gt;3. Activar el subsistema&lt;/h3&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/3-activar-subsistema-de-linux.jpg&quot; alt=&quot;paso-3&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Tildá “Subsistema de Windows para Linux”…&lt;/p&gt;
-
-&lt;h3 id=&quot;4-reiniciar&quot;&gt;4. Reiniciar&lt;/h3&gt;
-
-&lt;p&gt;Si si, reiniciá y si tenés un navegador con dos dedos de frente, te vuelve a abrir esta página web :D&lt;/p&gt;
-
-&lt;h1 id=&quot;antes-de-encender-todo&quot;&gt;Antes de encender todo&lt;/h1&gt;
-
-&lt;p&gt;Si vamos al menú inicio y tipeamos “bash” en el Menú inicio, tendremos un nuevo programa a mano llamado “bash.exe” pero que al clickearlo, no abre o te imprime este mensaje.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/4-error.jpg&quot; alt=&quot;error-que-tuve&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si te sucede ésto, deberás abrir la tienda de Windows. Busqué “Ubuntu”, ¡y tarán! Podemos decir sin temor a equivocarnos que Ubuntu está para Windows ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/5-ubuntu-in-microsoft.jpg&quot; alt=&quot;ubuntu-para-windows&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Instalé, tipeé “Ubuntu” en mi menú inicio y ahí estaba &amp;lt;3
-Nos pide nombre de usuario y contraseña para crear el nuevo usuario UNIX. Luego de eso, se instala en alrededor de un minuto y podés arrancar a instalar apps.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/8-instalamos-lo-que-sea-en-el.jpg&quot; alt=&quot;instalacion-gcc&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Recordá que antes de hacer algo con &lt;strong&gt;apt&lt;/strong&gt; deberás ejecutar la acción &lt;strong&gt;apt update&lt;/strong&gt;, para que levante los meta-datos de los repositorios.&lt;/p&gt;
-
-&lt;p&gt;Ahora podrías tener Visual Studio Code, que tiene un plugin para trabajar con este subsistema :) &lt;a href=&quot;https://code.visualstudio.com/docs/remote/wsl#_getting-started&quot;&gt;Más info acá&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: No leí mucho ese link, sin embargo los pasos a seguir son similares a ejecutar &lt;strong&gt;code&lt;/strong&gt; desde la terminal de Linux. Si van a la carpeta en la que están programando (desde el Explorador de archivos de Windows 10) y:&lt;/p&gt;
-&lt;ul&gt;
-  &lt;li&gt;Shift + Clic derecho del mouse en algún espacio vacío del explorador.&lt;/li&gt;
-  &lt;li&gt;Click en “Abrir shell de Linux aquí”.&lt;/li&gt;
-  &lt;li&gt;Una vez dentro de la terminal linux, escriben &lt;strong&gt;code .&lt;/strong&gt; (si, con el puntito así code sabe que nos tiene que abrir toda la carpeta).&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;Se abre Visual Studio Code, detecta que está en un entorno Windows Subsystem for Linux (WSL) y te sugiere un plug-in. Lo instalás y la verdad, ya podés instalar plugins de VSCode en tu Subsistema Linux (cosa que hace por defecto) y &lt;strong&gt;que práctico&lt;/strong&gt; es instalar Git con un comando y trabajar de forma idéntica que en Linux &amp;lt;3&lt;/p&gt;
-
-&lt;p&gt;Te vas a enterar que funciona todo cuándo veas este logo en la parte inferior izquierda ;)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/notificacion.JPG&quot; alt=&quot;notificacion&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;se-viene-una-nueva-terminal-de-windows-10&quot;&gt;Se viene una nueva terminal de Windows 10&lt;/h1&gt;
-
-&lt;p&gt;Edito este post para agregar que se viene una terminal nueva en Windows 10, más acorde al &lt;strong&gt;Fluid Design&lt;/strong&gt; que cada vez está más pulido :)&lt;/p&gt;
-
-&lt;p&gt;Miren el video demo, y su &lt;a href=&quot;https://github.com/microsoft/terminal&quot;&gt;proyecto en GitHub&lt;/a&gt;. Si querés tener la preview YA, andá a Microsoft Store y buscá “Windows Terminal” :) ¡Disponible a partir de la build 1903!&lt;/p&gt;
-
-&lt;iframe width=&quot;100%&quot; height=&quot;350&quot; src=&quot;https://www.youtube.com/embed/8gw0rXPMMPE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-
-&lt;p&gt;¡Un gusto leer con ustedes!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="linux," /><category term="terminal," /><category term="ubuntu" /><category term="en" /><category term="windows," /><category term="subsistema" /><category term="de" /><category term="windows," /><category term="windows" /><category term="subsystem" /><summary type="html">Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa: La compu grande para jugar pero la notebook con Ubuntu es ideal para trabajar y programar, listo. :D</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Porqué te diría que CSS es programar (o casi)</title><link href="http://localhost:4000/programacion/2019/10/19/porque-te-diria-que-css-es-programar-o-casi.html" rel="alternate" type="text/html" title="Porqué te diría que CSS es programar (o casi)" /><published>2019-10-19T19:35:00-03:00</published><updated>2019-10-19T19:35:00-03:00</updated><id>http://localhost:4000/programacion/2019/10/19/porque-te-diria-que-css-es-programar-o-casi</id><content type="html" xml:base="http://localhost:4000/programacion/2019/10/19/porque-te-diria-que-css-es-programar-o-casi.html">&lt;p&gt;&lt;img src=&quot;https://www.w3schools.com/whatis/img_selector.gif&quot; alt=&quot;Estructura-del-css&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Escribís la etiqueta que querés personalizar, abrís una llave, ponés propiedades y valores nuevos, cerrás la llave y that’s it :)&lt;/p&gt;
-
-&lt;p&gt;Un lenguaje de marcado cómo es HTML no debería ser considerado un lenguaje de programación. Los programadores más finos (y/o los más intolerantes y &lt;strong&gt;especiales&lt;/strong&gt;) odian que digas eso, pero entre amigos entendemos perfectamente lo que quisiste decir.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;CSS&lt;/strong&gt; está más cerca de ser un lenguaje de programación, aunque anda a mitad de camino porque sus raíces fueron ser méramente un lenguaje de estilos.&lt;/p&gt;
-
-&lt;p&gt;Sin embargo, programar un programa para resolver una necesidad o problema no puede hacerse sólo con HTML y CSS, osea, no podemos crear un software de back-end (el que procesa datos) con estas dos tecnologías.&lt;/p&gt;
-
-&lt;h1 id=&quot;html-y-css-pueden-servirte-si-no-programaste-nunca&quot;&gt;HTML y CSS pueden servirte si no programaste nunca&lt;/h1&gt;
-
-&lt;p&gt;Si sos nuevo en el rubro, HTML y CSS es una manera increíble y práctica de comenzar. Primero, porque tiene conceptos cómo la división entre “qué hacer” y el “cómo hacerlo”. Esto sería el equivalente a un archivo &lt;strong&gt;.h&lt;/strong&gt; en C++ y el archivo &lt;strong&gt;.cpp&lt;/strong&gt;, respectivamente.
-Los programas cómo mínimo se dividen en dos etapas a la hora de codearlo. Algo así:&lt;/p&gt;
-
-&lt;h2 id=&quot;qué-tengo-que-hacer&quot;&gt;¿Qué tengo que hacer?&lt;/h2&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://www.edrawsoft.com/flowchart/images/programming-flowchart.png&quot; alt=&quot;Diagrama-de-flujo-de-ejemplo&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;¿Ya pensaste qué aplicación armar? Yo quiero un convertidor de Bitcoin (BTC) a dólares. Sé que voy a tener una función que recibirá la entrada del usuario (los Bitcoins que tengo) y otra función que convertirá esa cantidad de BTC a dólares.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;¿No sabés qué es una función? &lt;a href=&quot;programacion/2019/10/12/Introduccion-a-la-programacion.html&quot;&gt;Leete la Introducción a la programación&lt;/a&gt;.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;p&gt;Ok, escribo los nombres de funciones, el flujo de datos de mi programa,algunos comentarios para guiarme y prosigo.
-Nada puede malir sal.&lt;/p&gt;
-
-&lt;h2 id=&quot;cómo-hacerlo&quot;&gt;¿Cómo hacerlo?&lt;/h2&gt;
-
-&lt;p&gt;Seguramente ya pensaste más o menos cómo hacerlo. Acá uno no se limita a los nombres de funciones, sino que se debe explicar y codificar (escribir código) lo que hacen esas funciones.&lt;/p&gt;
-
-&lt;h1 id=&quot;por-qué-html-y-css-ayudan-a-que-aprendas-un-lenguaje-de-programación-más-rápido&quot;&gt;¿Por qué HTML y CSS ayudan a que aprendas un lenguaje de programación más rápido?&lt;/h1&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://miro.medium.com/max/1080/0*Qf1s2lG86MjX-Zcv.jpg&quot; alt=&quot;Model-View-Controller&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Los lenguajes de programación tienen conceptos cómo Modelo-Vista-Controlador (una manera eficiente y modular de crear software), los objetos, objetos que se basan en otros objetos, modularidad, variables y funciones. Acá se ve todo eso de manera fluída y aparte podés venderle una solución web a alguien muy rápido, sin liarte con mucho y poder “programar” (en realidad, se dice “maquetar”) el sitio web desde una netbook barata y un Linux ligero, mientras estás en tu patio :P&lt;/p&gt;
-
-&lt;p&gt;Estos conceptos que comenté en el párrafo anterior los ves constantemente y de forma didáctica.&lt;/p&gt;
-
-&lt;h2 id=&quot;variables&quot;&gt;Variables&lt;/h2&gt;
-
-&lt;p&gt;Para &lt;strong&gt;crear una variable en CSS&lt;/strong&gt;, simplemente deberías escribir:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;--tuVariable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;las variables soportan cadenas de texto, colores rgba y hex, entre otras cosas&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;¡&lt;strong&gt;Ojo&lt;/strong&gt;! Las variables se crean dentro del &lt;strong&gt;selector :root&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nd&quot;&gt;:root&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;c&quot;&gt;/*  Tu código   */&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Si quisieras usar el dato de esa variable, usás la función &lt;strong&gt;var()&lt;/strong&gt; :)&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;var&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;--tuVariable&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;funciones&quot;&gt;Funciones&lt;/h2&gt;
-
-&lt;p&gt;Hay varias &lt;a href=&quot;https://www.w3schools.com/cssref/css_functions.asp&quot;&gt;viejas&lt;/a&gt; &lt;strong&gt;funciones en CSS&lt;/strong&gt;, pero las nuevas son muy interesantes también. Por ejemplo:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;calc&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;+&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;b&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Calcula un número contra otro. Puede calcular medidas de píxeles, viewport, porcentajes y más */&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;repeat&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;2&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;50vw&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;);&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;/*&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;Equivalente&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;a&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;escribir&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;50vw 50vw&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;esta&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;funci&lt;/span&gt;&lt;span class=&quot;err&quot;&gt;ó&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;n&lt;/span&gt; &lt;span class=&quot;nt&quot;&gt;dice&lt;/span&gt; &lt;span class=&quot;s1&quot;&gt;&quot;escribí '50vw' 2 veces&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h2 id=&quot;clases-u-objetos&quot;&gt;Clases u objetos&lt;/h2&gt;
-
-&lt;p&gt;El diseño web nace con los objetos en mente, algo que se notó más cuándo CSS entró en escena. Para CSS, cada &lt;strong&gt;id&lt;/strong&gt; o &lt;strong&gt;clase&lt;/strong&gt; es un objeto. Entendemos por id cuándo en HTML leemos:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-html&quot; data-lang=&quot;html&quot;&gt;    &lt;span class=&quot;nt&quot;&gt;&amp;lt;div&lt;/span&gt; &lt;span class=&quot;na&quot;&gt;id=&lt;/span&gt;&lt;span class=&quot;s&quot;&gt;&quot;nuestroId&quot;&lt;/span&gt;&lt;span class=&quot;nt&quot;&gt;&amp;gt;&lt;/span&gt;Contenido...&lt;span class=&quot;nt&quot;&gt;&amp;lt;/div&amp;gt;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Este &lt;strong&gt;div&lt;/strong&gt; es cómo una caja (un objeto), que puede tener un sinfín de cualidades. Tan sólo mirá esta página. Tiene una barra de navegación, una caja centrada para que leas el texto y demás. Cada apartado de la web se trata “en cajitas” :) Del lado del CSS podemos darle estilo (cualidades), mirá a continuación :D&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-css&quot; data-lang=&quot;css&quot;&gt;    &lt;span class=&quot;nf&quot;&gt;#nuestroId&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;{&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;width&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;70%&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Ancho del 70% */&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;margin&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;0&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;auto&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Margen (externo) superior e inferior de 0, la izquierda y derecha se maneja de forma automática (se centra horizontalmente)    */&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;background&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;#fafafa&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Un gris al 5% */&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;padding&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;5px&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Margen interno de la caja */&lt;/span&gt;
-        &lt;span class=&quot;nl&quot;&gt;border&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;m&quot;&gt;1px&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;solid&lt;/span&gt; &lt;span class=&quot;no&quot;&gt;red&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;c&quot;&gt;/* Borde de 1px de grosor, en color rojo */&lt;/span&gt;
-    &lt;span class=&quot;p&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Si bien nuestro “objeto” tiene propiedades y un comportamiento (dado por cómo el navegador web &lt;strong&gt;interpreta&lt;/strong&gt; la sintáxis), no soporta métodos, por lo cuál hasta el momento un ID o Clase en CSS no puede contener una función o variable dentro. 
-De una manera muy primitiva, podemos llamar a una función dentro de una clase o ID. Esto es vital para cuándo queremos ejecutar una animación. Nada más.&lt;/p&gt;
-
-&lt;p&gt;CSS está muy cerca de convertirse en un lenguaje de programación pero, ¿es necesario? ¿interesa? Lo veremos en próximas revisiones de este práctico lenguaje de estilos. Un lenguaje que muchos adoptaron y algunos ni siquiera hacen el boceto en Photoshop, porque escribir CSS es realmente rápido…&lt;/p&gt;
-
-&lt;p&gt;¿Te gusta CSS? ¡Estate atento a nuestro curso de diseño web!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="css," /><category term="programar," /><category term="maquetar," /><category term="web" /><summary type="html"></summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-te-diria-que-css-es-programar-o-casi/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/porque-te-diria-que-css-es-programar-o-casi/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Cómo usar un FTP muy fácil y rápido</title><link href="http://localhost:4000/programacion/2019/10/16/Como-usar-un-FTP-muy-facil-y-rapido.html" rel="alternate" type="text/html" title="Cómo usar un FTP muy fácil y rápido" /><published>2019-10-16T21:00:00-03:00</published><updated>2019-10-16T21:00:00-03:00</updated><id>http://localhost:4000/programacion/2019/10/16/Como-usar-un-FTP-muy-facil-y-rapido</id><content type="html" xml:base="http://localhost:4000/programacion/2019/10/16/Como-usar-un-FTP-muy-facil-y-rapido.html">&lt;p&gt;Bienvenidos a una pequeña guía, que si bien la haré sobre Ubuntu 19.04 con el explorador de archivos &lt;strong&gt;Nautilus&lt;/strong&gt;, los pasos a seguir son muy parecidos en Windows 8/8.1/10 y es muy probable que Windows 7 y los exploradores de archivos Thunar, Nemo y PCManFM para sistemas Linux sean compatibles con el protocolo FTP.
-No necesitarás Filezilla, WinSCP ni ningún otro programa similar para subir tus archivos.&lt;/p&gt;
-
-&lt;h1 id=&quot;primero-lo-primero&quot;&gt;Primero lo primero&lt;/h1&gt;
-&lt;p&gt;Andá a tu panel de control de tu hosting. En su panel principal deberías ver algo cómo ésto.
-&lt;img src=&quot;https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/como-usar-un-ftp-muy-facil-y-rapido/ftpAccount.jpg&quot; alt=&quot;Cuenta-de-ftp&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Copiate &lt;strong&gt;FTP Hostname&lt;/strong&gt; y si en algún momento te piden un puerto para conectarte al FTP prueba con &lt;strong&gt;21&lt;/strong&gt; u &lt;strong&gt;80&lt;/strong&gt;, aunque por lo general es algo que (al menos Nautilus) lo gestiona de forma automática. Recuerda tu nombre de usuario y contraseña ya que tendrás que enviarle tus credenciales para que te deje ver, subir o eliminar archivos.&lt;/p&gt;
-
-&lt;p&gt;En caso de que tu hosting no te haya creado por defecto una cuenta FTP con el mismo nombre de usuario y contraseña con la que inicias sesión, entra en este menú (o algún otro que tenga un nombre similar) y create una cuenta FTP.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/como-usar-un-ftp-muy-facil-y-rapido/ftpAccounts.jpg&quot; alt=&quot;Vista-de-cuentas-ftp&quot; /&gt;&lt;/p&gt;
-
-&lt;h1 id=&quot;conectarse-al-ftp-con-tu-explorador-de-archivos&quot;&gt;Conectarse al ftp con tu explorador de archivos&lt;/h1&gt;
-&lt;p&gt;En el caso de Windows, deberás borrar el texto de tu barra de dirección (que en la imágen aparece cómo &lt;strong&gt;Acceso rápido&lt;/strong&gt;) y colocar la dirección de tu ftp.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://i1.wp.com/www.tecnicomo.com/wp-content/uploads/2015/09/C%C3%B3mo-acceder-al-Explorador-de-archivos-en-Windows-10-2.png&quot; alt=&quot;Explorador-de-archivos-Windows-10&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Si usas Thunar u otro explorador similar al de Windows, posiblemente deberás escribir la ruta al FTP en la barra de direcciones.&lt;/p&gt;
-
-&lt;p&gt;Recuerda que la dirección debe tener, antes que nada, &lt;strong&gt;ftp://&lt;/strong&gt; y luego la dirección que vimos en nuestro panel de control.
-Ejemplo: &lt;strong&gt;ftp://&lt;/strong&gt;ftphost.net :)&lt;/p&gt;
-
-&lt;h2 id=&quot;en-el-caso-de-nautilus&quot;&gt;En el caso de Nautilus&lt;/h2&gt;
-
-&lt;p&gt;Nautilus no tiene una barra de direcciones propiamente dicha, y por ende debemos ir a &lt;strong&gt;Otras ubicaciones&lt;/strong&gt; para luego escribir la dirección FTP en la barra de direcciones inferior, cómo se indica en la imágen.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/como-usar-un-ftp-muy-facil-y-rapido/conection1.jpg&quot; alt=&quot;Explorador-de-archivos-Nautilus&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Una vez ingresado la URL de nuestro FTP, se nos pedirá Usuario y Contraseña.
-Idealmente puedes indicar que recuerde tus credenciales, aunque si la computadora en la que trabajas pasa por varias manos es mejor negar esta opción.&lt;/p&gt;
-
-&lt;p&gt;Una vez indicado tus credenciales, el explorador de archivos se conectará al ftp cómo si fuera una carpeta más de tu PC :)&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/Chiqui1234/holanerd-jekyll/master/assets/img/como-usar-un-ftp-muy-facil-y-rapido/conection2.jpg&quot; alt=&quot;Explorador-de-archivos-Nautilus&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;¿Quedó todo claro? :D&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="ftp," /><category term="explorador" /><category term="de" /><category term="archivos" /><summary type="html">Bienvenidos a una pequeña guía, que si bien la haré sobre Ubuntu 19.04 con el explorador de archivos Nautilus, los pasos a seguir son muy parecidos en Windows 8/8.1/10 y es muy probable que Windows 7 y los exploradores de archivos Thunar, Nemo y PCManFM para sistemas Linux sean compatibles con el protocolo FTP. No necesitarás Filezilla, WinSCP ni ningún otro programa similar para subir tus archivos.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/como-usar-un-ftp-muy-facil-y-rapido/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/como-usar-un-ftp-muy-facil-y-rapido/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+¡Mira! Puse online un repositorio de C (no garantizo que ese link esté por siempre, &lt;a href=&quot;https://chiqui1234.github.io/Pilas-Colas-y-Listas/&quot;&gt;pero podrías intentar si existe&lt;/a&gt;).&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="github," /><category term="pages," /><category term="publicar" /><category term="web," /><category term="hosting" /><category term="gratis" /><summary type="html">Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

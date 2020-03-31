@@ -4,16 +4,22 @@
         <div id="reviews" class="padding blueBorder marginY">
             <h2 class="centerText">Reviews</h2>
             <div class="grid-2 gap">
-                <div class="img" style="background-image: url('assets/img/zalman-cnps-9500-led/thumb.jpg');"></div>
+                {% assign counter = 0 %}
+                {% for post in site.posts %}
+                    {% if post.category == 'review' and counter < 1 %}
+                        <div class="img" style="background-image: url('{{ post.image }}');"></div>
+                        {% assign counter = counter | plus:1 %}
+                    {% endif %}
+                {% endfor %}
                 <ul class="minimal">
                     {% assign counter = 0 %}
                     {% for post in site.posts %}
-                    {% if post.category == 'review' and counter < 5 %}
-                        <li>
-                            <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
-                        </li>
-                        {% assign counter = counter | plus:1 %}
-                    {% endif %}
+                        {% if post.category == 'review' and counter < 5 %}
+                            <li>
+                                <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
+                            </li>
+                            {% assign counter = counter | plus:1 %}
+                        {% endif %}
                     {% endfor %}
                     {% if counter == 0 %}
                         <p>Por el momento, no hay nada por acá.</p>
@@ -29,19 +35,19 @@
                 {% assign counter = 0 %}
                 {% for post in site.posts %}
                     {% if post.category == 'programacion' and counter < 1 %}
-                    <div class="img" style="background-image: url('{{ post.image }}');"></div>
-                    {% assign counter = counter | plus:1 %}
+                        <div class="img" style="background-image: url('{{ post.image }}');"></div>
+                        {% assign counter = counter | plus:1 %}
                     {% endif %}
                 {% endfor %}
                 <ul class="minimal marginY">
                     {% assign counter = 0 %}
                     {% for post in site.posts %}
-                    {% if post.category == 'programacion' and counter < 5 %}
-                        <li>
-                            <div class="text"><a href="{{ post.url }}">{{ post.title }}</a></div>
-                        </li>
-                        {% assign counter = counter | plus:1 %}
-                    {% endif %}
+                        {% if post.category == 'programacion' and counter < 5 %}
+                            <li>
+                                <div class="text"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                            </li>
+                            {% assign counter = counter | plus:1 %}
+                        {% endif %}
                     {% endfor %}
                     {% if counter == 0 %}
                         <p>Por el momento, no hay nada por acá.</p>
@@ -55,12 +61,12 @@
                 <ul class="minimal marginY">
                     {% assign counter = 0 %}
                     {% for post in site.posts %}
-                    {% if post.category == 'linux' and counter < 500 %}
-                        <li style="background-image: url('{{ post.image }}');background-position-y: {{ counter }}px;">
-                            <div class="text"><a href="{{ post.url}}">{{ post.title }}</a></div>
-                        </li>
-                        {% assign counter=counter | plus:50 %}
-                    {% endif %}
+                        {% if post.category == 'linux' and counter < 500 %}
+                            <li style="background-image: url('https://mcdn.wallpapersafari.com/medium/19/91/uMlGHe.png');background-position-y: {{ counter }}px;">
+                                <div class="text"><a href="{{ post.url }}">{{ post.title }}</a></div>
+                            </li>
+                            {% assign counter=counter | plus:50 %}
+                        {% endif %}
                     {% endfor %}
                 </ul>
             </div>

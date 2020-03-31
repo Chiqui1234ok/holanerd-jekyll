@@ -28,6 +28,7 @@ markdown: kramdown
 theme: minima
 plugins:
   - jekyll-feed
+highlighter: rouge # https://github.com/rouge-ruby/rouge/wiki/List-of-supported-languages-and-lexers
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
