@@ -1,6 +1,9 @@
 #post.grid-2 {
     grid-template-columns: 80% 20%;
 }
+@media (max-width: 1279px) {
+    #post.grid-2 {grid-template-columns: 100%;}
+}
 #post #bigPicture {
     width: 100%;
     height: 400px;
