@@ -29,8 +29,7 @@ El cooler será probado con dos programas distintos con el fin de medir su tempe
 * Stress-ng (simil Prime95)
 * XMRig 5.10.0 (software para criptominería)
   
-También probé Shadow of TR, para ver las temperaturas del CPU y averigüar si la placa de video se ve beneficiada por tener un cooler extractor justo arriba.
-* Shadow of Tomb Raider
+También probé Shadow of Tomb Raider, para ver las temperaturas del CPU y averigüar si la placa de video se ve beneficiada por tener un cooler extractor justo arriba.
 
 # Unboxing
 La caja podría desentonar un poco con cajas de sistemas de refrigeración actuales, que tienen tipografías, colores y diseños más rectos y serios. Zalman por aquella época eligió una caja celeste y tener el cooler empacado en un plástico transparente.
@@ -57,7 +56,8 @@ El sistema es a bolillas, no rulemán.
 
 ## Lado dos
 
-Esta cara tiene escrita en siete idiomas diferentes (Inglés, Francés, Alemán, Español, Ruso, Chino y Japonés) algunas "claves" del producto. Por si no lo notaste, está enteramente hecho de cobre y viene con un ventilador incorporado de 92mm con iluminación azúl.
+Esta cara tiene escrita en siete idiomas diferentes (Inglés, Francés, Alemán, Español, Ruso y dos lenguajes asiáticos) algunas "claves" del producto. 
+Se trata de un producto hecho enteramente de cobre, y viene con un ventilador incorporado de 92mm con iluminación azúl.
 
 ![caja-lado-sinopsis](/assets/img/review-zalman-cnps-9500a-led/caja-lado-sinopsis.jpg)
 
@@ -75,13 +75,13 @@ El manual es idéntico para el CNPS9700 (el hermano mayor) y el 9500A. Está esc
 
 El manual en digital [está a tu disposición acá](/assets/pdf/review-zalman-cnps-9500a-led/manual.pdf). :)
 
-
-
 # Controlador Fanmate 2
 
 ![controlador-fanmate-y-cable-de-seis-pines](/assets/img/review-zalman-cnps-9500a-led/controlador-fanmate-y-cable-full.jpg)
 
-No hay ningún "pero" especial para este controlador. En el manual, Zalman espera que coloques este controlador pegado con cinta de doble cara en el exterior de tu gabinete, cosa que nunca haría (pero gracias por la cinta).
+Las contenidas dimensiones son de 70x26x26mm (largo, ancho, espesor) y su peso es de 20 gramos. 
+
+No hay ningún "pero" especial para este controlador, simplemente funciona y de regulación precisa. En el manual, Zalman espera que coloques este controlador pegado con cinta de doble cara en el exterior de tu gabinete, cosa que nunca haría (pero gracias por la cinta).
 
 ![controlador-fanmate-primer-plano](/assets/img/review-zalman-cnps-9500a-led/controlador-fanmate.jpg)
 
@@ -91,13 +91,15 @@ Sería genial que el led azúl del ventilador se pudiera apagar desde el control
 
 ![especificaciones-del-fan](/assets/img/review-zalman-cnps-9500a-led/especificaciones-fan.jpg)
 
-El ventilador es desmontable mediante dos tornillos. Es de 12v y led azúl. El modelo exacto es **ZF9225ATH**.
+El ventilador es desmontable mediante dos tornillos. Es de 12v y led azúl. El modelo exacto es **ZF9225ATH** y cumple con el objetivo de Zalman de ser "anti vibración" como el resto del producto, bajo RPMs medias y bajas.
 
 # Disipador
 
 ![foto-de-frente](/assets/img/review-zalman-cnps-9500a-led/cooler-frente.jpg)
 
-El disipador está compuesto por
+El diseño del disipador trata de una patente de Zalman en más de veinte países, así que estamos comprando un diseño exclusivo y, supongo por la confianza de la empresa, un disipador muy efectivo por el reducido tamaño.
+En la página del producto dan a entender que los tres heatpipes rinden como seis, debido a que atraviezan un gran porcentaje del disipador.
+Para ser precisos, los heatpipes atraviezan 90 aletas de cobre de 0.2mm de espesor :O
 
 # Pasta térmica
 
@@ -189,6 +191,10 @@ Se corrió Tomb Raider a 3200x1800 y calidad Máxima, 34fps promedio (¿quién t
   * Máx: 57,0c | Media: 57,0c
   * GPU: Máx: 75c | Media: 74,5c
 
+---
+
+La verdad que me parece muy agradable la bajada de -al menos- 10 grados en el CPU, considerando que por la posición del ventilador está respirando aire caliente de una RX 590, que nació "al límite" (por su overclock).
+
 # Ruido
 
 Todas las pruebas se efectuaron con la velocidad del ventilador al máximo, tanto para la solución térmica probada acá cómo para el cooler stock de mi Ryzen 7 2700.
@@ -209,6 +215,10 @@ Si estás en una configuración ITX (no slim) estás, posiblemente, limitado a l
 
 ![zalman-armado-en-itx-afuera-del-gabinete](/assets/img/review-zalman-cnps-9500a-led/disipador-x570i-on.jpg)
 
-Estamos frente a un disipador muy viejo que por decisiones de AMD e Intel respecto a los orificios de sus sockets, sigue siendo compatible con cualquier CPU actual. Sería interesante comprobar los demás coolers de 92mm. Veremos como nos trata la cuarentena y probablemente voy a comprar algún modelo de ID-Cooling para lanzar en una comparativa. Sería muy interesante ver a los demás modelos y poder compararlos con las mismas pastas térmicas
+Estamos frente a un disipador muy viejo que por decisiones de AMD e Intel respecto a los orificios de sus sockets, sigue siendo compatible con cualquier CPU actual. Sería interesante comprobar los demás coolers de 92mm. Veremos como nos trata la cuarentena y probablemente voy a comprar algún modelo de ID-Cooling para lanzar en una comparativa. Sería muy interesante ver a los demás modelos y poder compararlos con las mismas pastas térmicas.
+
+Si tu intención es instalar este cooler en AMD, tené en cuenta que la posición depende de cómo se sitúen los plásticos del socket. En Intel podés ubicar este cooler en cualquiera de las dos posiciones, gracias a que los orificios el en motherboard están a la misma distancia entre sí.
+
+Te recomiendo este cooler si te gusta el color cobre y querés mantener el ruido a niveles coherentes. Además, pude overclockear mi Ryzen 7 y con el ventilador en modo silencioso se mantiene debajo de 68c en XMRig. Su diseño es muy interesante y sobretodo, efectivo. Enhorabuena por Zalman. La leyenda que soportaba overclocking en Pentium 4 por aire renació en videos de overclocking en varios Core i7 y ahora completó mi build 8-core. ¡Nada mal! Ni por su edad ni por el precio :D
 
 ¡Nos vemos en otro post!
