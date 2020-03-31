@@ -73,6 +73,10 @@ Esta tapa explica el diseño del ventilador, renderizado en 3D y mostrado por se
 
 El manual es idéntico para el CNPS9700 (el hermano mayor) y el 9500A. Está escrito en siete idiomas y se entiende bien; de todas formas la instalación no es complicada para ninguna plataforma.
 
+El manual en digital [está a tu disposición acá](/assets/pdf/review-zalman-cnps-9500a-led/manual.pdf). :)
+
+
+
 # Controlador Fanmate 2
 
 ![controlador-fanmate-y-cable-de-seis-pines](/assets/img/review-zalman-cnps-9500a-led/controlador-fanmate-y-cable-full.jpg)
