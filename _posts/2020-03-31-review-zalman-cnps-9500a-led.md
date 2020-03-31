@@ -1,15 +1,15 @@
 ---
 layout: post
-title: Review Zalman CNPS 9500 Led
+title: Review Zalman CNPS 9500A Led
 image: /assets/img/review-zalman-cnps-9500a-led/thumb.jpg
-date: 2020-03-31 12:00
+date: 2020-03-31 01:30
 category: review
 rating: 8,0
 author: chiqui
 tags: zalman, am3+, am4, cnps, cnps 9500, ryzen, amd, intel
 summary: El Zalman CNPS 9500 Led es un viejo conocido, nació a principios de siglo y es compatible con los sockets actuales de Intel y AMD, aunque no te lo cuenten. ¡Mirá el review!
 ---
-El [Zalman CNPS 9500 Led](https://www.zalman.com/contents/products/view.html?no=461) es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.
+El [Zalman CNPS 9500A Led](https://www.zalman.com/contents/products/view.html?no=461) es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.
 
 > Nota del editor: sí, puede anclarse en AM4 por más que no lo anuncie de forma oficial.
 
