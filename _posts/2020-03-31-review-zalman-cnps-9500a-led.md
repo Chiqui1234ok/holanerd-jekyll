@@ -167,15 +167,19 @@ Cabe aclarar que "Máx" es la temperatura máxima alcanzada durante la prueba, m
 
 **stress-ng** es un programa muy completo que puede estresar el CPU, RAM, HDD, etc; controlandose por consola (terminal).
 
-* Cooler AMD Wraith Spire RGB | Máx: 61,25c | Media: 60,5c
-* Cooler Zalman CNPS9500A Led | Máx: 52,1c | Media: 51,5c
+* Cooler AMD Wraith Spire RGB
+  * Máx: 61,25c, Media: 60,5c
+* Cooler Zalman CNPS9500A Led
+  * Máx: 52,1c, Media: 51,5c
 
 ## XMRig 5.10.0 (8 threads)
 
 **xmrig** es una aplicación para minar criptomonedas. En esta ocasión, se minó **monero** por 20 minutos y registramos la temperatura de operación y su máximo. Utilizamos 8 hilos de procesamiento, que es notoriamente más veloz que utilizar 16 hilos en XMRig.
 
-* Cooler AMD Wraith Spire RGB | Máx: 66,5c | Media: 66,0c
-* Cooler Zalman CNPS9500A Led | Máx: 53,0c | Media: 51,5c
+* Cooler AMD Wraith Spire RGB
+  * Máx: 66,5c, Media: 66,0c
+* Cooler Zalman CNPS9500A Led
+  * Máx: 53,0c, Media: 51,5c
 
 ## Shadow of Tomb Raider
 
@@ -185,11 +189,11 @@ Las últimas tres entregas de Tomb Raider se portaron a Linux y tienen un gran r
 Se corrió Tomb Raider a 3200x1800 y calidad Máxima, 34fps promedio (¿quién te conoce PS4 Pro?).
 
 * Cooler AMD Wraith Spire RGB 
-  * CPU: Máx: 68,5c | Media: 67,0c
-  * GPU: Máx: 79c | Media: 78c
+  * CPU: Máx: 68,5c, Media: 67,0c
+  * GPU: Máx: 79c, Media: 78c
 * Cooler Zalman CNPS9500A Led
-  * Máx: 57,0c | Media: 57,0c
-  * GPU: Máx: 75c | Media: 74,5c
+  * CPU: Máx: 57,0c, Media: 57,0c
+  * GPU: Máx: 75c, Media: 74,5c
 
 ---
 
