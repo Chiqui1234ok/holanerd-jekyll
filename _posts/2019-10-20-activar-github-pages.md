@@ -3,7 +3,7 @@ layout: post
 title: Activar GitHub Pages
 image: https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp
 date: 2019-10-20 21:50
-category: git
+category: programacion
 author: chiqui
 tags: github, pages, publicar web, hosting gratis
 summary: ¿Cómo publicar una web gratis desde tu repositorio y con GitHub Pages?
