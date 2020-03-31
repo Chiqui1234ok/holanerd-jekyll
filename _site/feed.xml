@@ -1,20 +1,20 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T15:06:57-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Holanerd</title><subtitle>Esto es una descripción de ejemplo PD: c:</subtitle><entry><title type="html">Tutorial desarrollo web (Parte 1)</title><link href="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html" rel="alternate" type="text/html" title="Tutorial desarrollo web (Parte 1)" /><published>2020-03-31T12:30:00-03:00</published><updated>2020-03-31T12:30:00-03:00</updated><id>http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general</id><content type="html" xml:base="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html">&lt;p&gt;Tengo en otro repositorio &lt;strong&gt;git&lt;/strong&gt; un tutorial que terminé hace una semana aproximadamente. La intención es grabar una serie de videos para complementar y maximizar el tutorial en cuestión, que explica todo un poco “por arriba” para darles a los nuevos un paneo general sobre el mundo de programación y diseño web.&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.6">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2020-03-31T20:36:39-03:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Holanerd</title><subtitle>Esto es una descripción de ejemplo PD: c:</subtitle><entry><title type="html">Tutorial desarrollo web (Parte 1)</title><link href="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html" rel="alternate" type="text/html" title="Tutorial desarrollo web (Parte 1)" /><published>2020-03-31T12:30:00-03:00</published><updated>2020-03-31T12:30:00-03:00</updated><id>http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general</id><content type="html" xml:base="http://localhost:4000/programacion/2020/03/31/tutorial-desarrollo-web-general.html">&lt;p&gt;Tengo en otro repositorio &lt;strong&gt;git&lt;/strong&gt; un tutorial que terminé hace una semana aproximadamente. La intención es grabar una serie de videos para complementar y maximizar el tutorial en cuestión, que explica todo un poco “por arriba” para darles a los nuevos un paneo general sobre el mundo de programación y diseño web.&lt;/p&gt;
 
 &lt;h1 id=&quot;contenidos-del-tutorial&quot;&gt;Contenidos del tutorial&lt;/h1&gt;
 &lt;p&gt;Cabe aclarar que estos contenidos se acompañarán, en cuánto tenga tiempo, de una serie de videos dónde los llevaré a experimentar muchas propiedades HTML y CSS, para luego saltar a Javascript y Vue.Js. En una segunda parte podemos saltar al back-end con NodeJs y MongoDB.&lt;/p&gt;
 
 &lt;h3 id=&quot;en-breve-tendrás-acceso-gratuito-a-una-serie-de-desarrollo-web-en-youtube&quot;&gt;En breve tendrás acceso gratuito a una serie de Desarrollo Web en YouTube&lt;/h3&gt;
 &lt;ol&gt;
-  &lt;li&gt;¿Qué es y como se escribe el HTML?&lt;/li&gt;
-  &lt;li&gt;¿Cómo se diseña una web?
+  &lt;li&gt;¿Qué es y como se escribe el HTML? &lt;a href=&quot;https://m.youtube.com/watch?v=JdVvtH_8N-c&quot;&gt;Parte 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;¿Cómo se diseña una web? &lt;a href=&quot;https://m.youtube.com/watch?v=JdVvtH_8N-c&quot;&gt;Parte 1&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;¡Apliquemos estilos!&lt;/li&gt;
       &lt;li&gt;Cajas comunes y bloques&lt;/li&gt;
       &lt;li&gt;Ensamblemos todo&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-  &lt;li&gt;Las etiquetas HTML y sus parámetros&lt;/li&gt;
-  &lt;li&gt;Pensemos de forma modular (CSS)
+  &lt;li&gt;Las etiquetas HTML y sus parámetros &lt;a href=&quot;https://m.youtube.com/watch?v=JdVvtH_8N-c&quot;&gt;Parte 1&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;Pensemos de forma modular (CSS) &lt;a href=&quot;https://m.youtube.com/watch?v=JdVvtH_8N-c&quot;&gt;Parte 1&lt;/a&gt;
     &lt;ul&gt;
       &lt;li&gt;Variables y unidades (CSS)&lt;/li&gt;
     &lt;/ul&gt;
@@ -285,72 +285,7 @@ Aún no cuento con dispositivos que midan los decibélios, pero en la práctica 
 
 &lt;p&gt;Te recomiendo este cooler si te gusta el color cobre y querés mantener el ruido a niveles coherentes. Además, pude overclockear mi Ryzen 7 y con el ventilador en modo silencioso se mantiene debajo de 68c en XMRig. Su diseño es muy interesante y sobretodo, efectivo. Enhorabuena por Zalman. La leyenda que soportaba overclocking en Pentium 4 por aire renació en videos de overclocking en varios Core i7 y ahora completó mi build 8-core. ¡Nada mal! Ni por su edad ni por el precio :D&lt;/p&gt;
 
-&lt;p&gt;¡Nos vemos en otro post!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="review" /><category term="zalman," /><category term="am3+," /><category term="am4," /><category term="cnps," /><category term="cnps" /><category term="9500," /><category term="ryzen," /><category term="amd," /><category term="intel" /><summary type="html">El Zalman CNPS 9500A Led es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Configurar un servidor NodeJs y MongoDB en Ubuntu completo</title><link href="http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo.html" rel="alternate" type="text/html" title="Configurar un servidor NodeJs y MongoDB en Ubuntu completo" /><published>2020-03-30T13:00:00-03:00</published><updated>2020-03-30T13:00:00-03:00</updated><id>http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo</id><content type="html" xml:base="http://localhost:4000/linux/2020/03/30/configurar-un-servidor-nodejs-y-mongodb-en-ubuntu-completo.html">&lt;h1 id=&quot;instalar-nodejs&quot;&gt;Instalar NodeJs&lt;/h1&gt;
-
-&lt;p&gt;Instalar NodeJs es tan simple cómo hacerlo en tu computadora personal, o de hecho, es más fácil desde que descubrí unos scripts que hacen todo por mi, descubrimiento gracias a &lt;a href=&quot;https://jasonwatmore.com/post/2018/09/26/setup-nodejs-mongodb-production-server-on-ubuntu-1804&quot;&gt;Jasonwatmore&lt;/a&gt; (y no sé como no se me había ocurrido antes).&lt;/p&gt;
-
-&lt;p&gt;Para usar estos scripts necesitamos &lt;strong&gt;curl&lt;/strong&gt;, que probablemente esté instalado, pero por las dudas ejecutá:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;apt &lt;span class=&quot;nb&quot;&gt;install &lt;/span&gt;curl&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;¡Ahora sí! Con el siguiente comando vas a guardar y ejecutar el script Bash que instala NodeJs y el gestor de paquetes NPM.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;Si necesitás ver el código fuente, para asegurarte que el script no hace “nada raro”, podés abrir los links que están luego de &lt;strong&gt;curl&lt;/strong&gt; en los comandos.&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/b792ace8470d9b4c35fc72947cc32393/raw/c1a412e2e61f31d5edabc6accb3798e2548b845a/install-node-10x-npm-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;instalar-mongodb-4&quot;&gt;Instalar MongoDB 4&lt;/h1&gt;
-
-&lt;p&gt;Este script también iniciará el servicio de MongoDB, para que autoarranque junto al inicio de Ubuntu.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/34e2e2b14979198151493cf893b0697d/raw/a5a1fff60c9d1c3f4386909b64955186b56790f8/install-mongodb-40-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;configurar-mongodb-4&quot;&gt;Configurar MongoDB 4&lt;/h1&gt;
-
-&lt;p&gt;Por defecto, esta base de datos no tiene usuarios ni rangos, por lo cuál cualquiera puede acceder a la base de datos y gestionarla a gusto.
-Si bien es poco probable que un ciberdelincuente afecte a tu pequeño proyecto (al menos, cuándo comenzás), es un error que podría costarte caro en algún momento.&lt;/p&gt;
-
-&lt;blockquote&gt;
-  &lt;p&gt;PENDIENTE: explicar como crear un usuario y rangos&lt;/p&gt;
-&lt;/blockquote&gt;
-
-&lt;h1 id=&quot;crear-la-carpeta-dónde-se-guardan-las-bds&quot;&gt;Crear la carpeta dónde se guardan las BDs&lt;/h1&gt;
-
-&lt;p&gt;Posiblemente cuándo quieras iniciar &lt;strong&gt;mongo&lt;/strong&gt; para administrar tus bases de datos, el programa se cierre al instante porque no encuentra la carpeta &lt;strong&gt;/data/db&lt;/strong&gt;. Así que la crearemos nosotros de forma manual:&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;&lt;table class=&quot;rouge-table&quot;&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td class=&quot;gutter gl&quot;&gt;&lt;pre class=&quot;lineno&quot;&gt;1
-2
-&lt;/pre&gt;&lt;/td&gt;&lt;td class=&quot;code&quot;&gt;&lt;pre&gt;&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /data
-&lt;span class=&quot;nb&quot;&gt;mkdir&lt;/span&gt; /data/db
-&lt;/pre&gt;&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;Listo el pollo, ya podés tipear &lt;strong&gt;mongo&lt;/strong&gt; en la terminal para ejecutar el programa. Acá un &lt;a href=&quot;#&quot;&gt;tutorial básico para manejar MongoDB en Linux&lt;/a&gt;.&lt;/p&gt;
-
-&lt;h1 id=&quot;instalar-el-gestor-para-tus-apps-nodejs-pm2&quot;&gt;Instalar el gestor para tus apps NodeJs (PM2)&lt;/h1&gt;
-
-&lt;p&gt;Ojo que PM2 es un paquete de NPM, no una aplicación de GNU/Linux en sí. Pequeño detalle que quería aclarar :D
-Este script también iniciará el servicio de PM2, para que autoarranque junto al inicio de Ubuntu. Para ser un groso manejando PM2, &lt;a href=&quot;#&quot;&gt;te conviene este tutorial&lt;/a&gt;.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/91fe14bf4803f92eef662d7ded89e916/raw/ce16f128fbc01746f65bd48cb41c00233d1aafef/install-pm2-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;h1 id=&quot;instalar-el-servidor-web-nginx&quot;&gt;Instalar el servidor web (Nginx)&lt;/h1&gt;
-
-&lt;p&gt;Nginx es un servidor web muy fácil de configurar y ordenado, que además nos permite crear un proxy en una línea de código y es 100% compatible con &lt;a href=&quot;https://certbot.eff.org/lets-encrypt/ubuntubionic-nginx&quot;&gt;Certbot&lt;/a&gt;, osea que vas a poder tener un &lt;strong&gt;certificado SSL gratis y verídico&lt;/strong&gt;. Obviamente, este servicio también debe iniciar con Ubuntu y así se configura en el script.sh :)&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/d1b48e0ddc66d6c69f9115aabe46d818/raw/5c69b716d4530f7f4aaf8c38eca2b31bb1060aed/install-nginx-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
-
-&lt;p&gt;¿Necesitás ayuda para configurar tus sitios en Nginx? ¡&lt;a href=&quot;#&quot;&gt;Entrá acá&lt;/a&gt;!&lt;/p&gt;
-
-&lt;h1 id=&quot;configurar-ufw-firewall&quot;&gt;Configurar UFW Firewall&lt;/h1&gt;
-
-&lt;p&gt;UFW (Uncomplicated Firewall) es un corta-fuegos de manejo sencillo que desconocí en mi primer proyecto, así que los primeros meses el servidor funcionó con acceso completo, porque &lt;strong&gt;usaba root&lt;/strong&gt;. Por suerte, cada día me convierto más en Ssr y dejo de ser Junior :P&lt;/p&gt;
-
-&lt;p&gt;El problema de usar un usuario no-root (y el porqué yo usé &lt;strong&gt;root&lt;/strong&gt; para manejarme en mi primer servidor, al principio) es que las cuentas de usuario normales no tienen acceso al manejo de puertos en el servidor, y si mal no recuerdo, había un lío con Nginx bárbaro. ¡Muy divertido todo!
-Evitemos dolores de cabeza y configuremos UFW con el siguiente script.&lt;/p&gt;
-
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-bash&quot; data-lang=&quot;bash&quot;&gt;curl https://gist.githubusercontent.com/cornflourblue/d7d1b42552287ad4afa3f579597e54d5/raw/59363792ad2e0a4b075cdbb9f509902939ac92a8/configure-ufw-on-ubuntu-1804.sh | &lt;span class=&quot;nb&quot;&gt;sudo &lt;/span&gt;bash&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;</content><author><name>chiqui</name></author><category term="linux" /><category term="linux," /><category term="servidor" /><category term="vps," /><category term="servidor" /><category term="dedicado," /><category term="ubuntu" /><category term="server," /><category term="nodejs," /><category term="mongodb," /><category term="pm2," /><category term="base" /><category term="de" /><category term="datos" /><summary type="html">Instalar NodeJs</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp" /><media:content medium="image" url="http://localhost:4000/assets/img/instalar-nodejs-13-en-ubuntu-y-derivados/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">¿Cómo instalar Quake III Arena en Linux?</title><link href="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html" rel="alternate" type="text/html" title="¿Cómo instalar Quake III Arena en Linux?" /><published>2020-02-05T22:00:00-03:00</published><updated>2020-02-05T22:00:00-03:00</updated><id>http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux</id><content type="html" xml:base="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html">&lt;p&gt;Hace un montón que juegos similares al Quake III Arena estaban en Linux, en forma de Warsow o Xonotic… 
+&lt;p&gt;¡Nos vemos en otro post!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="review" /><category term="zalman," /><category term="am3+," /><category term="am4," /><category term="cnps," /><category term="cnps" /><category term="9500," /><category term="ryzen," /><category term="amd," /><category term="intel" /><summary type="html">El Zalman CNPS 9500A Led es un cooler muy particular. Es de los pocos que pueden posicionarse en vertical (expulsando aire hacia arriba) y se lo consideraba muy eficiente en la época de los Pentium 4 y cierta época de los Core 2 Duo y Phenom II. ¿Seguirá manteniendose vigente hoy por hoy? Seguí leyendo para enterarte de todo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" /><media:content medium="image" url="http://localhost:4000/assets/img/review-zalman-cnps-9500a-led/thumb.jpg" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">¿Cómo instalar Quake III Arena en Linux?</title><link href="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html" rel="alternate" type="text/html" title="¿Cómo instalar Quake III Arena en Linux?" /><published>2020-02-05T22:00:00-03:00</published><updated>2020-02-05T22:00:00-03:00</updated><id>http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux</id><content type="html" xml:base="http://localhost:4000/linux/2020/02/05/como-instalar-quake-3-arena-en-linux.html">&lt;p&gt;Hace un montón que juegos similares al Quake III Arena estaban en Linux, en forma de Warsow o Xonotic… 
 Sin embargo, hace muchos años ya existe &lt;strong&gt;openarena&lt;/strong&gt; y el mismísimo &lt;strong&gt;ioquake3&lt;/strong&gt;, los motores gráficos que corren el juego :)
 Si tenés los archivos del juego necesarios, te funcionará todo de perlas. Si no tenés los archivos &lt;strong&gt;.pak&lt;/strong&gt; no te preocupes, &lt;a href=&quot;https://drive.google.com/open?id=1i0cWXRs3MSDh6AA8Fj__CPao3aqMSzJu&quot;&gt;acá compilé&lt;/a&gt; &lt;strong&gt;quake3-data&lt;/strong&gt; para que puedas tener los datos del juego y revivir esas épocas sin tanto lío. Es decir que instalas &lt;strong&gt;quake3&lt;/strong&gt; desde APT y luego el deb del link anterior y listo.&lt;/p&gt;
 
@@ -1119,4 +1054,77 @@ data: { // toda la información que querramos poner en el HTML va acá
 &lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/3-clic-en-el-nuevo-link.jpg&quot; alt=&quot;paso-3&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;¡Tu web está online! O algo así… es probable que haya que esperar unos minutos para que Git deje tu sitio online. Si tenías un README.md, esa será la cara “por defecto” que verás al entrar al link.  Sin embargo, si creás un index.html, podrás verlo sin problemas.
-¡Mira! Puse online un repositorio de C (no garantizo que ese link esté por siempre, &lt;a href=&quot;https://chiqui1234.github.io/Pilas-Colas-y-Listas/&quot;&gt;pero podrías intentar si existe&lt;/a&gt;).&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="github," /><category term="pages," /><category term="publicar" /><category term="web," /><category term="hosting" /><category term="gratis" /><summary type="html">Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>
+¡Mira! Puse online un repositorio de C (no garantizo que ese link esté por siempre, &lt;a href=&quot;https://chiqui1234.github.io/Pilas-Colas-y-Listas/&quot;&gt;pero podrías intentar si existe&lt;/a&gt;).&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="github," /><category term="pages," /><category term="publicar" /><category term="web," /><category term="hosting" /><category term="gratis" /><summary type="html">Los hostings no son tan gratis ni accesibles cómo hace unos años. Ahora o te piden que tu web pase inactiva una hora al día, meten publicidad o tenés que pagar por un servicio que, generalmente, es bueno pero uno puede no poder o querer pagarlo.</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/activar-github-pages/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry><entry><title type="html">Instalar la terminal de Linux en Windows (2019)</title><link href="http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html" rel="alternate" type="text/html" title="Instalar la terminal de Linux en Windows (2019)" /><published>2019-10-19T20:50:00-03:00</published><updated>2019-10-19T20:50:00-03:00</updated><id>http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows</id><content type="html" xml:base="http://localhost:4000/programacion/2019/10/19/instalar-la-terminal-de-linux-en-windows.html">&lt;p&gt;Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa:
+La compu grande para jugar pero la notebook con Ubuntu es ideal para trabajar y programar, listo. :D&lt;/p&gt;
+
+&lt;p&gt;La necesidad de tener una pantalla grande al ver los preciosos jeroglíficos de C/C++ se volvió &lt;strong&gt;muy evidente&lt;/strong&gt; y yo estaba entre lanzar un -lento y no responsivo- TeamViewer a la notebook, o conectar la maquinita en el living con la tele, los gatos, las bendiciones y el timbre del motoquero que &lt;del&gt;nos entrega una pizza&lt;/del&gt; se equivocó de timbre y era para el vecino :(&lt;/p&gt;
+
+&lt;p&gt;Buscando cómo hacer mi vida más amena en Windows, me topé con el &lt;strong&gt;Windows Subsystem for Linux&lt;/strong&gt;. Este software ojalá no sea el caballo de troya para las distribuciones del pinguino porque, sacando el hecho de que la mayoría son copy &amp;amp; paste entre sí, son buenas.
+¡Vamos al tutorial!&lt;/p&gt;
+
+&lt;h1 id=&quot;cómo-activar-linux-en-windows&quot;&gt;¿Cómo activar Linux en Windows?&lt;/h1&gt;
+
+&lt;p&gt;Lo dividí en 3 pasos principales, el cuarto es reiniciar, algo que no suele pasar en Linux :P
+&lt;img src=&quot;https://pm1.narvii.com/6910/ae67563a2ad03e8cb9db7b4fd946b1722a642ee2r1-1078-572v2_hq.jpg&quot; alt=&quot;aqui-no-hacemos-eso&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;1-andá-al-menú-inicio&quot;&gt;1. Andá al menú inicio&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/1-menu-inicio.jpg&quot; alt=&quot;paso-1&quot; /&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;2-escribí-características&quot;&gt;2. Escribí “características”&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/2-caracteristicas.jpg&quot; alt=&quot;paso-2&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Y seleccioná “Activar o desactivar las características de Windows” :)&lt;/p&gt;
+
+&lt;h3 id=&quot;3-activar-el-subsistema&quot;&gt;3. Activar el subsistema&lt;/h3&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/3-activar-subsistema-de-linux.jpg&quot; alt=&quot;paso-3&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Tildá “Subsistema de Windows para Linux”…&lt;/p&gt;
+
+&lt;h3 id=&quot;4-reiniciar&quot;&gt;4. Reiniciar&lt;/h3&gt;
+
+&lt;p&gt;Si si, reiniciá y si tenés un navegador con dos dedos de frente, te vuelve a abrir esta página web :D&lt;/p&gt;
+
+&lt;h1 id=&quot;antes-de-encender-todo&quot;&gt;Antes de encender todo&lt;/h1&gt;
+
+&lt;p&gt;Si vamos al menú inicio y tipeamos “bash” en el Menú inicio, tendremos un nuevo programa a mano llamado “bash.exe” pero que al clickearlo, no abre o te imprime este mensaje.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/4-error.jpg&quot; alt=&quot;error-que-tuve&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Si te sucede ésto, deberás abrir la tienda de Windows. Busqué “Ubuntu”, ¡y tarán! Podemos decir sin temor a equivocarnos que Ubuntu está para Windows ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/5-ubuntu-in-microsoft.jpg&quot; alt=&quot;ubuntu-para-windows&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Instalé, tipeé “Ubuntu” en mi menú inicio y ahí estaba &amp;lt;3
+Nos pide nombre de usuario y contraseña para crear el nuevo usuario UNIX. Luego de eso, se instala en alrededor de un minuto y podés arrancar a instalar apps.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/8-instalamos-lo-que-sea-en-el.jpg&quot; alt=&quot;instalacion-gcc&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Recordá que antes de hacer algo con &lt;strong&gt;apt&lt;/strong&gt; deberás ejecutar la acción &lt;strong&gt;apt update&lt;/strong&gt;, para que levante los meta-datos de los repositorios.&lt;/p&gt;
+
+&lt;p&gt;Ahora podrías tener Visual Studio Code, que tiene un plugin para trabajar con este subsistema :) &lt;a href=&quot;https://code.visualstudio.com/docs/remote/wsl#_getting-started&quot;&gt;Más info acá&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;EDIT&lt;/strong&gt;: No leí mucho ese link, sin embargo los pasos a seguir son similares a ejecutar &lt;strong&gt;code&lt;/strong&gt; desde la terminal de Linux. Si van a la carpeta en la que están programando (desde el Explorador de archivos de Windows 10) y:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Shift + Clic derecho del mouse en algún espacio vacío del explorador.&lt;/li&gt;
+  &lt;li&gt;Click en “Abrir shell de Linux aquí”.&lt;/li&gt;
+  &lt;li&gt;Una vez dentro de la terminal linux, escriben &lt;strong&gt;code .&lt;/strong&gt; (si, con el puntito así code sabe que nos tiene que abrir toda la carpeta).&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Se abre Visual Studio Code, detecta que está en un entorno Windows Subsystem for Linux (WSL) y te sugiere un plug-in. Lo instalás y la verdad, ya podés instalar plugins de VSCode en tu Subsistema Linux (cosa que hace por defecto) y &lt;strong&gt;que práctico&lt;/strong&gt; es instalar Git con un comando y trabajar de forma idéntica que en Linux &amp;lt;3&lt;/p&gt;
+
+&lt;p&gt;Te vas a enterar que funciona todo cuándo veas este logo en la parte inferior izquierda ;)&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/notificacion.JPG&quot; alt=&quot;notificacion&quot; /&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;se-viene-una-nueva-terminal-de-windows-10&quot;&gt;Se viene una nueva terminal de Windows 10&lt;/h1&gt;
+
+&lt;p&gt;Edito este post para agregar que se viene una terminal nueva en Windows 10, más acorde al &lt;strong&gt;Fluid Design&lt;/strong&gt; que cada vez está más pulido :)&lt;/p&gt;
+
+&lt;p&gt;Miren el video demo, y su &lt;a href=&quot;https://github.com/microsoft/terminal&quot;&gt;proyecto en GitHub&lt;/a&gt;. Si querés tener la preview YA, andá a Microsoft Store y buscá “Windows Terminal” :) ¡Disponible a partir de la build 1903!&lt;/p&gt;
+
+&lt;iframe width=&quot;100%&quot; height=&quot;350&quot; src=&quot;https://www.youtube.com/embed/8gw0rXPMMPE&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+
+&lt;p&gt;¡Un gusto leer con ustedes!&lt;/p&gt;</content><author><name>chiqui</name></author><category term="programacion" /><category term="linux," /><category term="terminal," /><category term="ubuntu" /><category term="en" /><category term="windows," /><category term="subsistema" /><category term="de" /><category term="windows," /><category term="windows" /><category term="subsystem" /><summary type="html">Ya hace mucho rato que tengo Windows 10 instalado en la PC de escritorio. La división de tareas estaba claramente marcada en casa: La compu grande para jugar pero la notebook con Ubuntu es ideal para trabajar y programar, listo. :D</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.webp" /><media:content medium="image" url="https://chiqui1234.github.io/holanerd-jekyll/assets/img/instalar-la-terminal-de-linux-en-windows/poster.webp" xmlns:media="http://search.yahoo.com/mrss/" /></entry></feed>

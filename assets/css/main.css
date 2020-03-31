@@ -47,6 +47,10 @@
     /*  */
     --timing: 0.5s;
 }
+#root {
+    background: linear-gradient(180deg, var(--lightviolet) 0%, var(--violet) 95%);
+}
+/*  */
 body {
     margin: 0;
     overflow-x: hidden;
@@ -87,6 +91,9 @@ img {max-width: 100%;}
 .fullScreen {width: 100vw;min-height: 100vh;}
 .fullWidth {width: 100%;}
 .readWidth {width: 75%;}
+@media (max-width: 1023px) {
+    .readWidth {width: 90%;}
+}
 /*  */
 .padding {padding: var(--gap);}
 .paddingY {padding: 10px 0 10px 0;}
@@ -151,6 +158,8 @@ header {
     padding: 10px 10px 0 10px;
     background: var(--lightviolet);
 }
+header .logo a {border: none;}
+header .logo a:hover {text-shadow: none;}
 header nav ul {
     font-size: 22px;
     align-content: center;
