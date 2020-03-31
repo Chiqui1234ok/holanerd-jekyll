@@ -136,11 +136,28 @@ img {max-width: 100%;}
 .redBg {background-color: var(--red);}
 /*  */
 .centerText {text-align: center;}
+.rightText {text-align: right;}
 /*  */
 ul.minimal {margin-left: 0;padding: 0;list-style: none;}
+ul li.inline {display: inline;}
 /*  */
 @media (max-width: 1279px) {
     .removeMobile {
         display: none;
+    }
+}
+/* Header */
+header {
+    padding: 10px 10px 0 10px;
+    background: var(--lightviolet);
+}
+header nav ul {
+    font-size: 22px;
+    align-content: center;
+}
+header nav ul a {border: none;}
+@media (min-width: 0) {
+    header.grid-2 {
+        grid-template-columns: 48px auto;
     }
 }

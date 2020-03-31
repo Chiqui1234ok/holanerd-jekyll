@@ -24,7 +24,6 @@
 #wrapper div.marginY {
     margin: var(--gap) 0 var(--gap) 0;
 }
-#wrapper ul.minimal {margin: 0;}
 #wrapper ul li {
     height: 39px;
     margin: var(--gap) 0 var(--gap) 0;
@@ -42,7 +41,6 @@
 }
 #wrapper ul li .text {
     padding: 10px;
-    font-size: 16px;
     text-overflow: ellipsis;
     /* Required for text-overflow to do anything */
     white-space: nowrap;
@@ -85,15 +83,17 @@
     font-family: sans-serif;
     background-size: 100%;
     background-position: center;
-    text-shadow: 1px 1px 5px var(--black), 
-                -1px -1px 5px var(--black), 
-                0 0 5px var(--black);
 }
 #wrapper #linux ul li:hover {
     transform: rotateY(10deg);
     box-shadow: -4px -2px 7px var(--grey);
 }
-#wrapper #linux ul li a {color: var(--white);}
+#wrapper #linux ul li a, #wrapper #linux ul li a:hover {
+    color: var(--white);
+    text-shadow: 1px 1px 5px var(--black), 
+    -1px -1px 5px var(--black), 
+    0 0 5px var(--black);
+}
 /* wrapper design */
 #wrapper #design ul li:nth-child(odd) {
     background: linear-gradient(90deg, var(--pink) 0%, var(--orange) 100%);
