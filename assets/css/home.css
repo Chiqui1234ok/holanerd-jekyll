@@ -2,6 +2,7 @@
     background: linear-gradient(180deg, var(--lightviolet) 0%, var(--violet) 95%);
 }
 /*  */
+#wrapper a {border: none;}
 #wrapper a:hover {text-shadow: none;}
 #wrapper h2 {
     font-size: 42px;
