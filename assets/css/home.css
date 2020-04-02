@@ -42,6 +42,7 @@
     white-space: nowrap;
     overflow: hidden;
 }
+#wrapper ul li .text a {display: block;}
 /* wrapper reviews */
 #wrapper {color: var(--white);}
 #wrapper #reviews h2 {

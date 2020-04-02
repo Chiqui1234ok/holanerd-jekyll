@@ -50,7 +50,9 @@ El cooler se pudo instalar sin mayores inconvenientes en mi X570, aflojando leve
 Este lado nos informa de las especificaciones del producto, además de que notifica que trae un controlador de fanes único para el ventilador de 92mm que posee.
 El ventilador puede funcionar tanto con 5 cómo 12 voltios a unas revoluciones de entre 1350 hasta 2650 RPM, produciendo 27,5 dBa; es un ventilador relativamente silencioso.
 
-El sistema es a bolillas, no rulemán.
+El sistema es **2 ball-bearing**, osea que tiene rodamiento a bolillas en ambos extremos de su eje. 
+Mientras que muchos fanes para abaratar costos traen un buje de bronce (y hasta de teflón) en uno de los extremos y del otro lado está el rodamiento, este ventilador tiene una bolilla en cada extremo del eje y se traduce en una mayor durabilidad que la media.
+> ¡Gracias a **Diego Gonzalo Pfahler** por darme una definición tan buena de ésto! No sabía.
 
 ![caja-lado-especificaciones](/assets/img/review-zalman-cnps-9500a-led/caja-lado-especificaciones.jpg)
 

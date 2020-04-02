@@ -15,14 +15,14 @@ Tengo en otro repositorio **git** un tutorial que terminé hace una semana aprox
 Cabe aclarar que estos contenidos se acompañarán, en cuánto tenga tiempo, de una serie de videos dónde los llevaré a experimentar muchas propiedades HTML y CSS, para luego saltar a Javascript y Vue.Js. En una segunda parte podemos saltar al back-end con NodeJs y MongoDB.
 
 ### En breve tendrás acceso gratuito a una serie de Desarrollo Web en YouTube
-1. ¿Qué es y como se escribe el HTML? [Parte 1](https://m.youtube.com/watch?v=JdVvtH_8N-c)
-2. ¿Cómo se diseña una web? [Parte 1](https://m.youtube.com/watch?v=JdVvtH_8N-c)
+1. ¿Qué es y como se escribe el HTML? [Parte 1 (Video)](https://m.youtube.com/watch?v=JdVvtH_8N-c)
+2. ¿Cómo se diseña una web? [Parte 1 (Video)](https://m.youtube.com/watch?v=JdVvtH_8N-c)
    * ¡Apliquemos estilos!
    * Cajas comunes y bloques
    * Ensamblemos todo
-3. Las etiquetas HTML y sus parámetros [Parte 1](https://m.youtube.com/watch?v=JdVvtH_8N-c)
-4. Pensemos de forma modular (CSS) [Parte 1](https://m.youtube.com/watch?v=JdVvtH_8N-c)
-   * Variables y unidades (CSS)
+3. Las etiquetas HTML y sus parámetros [Parte 1 (Video)](https://m.youtube.com/watch?v=JdVvtH_8N-c)
+4. Pensemos de forma modular (CSS) [Parte 1 (Video)](https://m.youtube.com/watch?v=JdVvtH_8N-c)
+   * Variables y unidades (CSS) [Video](https://www.youtube.com/watch?v=SxgsvLZ2RFY)
 6. El servidor
 7. El dinamismo
 8. Objetos
